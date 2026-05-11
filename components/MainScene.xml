@@ -12,7 +12,7 @@
         <field id="deepLinkData" type="assocArray" onChange="onDeepLinkDataChanged"/>
     </interface>
     <children>
-        <!-- hjjhbjhj -->
+        
         <Group
             id="contentGroup"
             translation="[50,0]">
