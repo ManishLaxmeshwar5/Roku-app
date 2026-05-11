@@ -12,8 +12,6 @@
         <field id="deepLinkData" type="assocArray" onChange="onDeepLinkDataChanged"/>
     </interface>
     <children>
-        <!-- <HomeView id = "abcd" /> -->
-        <!-- <fghfhgf> -->
         
         <Group
             id="contentGroup"
