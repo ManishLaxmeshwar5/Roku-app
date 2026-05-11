@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="ShimmerScreen" extends ="Group">
+    <script type="text/brightscript" uri="ShimmerScreen.brs" />
+    <interface>
+        <field id="rectWidth" type="float" />
+        <field id="rectHeight" type="float" />
+        <field id="rectColor" type="string" />
+        <function name="stopAnim" />
+    </interface>
+    <children>
+        <Rectangle
+            id="rect"
+            width="0"
+            height="0"
+            color="0x2A2A2AFF"/>
+        <Rectangle
+            id="bar"
+            width="80"
+            height="0"
+            color="0xFFFFFF22"
+            translation="[-100,0]" />
+    </children>
+</component>

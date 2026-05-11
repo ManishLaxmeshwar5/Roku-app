@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="WatchlaterScreen" extends="Group">
+    <script type="text/brightscript" uri="WatchlaterScreen.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/components/ViewModel/WatchLaterViewModel.brs" />
+    <script type="text/brightscript" uri="../../Models/WatchLaterModel.brs" />
+    <interface>
+        <field id="events" type="assocArray" alwaysNotify="true"/>
+    </interface>
+    <children>
+        <Label
+            id="screenTitle"
+            text="Watch Later"
+            font= "font:MediumBoldSystemFont"
+            color="0xFFFFFFFF"
+            translation="[80,60]"
+            />
+        <MarkupGrid
+            id="watchLaterGrid"
+            translation="[80,160]"
+            itemSize="[200,250]"
+            itemComponentName ="WatchLaterItem"
+            numColumns="2"
+            numRows="3"
+            itemSpacing="[20,30]"
+            
+            />
+        <Label
+            id="emptyLabel"
+            text="Your WatchLater List is empty..."
+            color="0xAAAAAAFF"
+            translation="[460,380]"
+            visible="false"
+            />
+    </children>
+</component>

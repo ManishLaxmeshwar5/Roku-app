@@ -1,0 +1,7 @@
+ZIP_FILE = POC.zip
+
+build:
+	zip -r $(ZIP_FILE) components source images manifest
+
+clean:
+	rm -f $(ZIP_FILE)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="BaseScreen" extends="Group">
+<script type="text/brightscript" uri="pkg:/components/utils.brs"/> 
+    <interface>
+        <field id="events" type="assocarray" />
+        <field id="screenData" type="node" />
+    </interface>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="MainScene" extends="Scene" focusable="true" >
+
+    <script type="text/brightscript" uri="MainScene.brs"/>
+    <script type="text/brightscript" uri="pkg:/components/ScreenManager.brs"/>
+    <script type="text/brightscript" uri="pkg:/components/utils.brs"/>    
+    <interface>
+        <field id="exitApp" type="boolean" value="false" />
+        <field id="requestSidebarFocus" type="boolean" alwaysNotify="true" />
+        <field id="screenData" type="assocarray" alwaysNotify="true"/>
+        <field id="events" type="assocarray" alwaysNotify="true" />
+        <field id="deepLinkData" type="assocArray" onChange="onDeepLinkDataChanged"/>
+    </interface>
+    <children>
+        <!-- <HomeView id = "abcd" /> -->
+        
+        
+        <Group
+            id="contentGroup"
+            translation="[50,0]">
+        </Group>  
+        <Animation id="slideAnim" duration="0.75" repeat="false">
+            <Vector2DFieldInterpolator
+                id="slideInterpolator"
+                key="[0.0,1.0]"
+                keyValue="[[50,0],[100,0]]"
+                fieldToInterp="contentGroup.translation"/>
+
+        </Animation>
+        <SideBar
+            id="sidebar"
+            translation="[0,0]"
+            />
+        <Toast id="globalToast" />
+    </children>
+</component> 
