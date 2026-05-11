@@ -1,0 +1,280 @@
+{
+  "featured": [
+    {
+      "name": "Mad Max: Fury Road",
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    },
+    {
+      "name": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    },
+    {
+      "name": "Avengers: Endgame",
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    },
+    {
+      "name": "The Grand Budapest Hotel",
+      "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    },
+    {
+      "name": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    }
+  ],
+  "rows": [
+    {
+      "title": "New Arrivals",
+      "icon": "pkg:/images/action.png",
+      "videos": [
+        {
+          "name": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        },
+        {
+          "name": "John Wick",
+          "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        },
+        {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        },
+        {
+          "name": "Avengers: Endgame",
+          "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        },
+        {
+          "name": "Gladiator",
+          "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        }
+      ]
+    },
+    {
+      "title": "Drama Movies",
+      "icon": "pkg:/images/drama.png",
+      "videos": [
+        {
+          "name": "The Shawshank Redemption",
+          "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Subservience.mp4"
+        },
+        {
+          "name": "Forrest Gump",
+          "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+        },
+        {
+          "name": "The Green Mile",
+          "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+        },
+        {
+          "name": "A Beautiful Mind",
+          "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
+        },
+        {
+          "name": "Good Will Hunting",
+          "description": "Will Hunting, a janitor at MIT, has a gift for mathematics but needs help from a psychologist to find direction in his life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Comedy Movies",
+      "icon": "pkg:/images/comedy.png",
+      "videos": [
+        {
+          "name": "The Grand Budapest Hotel",
+          "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+        },
+        {
+          "name": "Tropic Thunder",
+          "description": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+        },
+        {
+          "name": "Groundhog Day",
+          "description": "A weatherman finds himself inexplicably living the same day over and over again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4"
+        },
+        {
+          "name": "21 Jump Street",
+          "description": "A pair of underachieving cops are sent back to a local high school to blend in and bring down a synthetic drug ring.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/DishTelevision.mp4"
+        }
+      ]
+    },
+        {
+      "title": "Sci-Fi Movies",
+      "icon": "pkg:/images/scifi.png",
+      "videos": [
+        {
+          "name": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "name": "John Wick",
+          "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "name": "Avengers: Endgame",
+          "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "name": "Gladiator",
+          "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Thriller Movies",
+      "icon": "pkg:/images/thriller.png",
+      "videos": [
+        {
+          "name": "The Shawshank Redemption",
+          "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Subservience.mp4"
+        },
+        {
+          "name": "Forrest Gump",
+          "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+        },
+        {
+          "name": "The Green Mile",
+          "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+        },
+        {
+          "name": "A Beautiful Mind",
+          "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
+        },
+        {
+          "name": "Good Will Hunting",
+          "description": "Will Hunting, a janitor at MIT, has a gift for mathematics but needs help from a psychologist to find direction in his life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Horror Movies",
+      "icon": "pkg:/images/horror.png",
+      "videos": [
+        {
+          "name": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "name": "John Wick",
+          "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "name": "Avengers: Endgame",
+          "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "name": "Gladiator",
+          "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Animation Movies",
+      "icon": "pkg:/images/animation.png",
+      "videos": [
+        {
+          "name": "The Grand Budapest Hotel",
+          "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+        },
+        {
+          "name": "Tropic Thunder",
+          "description": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+        },
+        {
+          "name": "Groundhog Day",
+          "description": "A weatherman finds himself inexplicably living the same day over and over again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4"
+        },
+        {
+          "name": "21 Jump Street",
+          "description": "A pair of underachieving cops are sent back to a local high school to blend in and bring down a synthetic drug ring.",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/DishTelevision.mp4"
+        }
+      ]
+    }
+    
+    
+    
+  ]
+
+}

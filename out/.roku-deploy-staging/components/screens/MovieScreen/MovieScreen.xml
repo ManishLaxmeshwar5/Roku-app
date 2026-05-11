@@ -1,0 +1,42 @@
+<?xml  version = "1.0" encoding = "utf-8"?>
+<component name="MovieScreen" extends = "Group">
+    <script type="text/brightscript" uri="pkg:/components/screens/MovieScreen/MovieScreen.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+    <interface>
+        <field id="events" type="assocArray" alwaysNotify="true"/>
+        <field id ="goback" type ="boolean" />
+        <field id="screenData" type="assocarray" alwaysNotify="true"/>
+        <field id="requestSidebarFocus" type="boolean" alwaysNotify="true"/>
+        <field id="deepLinkpayload" type="assocArray"  alwaysNotify="true"/>
+        
+    </interface>"
+
+    <children>
+        <Label
+            id="title"
+            translation="[100, 80]"
+            text="Movies"
+            font="font:LargeBoldSystemFont"
+            color="0xFFFFFFFF"
+            visible = "false" />
+        
+        <RowList
+            id="rowList"
+            translation="[60,130]"
+            itemSize="[1150, 300]"
+            itemSpacing="[50,100]"
+            numRows="3"
+            muteAudioGuide="true"
+            rowItemSize="[[200, 250]]"
+            rowItemSpacing="[[29, 50]]"
+            showRowLabel="[true]"
+            
+            rowLabelOffset="[[0, 15]]"
+            drawFocusFeedback="true"
+            focusBitmapBlendColor="0x00BFFFFF"
+            rowFocusAnimationStyle="floatingFocus"
+            itemComponentName = "MovieScreenItem"
+             />
+            <Timer id="shimmerTimer" duration="2" repeat="false"/>
+    </children>
+</component>

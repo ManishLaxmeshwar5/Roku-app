@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="WatchLaterItem" extends="Group">
+    <script type="text/brightscript" uri="WatchLaterItem.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+
+    <interface>
+        <field id="itemContent" type="node"    onChange="onContentSet" />
+    </interface>
+
+    <children>
+        <Poster
+            id="itemPoster"
+            width="200"
+            height="250"
+            scaleRotateCenter="[150, 90]"
+        />
+
+        <Label
+            id="itemTitle"
+            width="200"
+            height="40"
+            translation="[0, 225]"
+            font="font:SmallSystemFont"
+            color="0xFFFFFFFF"
+            numLines="1"
+        />
+    </children>
+</component>

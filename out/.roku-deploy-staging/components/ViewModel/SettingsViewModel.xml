@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="SettingsViewModel" extends="Node">
+    <interface>
+        <field id="menuContent" type="node" alwaysNotify="true" />
+        <field id="detailContent" type="node" alwaysNotify="true" />
+        <field id="ttsEnabled" type="boolean" alwaysNotify="true" />
+        <field id="toastData" type="assocarray" alwaysNotify="true" />
+        <function name="loadMenu" />
+        <function name="loadDetails" />
+        <function name="handleDetailSelection" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/ViewModel/SettingsViewModel.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+</component>

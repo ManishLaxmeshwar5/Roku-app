@@ -1,0 +1,31 @@
+<component name="SideBarItem" extends="Group" clipping ="false">
+    <script type="text/brightscript" uri="pkg:/components/sidebar/SideBarItem.brs" />
+    <interface>
+    <field id="itemContent" type="node" />
+    <field id="focusPercent" type="float" />
+    </interface>
+
+    <children>
+        
+        <Rectangle
+            id="bg"
+            width="220"
+            height="160"
+            color="0x00000000" />
+        
+        <Poster
+            id="icon"
+            width="31"
+            height="31"
+            opacity="0.5"
+            translation="[12,14]" />
+
+        <Label
+            id="label"
+            translation="[60,18]"
+            opacity="0.5"
+            text="" />
+        
+
+    </children>
+</component>

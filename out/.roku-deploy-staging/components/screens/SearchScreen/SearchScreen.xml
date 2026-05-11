@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<component name="SearchScreen" extends="Group">
+    <script type="text/brightscript" uri="SearchScreen.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+    <interface>
+        <field id="events" type="assocArray" alwaysNotify="true"/>
+    </interface>
+    <children>
+        <MiniKeyboard id="searchkeyboard"
+        translation="[150,180]"/>
+
+        <Rectangle
+            id="resultBackground"
+            width="850"
+            height="500"
+            color="0x00000000"
+            translation="[400,180]"
+            visible ="true">
+
+        <!-- <Label 
+            id="resultsLabel"
+            text ="Search Results"
+            color="0xFFFFFFFF"
+            translation="[60,0]"/> -->
+
+        <RowList
+            id="rowList"
+            translation="[200,0]"
+            itemSize="[650,600]"
+            rowItemSize="[[200,300]]"
+            numRows="2"
+            itemSpacing="[20,20]"
+            showRowLabel="[true]"
+            focusable = "true"
+            rowItemSpacing="[[20,20]]"
+            rowLabelOffset="[[0, 20]]"
+            itemComponentName = "SearchScreenItem"/>
+        </Rectangle>
+    <Rectangle
+            id="noResultsContainer"
+            width="1280"
+            height="680"
+            color="0x00000000"
+            translation="[400, 300]"
+            visible="false">
+            
+            <Label
+                id="noResultsLabel"
+                text="No results found"
+                font="font:MediumBoldSystemFont"
+                color="0xCCCCCCFF"
+                translation="[300, 100]"
+                horizAlign="center"/>
+            </Rectangle>
+            <Label
+            id="instructionsLabel"
+            text="Type to search for movies and series"
+            font="font:SmallSystemFont"
+            color="0x999999FF"
+            translation="[550, 370]"
+            visible="true"/>
+
+    </children>
+</component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<component name="RowListItem" extends ="Group">
+    <script type="text/brightscript" uri="RowListItem.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+    <interface>
+        <field id="itemContent" type="node" onChange="showShimmer"/>
+         <!-- <field id="itemContent" type="node" onChange="showContent"/>  -->
+        <field id="width" type="integer" alias="poster.width" />
+        <field id="height" type="integer" alias="poster.height" />
+        <field id="focusedItemRect" type="assocarray" alwaysNotify="true"/>  
+        <!-- <field id = "focusPercent" type = "float"/> -->
+        <field id="itemHasFocus" type="boolean" onChange="onFocus" />
+        <field id="stopPreview" type="boolean" alwaysNotify="true"/>
+        <function name="onStopPreview" />
+        <!-- <function name="onFocus" /> -->
+    </interface>
+    
+    <children>
+
+    <Group
+        id="focusBox">
+        <Poster 
+            id="poster"
+            width = "350"
+            height="200"
+             >  
+        </Poster>
+       
+        <Group id="detials" opacity="0" >
+            <Label 
+            id="titlelabel"
+            translation="[0,430]"
+            width="492"
+            height="40"
+            horizAlign="left"
+            vertAlign="center"
+            color="0xFFFFFFFF"
+            font="font:SmallSystemFont"
+            wrap="false"
+            opacity="1.0" 
+            leadingEllipsis="false" />
+        
+        <Label 
+            
+            id="descLabel"
+            font="font:TinySystemFont"
+            translation="[0,470]"
+            width="700"
+            visible="true"
+            wrap="true"
+            visible="false"
+
+        />
+        </Group>
+
+        <Group id="progressBar" translation="[13,296]" visible="false">
+            <Rectangle
+                width="512"
+                height="4"
+                color = "0x404040FF"
+                visible="false" />
+            <Rectangle
+                    id="progressFill"
+                    width="0"
+                    height="4"
+                    color="0xFF0000FF" 
+                    visible="false"/>
+        </Group>
+        </Group>
+        <ShimmerScreen
+            id="shimmer"
+            />
+        
+    </children>
+</component>

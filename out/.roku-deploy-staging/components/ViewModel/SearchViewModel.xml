@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="SearchViewModel" extends="Node">
+    <interface>
+        <field id="searchResults" type="node" />
+        <field id="hasResults" type="boolean" />
+        <field id="isEmptyQuery" type="boolean" />
+        <function name="search" />
+    </interface>
+        <script type="text/brightscript" uri="pkg:/components/ViewModel/SearchViewModel.brs" />
+        <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+</component>

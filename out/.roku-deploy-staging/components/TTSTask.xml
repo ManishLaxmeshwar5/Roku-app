@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="TTSTask" extends="Task">
+    <script type="text/brightscript" uri="TTSTask.brs" />
+    <interface>
+        <field id="text" type="string" value="" alwaysNotify="true" />
+        <field id="control" type="string" value="" />
+        <field id="ttsState"    type="string"  value="idle" />
+        <field id="speechid" type="integer" value="0" />
+    </interface>
+</component>
