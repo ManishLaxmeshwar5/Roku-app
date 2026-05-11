@@ -1,0 +1,17 @@
+name: Roku Build Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Zip Roku Application
+        run: zip -r POC.zip components source images manifest
