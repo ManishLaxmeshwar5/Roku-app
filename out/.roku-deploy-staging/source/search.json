@@ -1,13 +1,6 @@
 {
   "content": [
-    {
-      "name": "The Shawshank Redemption",
-      "type": "movie",
-      "genre": "Drama",
-      "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
-    },
+    
     {
       "name": "The Godfather",
       "type": "movie",

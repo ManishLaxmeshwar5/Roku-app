@@ -71,3 +71,21 @@ function readJsonFile(path as string) as dynamic
     if not isNonEmptyString(jsonText) then return invalid
     return ParseJson(jsonText)
 end function
+
+sub markScreenType(root as object, screenType as string)
+
+    for each row in root.getChildren(-1)
+
+        for each item in row.getChildren(-1)
+
+            if not item.hasField("screenType")
+                item.addField("screenType", "string", false)
+            end if
+
+            item.screenType = screenType
+
+        end for
+
+    end for
+
+end sub

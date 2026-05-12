@@ -63,6 +63,11 @@ function buildContent(items as object) as object
         node.ShortDescriptionLine2 = item.description
         node.HDPosterUrl = item.thumbnail
         node.url = item.url
+        node.addField("itemWidth", "integer", false)
+        node.addField("itemHeight", "integer", false)
+
+    node.itemWidth = 200
+    node.itemHeight = 300
     end for
     return content
 end function

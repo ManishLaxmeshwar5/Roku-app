@@ -1,5 +1,5 @@
 <component name="rowTitle" extends ="Group">
-    <script type="text/brightscript" uri="rowTitle.brs" />
+    <script type="text/brightscript" uri="pkg:/components/UIComponents/UIrowTitle.brs" />
     <interface>
         <field id="content" type="node" onChange="onSetData"/>
     </interface>

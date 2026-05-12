@@ -34,7 +34,7 @@
             focusable = "true"
             rowItemSpacing="[[20,20]]"
             rowLabelOffset="[[0, 20]]"
-            itemComponentName = "SearchScreenItem"/>
+            itemComponentName = "UIRowListItem"/>
         </Rectangle>
     <Rectangle
             id="noResultsContainer"

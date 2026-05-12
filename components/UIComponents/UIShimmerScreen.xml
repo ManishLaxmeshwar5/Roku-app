@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component name="ShimmerScreen" extends ="Group">
-    <script type="text/brightscript" uri="pkg:/components/UIComponents//ShimmerScreen.brs" />
+    <script type="text/brightscript" uri="pkg:/components/UIComponents/UIShimmerScreen.brs" />
     <interface>
         <field id="rectWidth" type="float" />
         <field id="rectHeight" type="float" />

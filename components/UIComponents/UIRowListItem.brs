@@ -49,6 +49,7 @@ sub showContent()
     m.shimmer.visible = false
     c = m.top.itemContent
     if c <> invalid
+        
         m.poster.uri = c.HDPosterUrl
         m.titlelabel.text = c.ShortDescriptionLine1
         m.descLabel.text = c.ShortDescriptionLine2
@@ -114,6 +115,9 @@ sub stopPreview()
 end sub
 sub startPreview()
     c = m.top.itemContent
+    if c.screenType <> "home"
+            return
+        end if
     if m.video <> invalid then return
 
     m.video = CreateObject("roSGNode", "Video")

@@ -64,6 +64,8 @@ function loadRowData(rowIndex as integer)
         itemNode.ShortDescriptionLine2 = video.description
         itemNode.HDPosterUrl = video.thumbnail
         itemNode.url = "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+        itemNode.addField("screenType", "string", false)
+        itemNode.screenType = "home"
         row.appendChild(itemNode)
     end for
 
@@ -105,6 +107,7 @@ function loadContinueWatching()
         row = continueRow.createChild("ContentNode")
         row.addField("icon", "string", false)
         row.addField("title", "string", false)
+        
         row.title = rowData.title
         row.icon = rowData.icon
         for each data in rowData.content
@@ -115,6 +118,8 @@ function loadContinueWatching()
                 itemNode.ShortDescriptionLine1 = data.name
                 itemNode.ShortDescriptionLine2 = data.description
                 itemNode.HDPosterUrl = data.thumbnail
+                itemNode.addField("screenType", "string", false)
+                itemNode.screenType = "home"
             end if
         end for
     end for

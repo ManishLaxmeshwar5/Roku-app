@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding ="utf-8"?>
-<component name="RowListItem" extends ="Group">
-    <script type="text/brightscript" uri="RowListItem.brs" />
+<component name="UIRowListItem" extends ="Group">
+    <script type="text/brightscript" uri="pkg:/components/UIComponents/UIRowListItem.brs" />
     <script type="text/brightscript" uri="pkg:/components/utils.brs" />
     <interface>
         <field id="itemContent" type="node" onChange="showShimmer"/>
-         <!-- <field id="itemContent" type="node" onChange="showContent"/>  -->
         <field id="width" type="integer" alias="poster.width" />
         <field id="height" type="integer" alias="poster.height" />
         <field id="focusedItemRect" type="assocarray" alwaysNotify="true"/>  
-        <!-- <field id = "focusPercent" type = "float"/> -->
         <field id="itemHasFocus" type="boolean" onChange="onFocus" />
         <field id="stopPreview" type="boolean" alwaysNotify="true"/>
         <function name="onStopPreview" />
-        <!-- <function name="onFocus" /> -->
+        <field id="screenType" type="string" />
     </interface>
     
     <children>
@@ -26,7 +24,7 @@
              >  
         </Poster>
        
-        <Group id="detials" opacity="0" >
+        <Group id="details" opacity="1.0" >
             <Label 
             id="titlelabel"
             translation="[0,430]"

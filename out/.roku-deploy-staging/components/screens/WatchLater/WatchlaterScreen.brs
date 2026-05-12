@@ -32,47 +32,17 @@ end sub
 
 
 sub loadContent()
-    ' list = m.global.watchLaterList
-
-    ' if list.count() = 0
-    '     m.emptyLabel.visible = true
-    '     m.grid.visible       = false
-    '     speak("Your Watch Later is empty") 
-    '     return
-    ' end if
-
-    ' m.emptyLabel.visible = false
-    ' m.grid.visible       = true
-
-    ' gridContent = createContentNode()
-    ' for each item in list
-    '     m.itemNode =createContentNode()
-    '     m.itemNode.ShortDescriptionLine1 = item.title
-    '     m.itemNode.ShortDescriptionLine2 = item.description
-    '     m.itemNode.HDPosterUrl           = item.poster
-    '     m.itemNode.url                   = item.url
-    '     gridContent.appendChild(m.itemNode)
-    ' end for
-
-    ' m.grid.content = gridContent
     list = m.global.watchLaterList
 
     m.viewModel.setWatchLaterList(list)
 
 
     if m.viewModel.isEmpty
-
         m.emptyLabel.visible = true
-
         m.grid.visible = false
-
         speak("Your Watch Later is empty")
-
         return
-
     end if
-
-
     m.emptyLabel.visible = false
 
     m.grid.visible = true

@@ -36,7 +36,7 @@
                     rowHeights="[270]"
                     numRows="1"
                     rowitemSpacing="[[40, 20]]"
-                    itemComponentName="RowListItem"
+                    itemComponentName="UIRowListItem"
                     drawFocusFeedback="true"
                     visible="false"
                     rowTitleComponentName="rowTitle" />
@@ -55,7 +55,7 @@
                     rowHeights="[270, 270, 270, 270, 270, 270,270]"
                     numRows="7"
                     rowitemSpacing="[[40, 20]]"
-                    itemComponentName="RowListItem"
+                    itemComponentName="UIRowListItem"
                     drawFocusFeedback="true"
                     vertFocusAnimationStyle="fixedFocus"
                     rowFocusAnimationStyle="floatingFocus"

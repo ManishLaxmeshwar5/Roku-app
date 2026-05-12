@@ -35,7 +35,7 @@
             drawFocusFeedback="true"
             focusBitmapBlendColor="0x00BFFFFF"
             rowFocusAnimationStyle="floatingFocus"
-            itemComponentName = "MovieScreenItem"
+            itemComponentName = "UIRowListItem"
              />
             <Timer id="shimmerTimer" duration="2" repeat="false"/>
     </children>
