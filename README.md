@@ -1,4 +1,4 @@
-# POC Latest Deeplinking
+# ROKU-POC
 
 Roku streaming application built using SceneGraph and BrightScript with MVVM architecture support.
 
