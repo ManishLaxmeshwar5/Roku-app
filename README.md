@@ -15,8 +15,8 @@ Roku streaming application built using SceneGraph and BrightScript with MVVM arc
 ## Project Structure
 
 ```bash
-components/   -> SceneGraph components
-source/       -> BrightScript files
+components/   -> SceneGraph components, BrightScript files
+source/       -> main.brs
 images/       -> Application assets
 manifest      -> Roku app configuration
 .github/      -> GitHub workflows and PR templates
