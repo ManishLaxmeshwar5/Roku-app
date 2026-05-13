@@ -15,15 +15,21 @@
             color="0xFFFFFFFF"
             translation="[80,60]"
             />
-        <MarkupGrid
+
+            <RowList
             id="watchLaterGrid"
-            translation="[80,160]"
-            itemSize="[200,250]"
-            itemComponentName ="WatchLaterItem"
-            numColumns="2"
+            translation="[100,130]"
+            itemSize="[1150, 300]"
+            itemSpacing="[50,100]"
             numRows="3"
-            itemSpacing="[20,30]"
-            
+            muteAudioGuide="true"
+            rowItemSize="[[200, 250]]"
+            rowItemSpacing="[[29, 50]]"
+            rowLabelOffset="[[0, 15]]"
+            drawFocusFeedback="true"
+            focusBitmapBlendColor="0x00BFFFFF"
+            rowFocusAnimationStyle="floatingFocus"
+            itemComponentName="UIRowListItem"
             />
         <Label
             id="emptyLabel"

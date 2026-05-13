@@ -14,7 +14,7 @@ end sub
 
 sub initObservers()
     m.top.observeField("focusedChild","onFocusRequest")
-    m.grid.observeField( "itemSelected","onItemSelected")
+    m.grid.observeField( "rowItemSelected","onItemSelected")
 
     m.global.observeField("watchLaterList","loadContent")
 end sub
@@ -53,17 +53,22 @@ end sub
 
 
 sub onItemSelected()
-    if m.global.watchLaterList.count()  = 0 then return
-    m.selectedItem = m.grid.content.getChild(m.grid.itemSelected)
+    if m.global.watchLaterList.count() = 0 then return
+
+    rowIndex  = m.grid.rowItemSelected[0]
+    itemIndex = m.grid.rowItemSelected[1]
+
+    row = m.grid.content.getChild(rowIndex)
+    if row = invalid then return
+
+    m.selectedItem = row.getChild(itemIndex)
     if m.selectedItem = invalid then return
+
     speak(m.selectedItem.ShortDescriptionLine1 + " selected")
-    ' m.top.events = {
-    '     type   : "navigate",
-    '     screen : "DetailScreen",
-    '     payload: m.selectedItem
-    ' }
     m.top.events = m.viewModel.getNavigationPayload(m.selectedItem)
 end sub
+
+
 
 function onKeyEvent(key as string, press as boolean)as boolean
     if not press then return false
@@ -82,7 +87,6 @@ function onKeyEvent(key as string, press as boolean)as boolean
             duration: 2
         }
         print "toast set: "+ FormatJson(m.global.toast)
-        ' loadContent()
 
         newCount = m.global.watchLaterList.count()
         if newCount > 0
