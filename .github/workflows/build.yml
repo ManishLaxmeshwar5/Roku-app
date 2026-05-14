@@ -1,17 +1,59 @@
-name: Roku Build Check
+name: Roku App CI/CD
 
 on:
+  push:
+    branches:
+      - main
+
   pull_request:
     branches:
       - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Zip Roku Application
-        run: zip -r POC.zip components source images manifest
+      - name: Verify Roku Project Structure
+        run: |
+          echo "Checking Roku project files..."
+
+          test -f manifest
+          test -d source
+          test -d components
+
+          echo "Roku project structure verified"
+
+      - name: Create Roku Build ZIP
+        run: |
+          zip -r roku-app.zip . \
+          -x "*.git*" \
+          -x "node_modules/*" \
+          -x ".github/*"
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: roku-build
+          path: roku-app.zip
+
+      - name: Deploy to Roku Device
+        env:
+          ROKU_IP: ${{ secrets.ROKU_IP }}
+          ROKU_USER: ${{ secrets.ROKU_USER }}
+          ROKU_PASSWORD: ${{ secrets.ROKU_PASSWORD }}
+
+        run: |
+          echo "Deploying Roku Application..."
+
+          curl --user "$ROKU_USER:$ROKU_PASSWORD" \
+          --digest \
+          -F "mysubmit=Install" \
+          -F "archive=@roku-app.zip" \
+          -F "passwd=" \
+          http://$ROKU_IP/plugin_install
+
+          echo "Deployment Successful"
