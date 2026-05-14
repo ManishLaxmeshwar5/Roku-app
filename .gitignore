@@ -1,4 +1,4 @@
-/out
+out/
 actions-runner/
 node_modules/
 dist/
