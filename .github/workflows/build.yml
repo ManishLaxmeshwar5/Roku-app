@@ -41,13 +41,16 @@ jobs:
           path: roku-app.zip
 
       - name: Deploy to Roku Device
+        
         env:
           ROKU_IP: ${{ secrets.ROKU_IP }}
+          
           ROKU_USER: ${{ secrets.ROKU_USER }}
           ROKU_PASSWORD: ${{ secrets.ROKU_PASSWORD }}
 
         run: |
-          echo "Deploying Roku Application..."
+         
+          echo "Deploying Roku Application... to ${{secrets.ROKU_IP}} . userName : ${{secrets.ROKU_USER}} pass: ${{secrets.ROKU_PASSWORD}}"
 
           curl --user "$ROKU_USER:$ROKU_PASSWORD" \
           --digest \
