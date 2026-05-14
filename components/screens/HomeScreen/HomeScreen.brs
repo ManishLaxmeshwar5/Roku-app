@@ -356,9 +356,6 @@ sub onItemSelected()
     }
 end sub
 
-sub manish()
-end sub
-
 
 sub onCarouselSelected()
 
