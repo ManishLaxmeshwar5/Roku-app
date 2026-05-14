@@ -51,7 +51,7 @@ jobs:
 
         run: |
          
-          echo "Deploying Roku Application... to ${{secrets.ROKU_IP}} . userName : ${{secrets.ROKU_USER}} pass: ${{secrets.ROKU_PASSWORD}}"
+          echo "Deploying Roku Application... to ${{secrets.ROKU_IP}} "
 
           curl --user "$ROKU_USER:$ROKU_PASSWORD" \
           --digest \

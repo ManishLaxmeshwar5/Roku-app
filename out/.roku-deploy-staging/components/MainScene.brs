@@ -32,6 +32,10 @@ sub init()
     m.ttsTask.functionName = "runTTS"
     m.ttsTask.control = "RUN"
     m.dialogopen = false 
+    m.global.toast = {
+            message :" Welcome to World of Entertainment :)",
+            duration: 2
+        }
 end sub
 
 sub onTTSStateChanged()
