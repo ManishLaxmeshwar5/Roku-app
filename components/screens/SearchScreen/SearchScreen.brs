@@ -15,6 +15,10 @@ sub init()
     m.searchTimer.duration = 0.5
     m.searchTimer.repeat = false
     m.searchTimer.observeField("fire", "performSearch")
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    m.json = ParseJson(translations)
+    m.instructions.text = m.json["messages"]["search_placeholder"][m.global.currentLang]
+    m.noResultsLabel.text = m.json["messages"]["no_results"][m.global.currentLang]
 end sub
 
 sub initNodes()
@@ -23,6 +27,7 @@ sub initNodes()
     m.resultsBg = m.top.findNode("resultBackground")
     m.noResults = m.top.findNode("noResultsContainer")
     m.instructions = m.top.findNode("instructionsLabel")
+    m.noResultsLabel = m.top.findNode("noResultsLabel")
 end sub
 
 sub initObservers()

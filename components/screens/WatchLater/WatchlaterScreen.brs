@@ -2,13 +2,17 @@ sub init()
     initNodes()
     initObservers()
     setupViewModels()
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    m.json = ParseJson(translations)
     loadContent()
     m.top.setFocus(true)
+    m.emptyLabel.text = m.json["messages"]["watchlater_empty"][m.global.currentLang]
 end sub
 
 sub initNodes()
     m.grid = m.top.findNode("watchLaterGrid")
     m.emptyLabel = m.top.findNode("emptyLabel")
+    m.screenTitle = m.top.findNode("screenTitle")
 end sub
 
 
@@ -33,7 +37,7 @@ end sub
 
 sub loadContent()
     list = m.global.watchLaterList
-
+    m.screenTitle.text = m.json["messages"]["watchlater_title"][m.global.currentLang]
     m.viewModel.setWatchLaterList(list)
 
 
@@ -83,7 +87,7 @@ function onKeyEvent(key as string, press as boolean)as boolean
         
         speak("Removed from Watch Later")
         m.global.toast = {
-            message :removedItem.title +" Successfully removed from watch later :)",
+            message :removedItem.title +m.json["messages"]["watchlater_removed"][m.global.currentLang],
             duration: 2
         }
         print "toast set: "+ FormatJson(m.global.toast)

@@ -8,15 +8,20 @@ end sub
 
 function loadContent()
 
-    jsonText = ReadAsciiFile("pkg:/source/gridContent.json")
+    jsonText = ReadAsciiFile("pkg:/source/gridContent1.json")
     data = ParseJson(jsonText)
     carouselRoot = createContentNode()
 
     for each item in data.featured
 
-        node = createContentNode()
-        node.ShortDescriptionLine1 = item.name
-        node.ShortDescriptionLine2 = item.description
+        ' node = createContentNode()
+        ' node.ShortDescriptionLine1 = item.name
+        ' node.ShortDescriptionLine2 = item.description
+        node   = createContentNode()
+        fields = getLocalizedFields(item)
+
+        node.ShortDescriptionLine1 = fields.name
+        node.ShortDescriptionLine2 = fields.description
         node.HDPosterUrl = item.thumbnail
         node.url = item.url
 
@@ -25,13 +30,15 @@ function loadContent()
 
     m.top.carouselContent = carouselRoot
     m.allRowData = data.rows
+
     root = createContentNode()
 
     for each rowData in data.rows
         row = createContentNode()
         row.addField("icon", "string", false)
         row.addField("title", "string", false)
-        row.title = rowData.title
+        ' row.title = rowData.title
+        row.title = getLocalizedRowTitle(rowData)   
         row.icon = rowData.icon
         root.appendChild(row)
     end for
@@ -60,8 +67,10 @@ function loadRowData(rowIndex as integer)
 
     for each video in rowData.videos
         itemNode = createContentNode()
-        itemNode.ShortDescriptionLine1 = video.name
-        itemNode.ShortDescriptionLine2 = video.description
+        fields   = getLocalizedFields(video)  
+
+        itemNode.ShortDescriptionLine1 = fields.name     
+        itemNode.ShortDescriptionLine2 = fields.description 
         itemNode.HDPosterUrl = video.thumbnail
         itemNode.url = "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
         itemNode.addField("screenType", "string", false)
@@ -73,6 +82,51 @@ function loadRowData(rowIndex as integer)
     m.top.rowListContent = invalid
     m.top.rowListContent = m.rowListContentNode
     return true
+end function
+
+
+
+
+function getLocalizedFields(video as Object) as Object
+    lang = getCurrentLang()
+
+    if video.DoesExist("translations")
+        localized = video.translations[lang]
+
+        if localized = invalid
+            localized = video.translations["en"]
+        end if
+
+        if localized <> invalid
+            return {
+                name        : localized.name,
+                description : localized.description
+            }
+        end if
+    end if
+
+    return {
+        name        : video.name,
+        description : video.description
+    }
+end function 
+
+function getLocalizedRowTitle(rowData as Object) as String
+    lang = getCurrentLang()
+
+    if rowData.DoesExist("titles")
+        localizedTitle = rowData.titles[lang]
+        if localizedTitle = invalid
+            localizedTitle = rowData.titles["en"]
+        end if
+        if localizedTitle <> invalid
+            return localizedTitle
+        end if
+    end if
+
+    ' old flat format fallback
+    if rowData.DoesExist("title") then return rowData.title
+    return ""
 end function
 
 
@@ -108,9 +162,11 @@ function loadContinueWatching()
         row.addField("icon", "string", false)
         row.addField("title", "string", false)
         
-        row.title = rowData.title
+        ' row.title = rowData.title
+        row.title = getLocalizedRowTitle(rowData) 
         row.icon = rowData.icon
         for each data in rowData.content
+            fields     = getLocalizedFields(data)     
             videoTitle = LCase(data.name.Trim())
             if m.bookmarks.DoesExist(videoTitle)
                 itemNode = row.createChild("ContentNode")

@@ -89,3 +89,10 @@ sub markScreenType(root as object, screenType as string)
     end for
 
 end sub
+
+function getCurrentLang() as String
+    lang = m.global.currentLang
+    if lang = invalid or lang = "" then return "en"
+    return lang
+end function
+

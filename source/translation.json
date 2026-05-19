@@ -1,0 +1,141 @@
+{
+  "sidebar": {
+    "home": {
+      "en": "Home",
+      "pt": "Início",
+      "fr": "Accueil",
+      "es": "Inicio",
+      "de": "Startseite"
+    },
+
+    "search": {
+      "en": "Search",
+      "pt": "Pesquisar",
+      "fr": "Recherche",
+      "es": "Buscar",
+      "de": "Suche"
+    },
+
+    "movies": {
+      "en": "Movies",
+      "pt": "Filmes",
+      "fr": "Films",
+      "es": "Películas",
+      "de": "Filme"
+    },
+
+    "series": {
+      "en": "Series",
+      "pt": "Séries",
+      "fr": "Séries",
+      "es": "Series",
+      "de": "Serien"
+    },
+
+    "watch_later": {
+      "en": "Watch Later",
+      "pt": "Assistir Depois",
+      "fr": "Regarder Plus Tard",
+      "es": "Ver Más Tarde",
+      "de": "Später Ansehen"
+    },
+
+    "settings": {
+      "en": "Settings",
+      "pt": "Configurações",
+      "fr": "Paramètres",
+      "es": "Configuración",
+      "de": "Einstellungen"
+    }
+  },
+
+  "buttons": {
+    "watch_now": {
+      "en": "Watch Now",
+      "pt": "Assistir Agora",
+      "fr": "Regarder",
+      "es": "Ver Ahora",
+      "de": "Jetzt Ansehen"
+    },
+
+    "play": {
+      "en": "Play",
+      "pt": "Reproduzir",
+      "fr": "Lire",
+      "es": "Reproducir",
+      "de": "Abspielen"
+    },
+
+    "more_info": {
+      "en": "More Info",
+      "pt": "Mais Informações",
+      "fr": "Plus d'Infos",
+      "es": "Más Información",
+      "de": "Mehr Infos"
+    }
+  },
+  "messages": {
+    "watchlater_empty": {
+      "en": "Your WatchLater List is empty",
+      "pt": "Sua lista Assistir Depois está vazia",
+      "fr": "Votre liste Regarder Plus Tard est vide",
+      "es": "Tu lista Ver Más Tarde está vacía",
+      "de": "Deine Später-Ansehen-Liste ist leer"
+    },
+
+    "watchlater_title": {
+      "en": "Watch Later",
+      "pt": "Assistir Depois",
+      "fr": "Regarder Plus Tard",
+      "es": "Ver Más Tarde",
+      "de": "Später Ansehen"
+    },
+
+    "watchlater_added": {
+      "en": "Successfully added to Watch Later :)",
+      "pt": "Adicionado com sucesso à lista Assistir Depois :)",
+      "fr": "Ajouté avec succès à Regarder Plus Tard :)",
+      "es": "Añadido exitosamente a Ver Más Tarde :)",
+      "de": "Erfolgreich zu Später Ansehen hinzugefügt :)"
+    },
+
+    "watchlater_removed": {
+      "en": "Successfully removed from Watch Later :(",
+      "pt": "Removido com sucesso da lista Assistir Depois :(",
+      "fr": "Supprimé avec succès de Regarder Plus Tard :(",
+      "es": "Eliminado exitosamente de Ver Más Tarde :(",
+      "de": "Erfolgreich aus Später Ansehen entfernt :("
+    },
+
+    "welcome": {
+      "en": "Welcome to ROKU-POC The World of Entertainment",
+      "pt": "Bem-vindo ao ROKU-POC O Mundo do Entretenimento",
+      "fr": "Bienvenue sur ROKU-POC Le Monde du Divertissement",
+      "es": "Bienvenido a ROKU-POC El Mundo del Entretenimiento",
+      "de": "Willkommen bei ROKU-POC Die Welt der Unterhaltung"
+    },
+
+    "search_placeholder": {
+      "en": "Type to search for movies and series",
+      "pt": "Digite para pesquisar filmes e séries",
+      "fr": "Tapez pour rechercher des films et séries",
+      "es": "Escribe para buscar películas y series",
+      "de": "Zum Suchen nach Filmen und Serien eingeben"
+    },
+
+    "no_results": {
+      "en": "No results found",
+      "pt": "Nenhum resultado encontrado",
+      "fr": "Aucun résultat trouvé",
+      "es": "No se encontraron resultados",
+      "de": "Keine Ergebnisse gefunden"
+    },
+    "new_arrivals": {
+        "en": "New Arrivals",
+        "pt": "Novidades",
+        "fr": "Nouveautés",
+        "es": "Nuevos Lanzamientos",
+        "de": "Neuerscheinungen"
+}
+  }
+}

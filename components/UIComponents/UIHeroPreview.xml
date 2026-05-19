@@ -22,6 +22,7 @@
             font= "font:LargeBoldSystemFont"
             color="0xFFFFFFFF"/>
         <Label 
+            id="Herotitle"
             text="New Arrivals"
             translation="[60,20]"
             width="800"

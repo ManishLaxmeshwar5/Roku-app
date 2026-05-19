@@ -1,5 +1,13 @@
 {"rows":[{
       "title": "Continue Watching",
+      "titles": {
+        "en": "Continue Watching",
+        "de": "Weiterschauen",
+        "es": "Seguir viendo",
+        "fr": "Continuer à regarder",
+        "pt": "Continuar assistindo"
+      },
+
       "icon": "pkg:/images/continue_watching.png",
   "content": [
     {

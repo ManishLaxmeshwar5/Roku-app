@@ -11,7 +11,8 @@ sub init()
     if m.top.itemContent <> invalid
         onContentChanged()
     end if
-
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    m.json = ParseJson(translations)
 end sub
 
 
@@ -24,6 +25,7 @@ sub initNodes()
     m.watchLaterGroup = m.top.findNode("watchLaterGroup")
     m.watchLaterBg = m.top.findNode("watchLaterBg")
     m.watchLaterIcon = m.top.findNode("watchLaterIcon")
+    m.watchNow = m.top.findNode("rowList")
 end sub
 
 sub initObservers()
@@ -45,7 +47,7 @@ sub setupAutoPlay()
 end sub
 
 sub onContentChanged()
-
+    m.watchNow.text = m.json["buttons"]["watch_now"][m.global.currentLang]
     content = m.top.itemContent
     if not isValid(content) then return
     m.viewModel.setContent(content, m.global.watchLaterList)
@@ -101,14 +103,14 @@ sub watchLater()
         m.watchLaterIcon.opacity = 1.0
         speak("Added to watch later")
         m.global.toast = {
-            message :" Successfully Added to watch later :)",
+            message : m.json["messages"]["watchlater_added"][m.global.currentLang],
             duration: 2
         }
     else
         m.watchLaterIcon.opacity = 0.5
         speak("Removed from watch later")
         m.global.toast = {
-            message :" Successfully removed from watch later :(",
+            message : m.json["messages"]["watchlater_removed"][m.global.currentLang],
             duration: 2
         }
     end if

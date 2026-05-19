@@ -10,9 +10,23 @@ sub init()
     m.sideMenu.observeField("isOpen", "changeFlag")
     m.rowList = m.top.findNode("rowList")
     m.sideMenu.observeField("events", "onHandleScreenEvents")
+
+    deviceInfo   = CreateObject("roDeviceInfo")
+    locale       = deviceInfo.GetCurrentLocale()
+    langParts    = locale.Tokenize("_")
+    detectedLang = "en"
+    if langParts.Count() > 0
+        detectedLang = LCase(langParts[0])
+    end if
+
+    if detectedLang <> "en" and detectedLang <> "pt" and detectedLang <> "fr" and detectedLang <> "es"
+        detectedLang = "en"
+    end if
+
     m.global.addFields({
         watchLaterList: []
-        ttsEnabled: true
+        ttsEnabled: true,
+        currentLang    : detectedLang 
     })
     displayScreen("HomeScreen")
 
@@ -32,8 +46,10 @@ sub init()
     m.ttsTask.functionName = "runTTS"
     m.ttsTask.control = "RUN"
     m.dialogopen = false 
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    m.json = ParseJson(translations)
     m.global.toast = {
-            message :" Welcome to World of Entertainment :)",
+            message :m.json["messages"]["welcome"][m.global.currentLang],
             duration: 2
         }
 end sub
@@ -137,7 +153,6 @@ end sub
 
 sub onSidebarSelected()
     index = m.sideMenu.selectedIndex
-    ' speakSelected(m.sideMenu)
 
     if index = 0
         clearScreen()

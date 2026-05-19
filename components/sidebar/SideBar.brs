@@ -1,4 +1,17 @@
 sub init()
+    deviceInfo   = CreateObject("roDeviceInfo")
+    locale       = deviceInfo.GetCurrentLocale()
+    langParts    = locale.Tokenize("_")
+    detectedLang = "en"
+    if langParts.Count() > 0
+        detectedLang = LCase(langParts[0])
+    end if
+
+    if detectedLang <> "en" and detectedLang <> "pt" and detectedLang <> "fr" and detectedLang <> "es"
+        detectedLang = "en"
+    end if
+    m.selectedlang = detectedLang
+
     m.menu = m.top.findNode("menu")
     m.gradientBg = m.top.findNode("gradientBg")
     m.bg = m.top.findNode("bg")
@@ -8,6 +21,9 @@ sub init()
 
     m.activepage = 0
     buildGradiant()
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    m.json = ParseJson(translations)
+    
     setupMenu()
     m.menu.observeField("itemSelected", "onItemSelected")
     m.menu.observeField("itemFocused",  "onItemFocused") 
@@ -23,8 +39,6 @@ end sub
 sub onItemFocused()
     speakFocused(m.menu)  
 end sub
-
-
 
 sub buildGradiant()
     gardientBg = m.gradientBg
@@ -47,8 +61,6 @@ sub buildGradiant()
         strip.height = totalHeight
         strip.translation = [i * stripWidth, 0]
         strip.color = rgbaToHex(r, g, b, alpha)
-
-
         gardientBg.appendChild(strip)
     end for
 end sub
@@ -64,21 +76,16 @@ function toHex2(n as integer) as string
     return mid(digits, hi + 1, 1) + mid(digits, lo + 1, 1)
 end function
 
-
-
-
 sub setupMenu()
     content = CreateObject("roSGNode", "ContentNode")
     items = [
-        { label: "Home", icon: "pkg:/images/homef.png" },
-        { label: "Search", icon: "pkg:/images/searchf.png" },
-        { label: "Movies", icon: "pkg:/images/movief.png" },
-        { label: "Series", icon: "pkg:/images/seriesf.png" },
-        { label: "Watch Later", icon: "pkg:/images/watch_later.png" },
-        { label: "Settings", icon: "pkg:/images/settingsf.png" }
-
+        { label: m.json["sidebar"]["home"][m.selectedlang], icon: "pkg:/images/homef.png" },
+        { label: m.json["sidebar"]["search"][m.selectedlang], icon: "pkg:/images/searchf.png" },
+        { label: m.json["sidebar"]["movies"][m.selectedlang], icon: "pkg:/images/movief.png" },
+        { label: m.json["sidebar"]["series"][m.selectedlang], icon: "pkg:/images/seriesf.png" },
+        { label: m.json["sidebar"]["watch_later"][m.selectedlang], icon: "pkg:/images/watch_later.png" },
+        { label: m.json["sidebar"]["settings"][m.selectedlang], icon: "pkg:/images/settingsf.png" }
     ]
-
 
     for each item in items
         node = CreateObject("roSGNode", "ContentNode")
@@ -92,8 +99,6 @@ sub setupMenu()
     end for
     m.menu.content = content
 end sub
-
-
 
 sub onItemSelected()
     m.top.selectedIndex = m.menu.itemSelected

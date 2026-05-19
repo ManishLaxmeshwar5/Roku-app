@@ -23,7 +23,6 @@ sub init()
 end sub
 
 sub onToastRequested()
-    print "toast requested: "+ FormatJson(m.global.toast)
     request=m.global.toast
     if request = invalid then return
 

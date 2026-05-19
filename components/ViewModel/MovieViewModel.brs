@@ -8,33 +8,59 @@ function loadContent(contentType as string)
 end function
 
 sub loadMoviesContent()
+    lang = m.global.currentLang
+    print "from movies:" lang
     jsonText = ReadAsciiFile("pkg:/source/moviesContent.json")
     if jsonText = invalid or jsonText = "" then return
     data = ParseJson(jsonText)
     root = CreateObject("roSGNode", "ContentNode")
 
+      actionTitles = {
+        en: "Action Movies"
+        pt: "Filmes de Ação"
+        fr: "Films d’Action"
+        es: "Películas de Acción"
+        de: "Actionfilme"
+    }
+
+    dramaTitles = {
+        en: "Drama Movies"
+        pt: "Filmes de Drama"
+        fr: "Films Dramatiques"
+        es: "Películas Dramáticas"
+        de: "Dramafilme"
+    }
+
+    comedyTitles = {
+        en: "Comedy Movies"
+        pt: "Filmes de Comédia"
+        fr: "Films Comiques"
+        es: "Películas de Comedia"
+        de: "Komödien"
+    }
+
     actionRow = CreateObject("roSGNode", "ContentNode")
-    actionRow.title = "Action Movies"
+    actionRow.title = actionTitles[lang]
 
     dramaRow = CreateObject("roSGNode", "ContentNode")
-    dramaRow.title = "Drama Movies"
+    dramaRow.title = dramaTitles[lang]
 
     comedyRow = CreateObject("roSGNode", "ContentNode")
-    comedyRow.title = "Comedy Movies"
+    comedyRow.title = comedyTitles[lang]
 
     for each movie in data.movies
 
         itemNode = CreateObject("roSGNode", "ContentNode")
-        itemNode.ShortDescriptionLine1 = movie.name
+        itemNode.ShortDescriptionLine1 = movie.translations[lang].name
+        print "movietitle:" itemNode.ShortDescriptionLine1
         itemNode.HDPosterUrl = movie.thumbnail
         itemNode.url = movie.url
-        itemNode.ShortDescriptionLine2 = movie.description
-
-        if movie.genre = "Action"
+        itemNode.ShortDescriptionLine2 = movie.translations[lang].description
+        if movie.genre.en = "Action"
             actionRow.appendChild(itemNode)
-        else if movie.genre = "Drama"
+        else if movie.genre.en = "Drama"
             dramaRow.appendChild(itemNode)
-        else if movie.genre = "Comedy"
+        else if movie.genre.en = "Comedy"
             comedyRow.appendChild(itemNode)
         end if
     end for
@@ -48,35 +74,67 @@ sub loadMoviesContent()
 end sub
 
 sub loadSeriesContent()
-
+    lang = m.global.currentLang
     jsonText = ReadAsciiFile("pkg:/source/seriesContent.json")
     if jsonText = invalid or jsonText = "" then return
     data = ParseJson(jsonText)
     if data = invalid or data.series = invalid then return
     root = CreateObject("roSGNode", "ContentNode")
 
+    ' actionRow = CreateObject("roSGNode", "ContentNode")
+    ' actionRow.title = "Action Series"
+
+    ' dramaRow = CreateObject("roSGNode", "ContentNode")
+    ' dramaRow.title = "Drama Series"
+
+    ' comedyRow = CreateObject("roSGNode", "ContentNode")
+    ' comedyRow.title = "Comedy Series"
+     actionTitles = {
+        en: "Action Series"
+        pt: "Séries de Ação"
+        fr: "Séries d’Action"
+        es: "Series de Acción"
+        de: "Actionserien"
+    }
+
+    dramaTitles = {
+        en: "Drama Series"
+        pt: "Séries Dramáticas"
+        fr: "Séries Dramatiques"
+        es: "Series Dramáticas"
+        de: "Dramaserien"
+    }
+
+    comedyTitles = {
+        en: "Comedy Series"
+        pt: "Séries de Comédia"
+        fr: "Séries Comiques"
+        es: "Series de Comedia"
+        de: "Comedyserien"
+    }
+
     actionRow = CreateObject("roSGNode", "ContentNode")
-    actionRow.title = "Action Series"
+    actionRow.title = actionTitles[lang]
 
     dramaRow = CreateObject("roSGNode", "ContentNode")
-    dramaRow.title = "Drama Series"
+    dramaRow.title = dramaTitles[lang]
 
     comedyRow = CreateObject("roSGNode", "ContentNode")
-    comedyRow.title = "Comedy Series"
+    comedyRow.title = comedyTitles[lang]
 
     for each series in data.series
 
         itemNode = CreateObject("roSGNode", "ContentNode")
-        itemNode.ShortDescriptionLine1 = series.name
+        itemNode.ShortDescriptionLine1 = series.translations[lang].name
         itemNode.HDPosterUrl = series.thumbnail
         itemNode.url = series.url
-        itemNode.ShortDescriptionLine2 = series.description
+        itemNode.ShortDescriptionLine2 = series.translations[lang].description
 
-        if series.genre = "Action"
+        if series.genre.en = "Action"
             actionRow.appendChild(itemNode)
-        else if series.genre = "Drama"
+        else if series.genre.en = "Drama"
             dramaRow.appendChild(itemNode)
-        else if series.genre = "Comedy"
+        else if series.genre.en = "Comedy"
             comedyRow.appendChild(itemNode)
         end if
     end for

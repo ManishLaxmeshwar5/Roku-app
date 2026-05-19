@@ -1,5 +1,6 @@
 <component name="SideBar" extends="BaseScreen">
     <script type="text/brightscript" uri="pkg:/components/sidebar/SideBar.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
     <interface>
         <field id="selectedIndex" type="integer" alwaysNotify="true" />
         <field id="collapsed" type="boolean" value="false" alwaysNotify="true" onChange="onCollapsedChanged"/>
