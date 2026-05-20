@@ -11,8 +11,6 @@ sub init()
     if m.top.itemContent <> invalid
         onContentChanged()
     end if
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
 end sub
 
 
@@ -47,6 +45,7 @@ sub setupAutoPlay()
 end sub
 
 sub onContentChanged()
+    m.json = translate()
     m.watchNow.text = m.json["buttons"]["watch_now"][m.global.currentLang]
     content = m.top.itemContent
     if not isValid(content) then return

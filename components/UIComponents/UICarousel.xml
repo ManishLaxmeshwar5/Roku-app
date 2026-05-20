@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component name="Carousel" extends="Group">
     <script type="text/brightscript" uri="pkg:/components/UIComponents/UICarousel.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
     <interface>
         <field id="content" type="node" onChange="showShimmer" />
         <!-- <field id="content" type="node" onChange="onContentSet"/> -->

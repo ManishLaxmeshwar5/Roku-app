@@ -96,3 +96,8 @@ function getCurrentLang() as String
     return lang
 end function
 
+function translate()
+    translations = ReadAsciiFile("pkg:/source/translation.json")
+    json = ParseJson(translations)
+    return json
+end function

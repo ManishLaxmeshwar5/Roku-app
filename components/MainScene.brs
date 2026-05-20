@@ -46,8 +46,7 @@ sub init()
     m.ttsTask.functionName = "runTTS"
     m.ttsTask.control = "RUN"
     m.dialogopen = false 
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
+    m.json = translate()
     m.global.toast = {
             message :m.json["messages"]["welcome"][m.global.currentLang],
             duration: 2

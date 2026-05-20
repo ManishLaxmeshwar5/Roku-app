@@ -136,6 +136,13 @@
         "fr": "Nouveautés",
         "es": "Nuevos Lanzamientos",
         "de": "Neuerscheinungen"
-}
+    },
+    "results": {
+      "en": "Results",
+      "pt": "Resultados",
+      "fr": "Résultats",
+      "es": "Resultados",
+      "de": "Ergebnisse"
+    }
   }
 }

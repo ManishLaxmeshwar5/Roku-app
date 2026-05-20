@@ -15,8 +15,7 @@ sub init()
     m.searchTimer.duration = 0.5
     m.searchTimer.repeat = false
     m.searchTimer.observeField("fire", "performSearch")
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
+    m.json = translate()
     m.instructions.text = m.json["messages"]["search_placeholder"][m.global.currentLang]
     m.noResultsLabel.text = m.json["messages"]["no_results"][m.global.currentLang]
 end sub

@@ -2,8 +2,7 @@ sub init()
     initNodes()
     initObservers()
     setupViewModels()
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
+    
     loadContent()
     m.top.setFocus(true)
     m.emptyLabel.text = m.json["messages"]["watchlater_empty"][m.global.currentLang]
@@ -37,6 +36,7 @@ end sub
 
 sub loadContent()
     list = m.global.watchLaterList
+    m.json = translate()
     m.screenTitle.text = m.json["messages"]["watchlater_title"][m.global.currentLang]
     m.viewModel.setWatchLaterList(list)
 

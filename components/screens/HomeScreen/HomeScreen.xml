@@ -64,11 +64,6 @@
             </LayoutGroup>
 
         </Rectangle>
-        <!-- <ShimmerScreen
-                id="shimmer"
-                rectWidth="200"
-                rectHeight="250" /> -->
-
         <Timer id="startupTimer" duration="0.3" repeat="false" />
 
     </children>

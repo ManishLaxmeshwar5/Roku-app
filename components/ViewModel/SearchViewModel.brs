@@ -28,7 +28,7 @@ function search(query as string)
         return true
     end if
     m.top.isEmptyQuery = false
-    if m.prevQuery <> invalid AND Left(query, Len(m.prevQuery)) = m.prevQuery
+    if m.prevQuery <> invalid and Left(query, Len(m.prevQuery)) = m.prevQuery
         source = m.prevResults
         print "Searching from previous results"
     else
@@ -56,7 +56,8 @@ end function
 function buildContent(items as object) as object
     content = CreateObject("roSGNode", "ContentNode")
     row = content.createChild("ContentNode")
-    row.title = "Results"
+    m.json = translate()
+    row.title = m.json["messages"]["results"][m.global.currentLang]
     for each item in items
         node = row.createChild("ContentNode")
         node.ShortDescriptionLine1 = item.name
@@ -66,8 +67,8 @@ function buildContent(items as object) as object
         node.addField("itemWidth", "integer", false)
         node.addField("itemHeight", "integer", false)
 
-    node.itemWidth = 200
-    node.itemHeight = 300
+        node.itemWidth = 200
+        node.itemHeight = 300
     end for
     return content
 end function

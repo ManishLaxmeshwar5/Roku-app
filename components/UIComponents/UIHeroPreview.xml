@@ -1,6 +1,7 @@
 <?xml version= "1.0" encoding="utf-8"?>
 <component name="HeroPreview" extends="Group">
     <script type="text/brightscript" uri="pkg:/components/UIComponents/UIHeroPreview.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
     <interface>
         <field id="posterUrl" type="string" onChange="onPosterUrlChanged"/>
         <field id="heroTitle" type="string" onChange="onHeroTitleChanged" />

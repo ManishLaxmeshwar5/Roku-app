@@ -21,9 +21,6 @@ sub init()
 
     m.activepage = 0
     buildGradiant()
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
-    
     setupMenu()
     m.menu.observeField("itemSelected", "onItemSelected")
     m.menu.observeField("itemFocused",  "onItemFocused") 
@@ -78,6 +75,7 @@ end function
 
 sub setupMenu()
     content = CreateObject("roSGNode", "ContentNode")
+    m.json = translate()
     items = [
         { label: m.json["sidebar"]["home"][m.selectedlang], icon: "pkg:/images/homef.png" },
         { label: m.json["sidebar"]["search"][m.selectedlang], icon: "pkg:/images/searchf.png" },

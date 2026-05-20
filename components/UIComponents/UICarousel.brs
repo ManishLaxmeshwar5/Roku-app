@@ -16,8 +16,6 @@ sub init()
     m.totalItems = 0
     m.items = []
     m.autoTimer.observeField("fire", "onTimerFire")
-    translations = ReadAsciiFile("pkg:/source/translation.json")
-    m.json = ParseJson(translations)
 end sub
 
 sub onWatchPressed()
@@ -44,6 +42,7 @@ sub showShimmer()
 end sub
 
 sub onContentSet()
+    m.json = translate()
     m.carouselbutton.text = m.json["buttons"]["watch_now"][m.global.currentLang]
     m.shimmer.visible = false
     m.shimmerTitle.visible = false
