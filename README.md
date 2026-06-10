@@ -11,6 +11,9 @@ Roku streaming application built using SceneGraph and BrightScript with MVVM arc
 - Bookmark functionality
 - GitHub Actions workflow
 - PR template integration
+- Text-to-Speech (TTS) accessibility support
+- Multi-language support
+- Unit testing with Rooibos
 
 ## Project Structure
 
