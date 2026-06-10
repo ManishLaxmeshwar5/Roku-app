@@ -1,0 +1,105 @@
+import "pkg:/source/tests/BaseTestSuite.spec.bs"
+namespace tests
+    @SGNode("WatchlaterScreen")
+    @suite("watchLaterTests")
+    class watchLaterTests extends tests.baseTestSuite
+        @describe("WatchLaterScreenTests")
+        protected override function setup()
+           
+            m.global.addFields({
+                "watchLaterList": [{
+                    "id": "movie-1"
+                    "title": "Test Movie"
+                }],
+                "currentLang": "en"
+            })
+            
+            m.contentNode = createObject("ROSGNode", "ContentNode")
+            m.contentNode.addFields({
+                "id": "movie-1",
+                "title": "Test Movie",
+                "HDPosterUrl": "http://fake.com/poster.jpg",
+                "ShortDescriptionLine1": "Test Title",
+                "ShortDescriptionLine2": "Test Description",
+                "url": "http://fake.com/movie"
+            })
+           
+            m.viewModel = {
+                isEmpty: true
+                setWatchLaterList: function(list as object)
+                    m.viewModel.isEmpty = list.count() = 0
+                end function
+                getGridContent: function() as object
+                    return {}
+                end function
+            }
+           
+        end function
+
+        @it("loadContent watchLater Empty: Test")
+        function _()
+            
+            m.global.watchLaterList = []
+            'bs:disable-next-line
+            loadContent()
+            m.assertEqual(m.node.screenTitle.text, "Watch Later")
+            m.assertEqual(m.node.emptyLabel.text, "Your WatchLater List is empty")
+            m.assertFalse(m.node.grid.visible)
+        end function
+
+        @it("loadContent watchLater not empty: Test")
+        function _()
+            m.global.watchLaterList = [
+                {
+                    id: "1",
+                    title: "Test Movie",
+                    ShortDescriptionLine1: "Test Title",
+                }
+            ]
+            root = m.node.grid.content
+            row = root.getChild(0)
+            item = row.getChild(0)
+            'bs:disable-next-line
+            loadContent()
+            m.assertFalse(m.node.emptyLabel.visible)
+            m.assertTrue(m.node.grid.visible)
+            m.assertEqual(item.ShortDescriptionLine1,"Test Movie")
+
+        end function
+
+        @it("onKeyEvent options removes selected item and sets toast")
+        function _()
+            
+            m.global.watchLaterList = [
+                {
+                    id: "1"
+                    title: "Test Movie"
+                },
+                {
+                    id: "2"
+                    title: "Other Movie"
+                }
+            ]
+            
+            m.node.grid.itemFocused = 0
+
+            'bs:disable-next-line
+            result = onKeyEvent("options", true)
+
+            m.assertTrue(result)
+            m.assertEqual(m.global.watchLaterList.count(), 1)
+            m.assertTrue(m.node.grid.hasFocus())
+            m.assertEqual(m.global.toast.message,"Test MovieSuccessfully removed from Watch Later :(")
+        end function
+
+        @it("onFocusRequest: Test")
+        function _()
+            
+            'bs:disable-next-line
+            onFocusRequest()
+            m.assertTrue(m.node.grid.hasFocus())
+
+        end function
+
+    end class
+end namespace

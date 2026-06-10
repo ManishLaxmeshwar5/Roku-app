@@ -67,6 +67,7 @@
         </Group>
         <ShimmerScreen
             id="shimmer"
+            rectColor="0x696969FF"
             />
         
     </children>

@@ -1,0 +1,48 @@
+import "pkg:/source/tests/BaseTestSuite.spec.bs"
+namespace tests 
+    @SGNode("Toast")
+    @suite("ToastTests")
+    class ToastTests extends tests.BaseTestSuite
+        @describe("onToastRequested")
+
+        
+        protected override function setup()
+            m.global.toast = {
+                message:"Hello Toast",
+                duration:3
+            }
+
+            'Setup the logger or anything else you need for all your tests
+        end function
+
+        @it("show toast")
+        function _()
+            'bs:disable-next-line
+            onToastRequested()
+            m.assertEqual(m.node.toastLabel.text, "Hello Toast")
+            m.assertEqual(m.node.top.visible, true)
+            m.assertEqual(m.node.slideOut.control, "stop")
+            m.assertEqual(m.node.hideTimer.control, "start")
+            m.assertEqual(m.node.hideAfterSlideTimer.control, "stop")
+            m.assertEqual(CInt(m.node.hideTimer.duration), 3)
+            m.assertEqual(m.node.toastBg.translation, [350.0,-270.0])
+        end function
+
+        @it("onHideTimer : Test")
+        function _()
+            'bs:disable-next-line
+            result = onHideTimer()
+            print m.node
+            m.assertEqual(m.node.slideIn.control, "stop")
+            m.assertEqual(m.node.slideOut.control, "start")
+            m.assertEqual(m.node.hideAfterSlideTimer.control, "start")
+        end function
+
+        @it("onSlideOutDone: slide out test")
+        function _()
+            'bs:disable-next-line
+            result = onSlideOutDone()
+            m.assertEqual(m.node.top.visible, false)
+        end function
+    end class
+end namespace

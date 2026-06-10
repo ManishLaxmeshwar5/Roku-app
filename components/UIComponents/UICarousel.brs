@@ -30,10 +30,12 @@ sub showShimmer()
     m.shimmerDesc.clippingRect  = [0, 0, 700, 28]
 
     m.shimmer.visible      = true
-    m.shimmerTitle.rectColor="#696969"
+    ' m.shimmerTitle.rectColor="#696969"
     m.shimmerTitle.visible = true
     m.shimmerDesc.visible  = true
-    m.shimmerDesc.rectColor= "#696969"
+    ' m.shimmerDesc.rectColor= "#696969"
+    m.shimmerTitle.rectColor = "0x696969FF"
+    m.shimmerDesc.rectColor = "0x696969FF"
     m.timer = createObject("roSGNode", "Timer")
     m.timer.duration = 1
     m.timer.repeat = false

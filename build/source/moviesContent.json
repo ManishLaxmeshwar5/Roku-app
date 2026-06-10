@@ -1,0 +1,471 @@
+{
+  "movies": [
+    {
+      "translations": {
+        "en": {
+          "name": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler with the help of Max."
+        },
+        "pt": {
+          "name": "Mad Max: Estrada",
+          "description": "Em um deserto pós-apocalíptico, uma mulher se rebela contra um governante tirânico com a ajuda de Max."
+        },
+        "fr": {
+          "name": "Mad Max: Fury Road",
+          "description": "Dans un désert post-apocalyptique, une femme se rebelle contre un dirigeant tyrannique avec l'aide de Max."
+        },
+        "es": {
+          "name": "Mad Max: Furia",
+          "description": "En un desierto postapocalíptico, una mujer se rebela contra un gobernante tiránico junto a Max."
+        },
+        "de": {
+          "name": "Mad Max: Fury Road",
+          "description": "In einer postapokalyptischen Wüste rebelliert eine Frau mit Max gegen einen tyrannischen Herrscher."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "John Wik",
+          "description": "An ex-hitman seeks revenge after gangsters kill his dog."
+        },
+        "pt": {
+          "name": "John Wick",
+          "description": "Um ex-assassino busca vingança após gangsters matarem seu cachorro."
+        },
+        "fr": {
+          "name": "John Wick",
+          "description": "Un ancien tueur cherche vengeance après la mort de son chien."
+        },
+        "es": {
+          "name": "John Wick",
+          "description": "Un exasesino busca venganza tras la muerte de su perro."
+        },
+        "de": {
+          "name": "John Wick",
+          "description": "Ein ehemaliger Auftragskiller sucht Rache nach dem Tod seines Hundes."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt races against time after a dangerous mission fails."
+        },
+        "pt": {
+          "name": "Missão: Impossível",
+          "description": "Ethan Hunt corre contra o tempo após uma missão perigosa."
+        },
+        "fr": {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt lutte contre la montre après une mission dangereuse."
+        },
+        "es": {
+          "name": "Misión: Imposible",
+          "description": "Ethan Hunt lucha contra el tiempo tras una misión peligrosa."
+        },
+        "de": {
+          "name": "Mission: Impossible",
+          "description": "Ethan Hunt kämpft nach einer gefährlichen Mission gegen die Zeit."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Avengers: Endgame",
+          "description": "The Avengers reunite to restore balance to the universe."
+        },
+        "pt": {
+          "name": "Vingadores: Ultimato",
+          "description": "Os Vingadores se reúnem para restaurar o equilíbrio do universo."
+        },
+        "fr": {
+          "name": "Avengers: Endgame",
+          "description": "Les Avengers se réunissent pour restaurer l'équilibre de l'univers."
+        },
+        "es": {
+          "name": "Avengers: Endgame",
+          "description": "Los Vengadores se reúnen para restaurar el equilibrio del universo."
+        },
+        "de": {
+          "name": "Avengers: Endgame",
+          "description": "Die Avengers vereinen sich erneut, um das Gleichgewicht wiederherzustellen."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Gladiator",
+          "description": "A Roman General seeks revenge against a corrupt emperor."
+        },
+        "pt": {
+          "name": "Gladiador",
+          "description": "Um general romano busca vingança contra um imperador corrupto."
+        },
+        "fr": {
+          "name": "Gladiator",
+          "description": "Un général romain cherche vengeance contre un empereur corrompu."
+        },
+        "es": {
+          "name": "Gladiador",
+          "description": "Un general romano busca venganza contra un emperador corrupto."
+        },
+        "de": {
+          "name": "Gladiator",
+          "description": "Ein römischer General sucht Rache an einem korrupten Kaiser."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
+
+    {
+  "translations": {
+    "en": {
+      "name": "The Shawshank",
+      "description": "Two imprisoned men bond over years, finding hope and redemption."
+    },
+    "pt": {
+      "name": "Um Sonho de",
+      "description": "Dois prisioneiros criam amizade e encontram esperança."
+    },
+    "fr": {
+      "name": "Les Évadés",
+      "description": "Deux prisonniers trouvent l'espoir et la rédemption."
+    },
+    "es": {
+      "name": "Sueño de Fuga",
+      "description": "Dos prisioneros encuentran esperanza y redención."
+    },
+    "de": {
+      "name": "Die Verur",
+      "description": "Zwei Gefangene finden Hoffnung und Erlösung."
+    }
+  },
+  "genre": {
+    "en": "Drama",
+    "pt": "Drama",
+    "fr": "Drame",
+    "es": "Drama",
+    "de": "Drama"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Subservience.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "Forrest Gump",
+      "description": "Historic events unfold through the eyes of Forrest Gump."
+    },
+    "pt": {
+      "name": "Forrest Gump",
+      "description": "Eventos históricos vistos pelos olhos de Forrest Gump."
+    },
+    "fr": {
+      "name": "Forrest Gump",
+      "description": "Des événements historiques vus à travers Forrest Gump."
+    },
+    "es": {
+      "name": "Forrest Gump",
+      "description": "Eventos históricos vistos por Forrest Gump."
+    },
+    "de": {
+      "name": "Forrest Gump",
+      "description": "Historische Ereignisse aus Forrest Gumps Sicht."
+    }
+  },
+  "genre": {
+    "en": "Drama",
+    "pt": "Drama",
+    "fr": "Drame",
+    "es": "Drama",
+    "de": "Drama"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "The Green Mile",
+      "description": "Death Row guards encounter a prisoner with mysterious powers."
+    },
+    "pt": {
+      "name": "À Espera de um Milagre",
+      "description": "Guardas encontram um prisioneiro com poderes misteriosos."
+    },
+    "fr": {
+      "name": "La Ligne Verte",
+      "description": "Des gardiens rencontrent un prisonnier aux pouvoirs mystérieux."
+    },
+    "es": {
+      "name": "La Milla Verde",
+      "description": "Guardias conocen a un prisionero con poderes misteriosos."
+    },
+    "de": {
+      "name": "The Green Mile",
+      "description": "Gefängniswärter treffen einen Gefangenen mit geheimnisvollen Kräften."
+    }
+  },
+  "genre": {
+    "en": "Drama",
+    "pt": "Drama",
+    "fr": "Drame",
+    "es": "Drama",
+    "de": "Drama"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "A Beautiful Mind",
+      "description": "A brilliant mathematician struggles with mental illness."
+    },
+    "pt": {
+      "name": "Uma Mente Brilhante",
+      "description": "Um matemático brilhante luta contra doenças mentais."
+    },
+    "fr": {
+      "name": "Un Homme d'Exception",
+      "description": "Un mathématicien brillant lutte contre la maladie mentale."
+    },
+    "es": {
+      "name": "Una Mente Brillante",
+      "description": "Un brillante matemático lucha contra enfermedades mentales."
+    },
+    "de": {
+      "name": "A Beautiful Mind",
+      "description": "Ein brillanter Mathematiker kämpft mit psychischen Problemen."
+    }
+  },
+  "genre": {
+    "en": "Drama",
+    "pt": "Drama",
+    "fr": "Drame",
+    "es": "Drama",
+    "de": "Drama"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "Good Will Hunting",
+      "description": "A gifted janitor at MIT seeks direction in life."
+    },
+    "pt": {
+      "name": "Gênio Indomável",
+      "description": "Um zelador talentoso do MIT busca um rumo para sua vida."
+    },
+    "fr": {
+      "name": "Will Hunting",
+      "description": "Un concierge talentueux du MIT cherche un sens à sa vie."
+    },
+    "es": {
+      "name": "Mente Indomable",
+      "description": "Un conserje talentoso del MIT busca dirección en su vida."
+    },
+    "de": {
+      "name": "Good Will Hunting",
+      "description": "Ein talentierter Hausmeister am MIT sucht seinen Lebensweg."
+    }
+  },
+  "genre": {
+    "en": "Drama",
+    "pt": "Drama",
+    "fr": "Drame",
+    "es": "Drama",
+    "de": "Drama"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "The Grand Budapest",
+      "description": "A writer hears the story of a legendary hotel concierge."
+    },
+    "pt": {
+      "name": "O Grande Hotel",
+      "description": "Um escritor ouve a história de um lendário concierge."
+    },
+    "fr": {
+      "name": "The Grand Budapest Hotel",
+      "description": "Un écrivain entend l'histoire d'un concierge légendaire."
+    },
+    "es": {
+      "name": "El Gran Hotel Budapest",
+      "description": "Un escritor escucha la historia de un legendario conserje."
+    },
+    "de": {
+      "name": "Grand Budapest Hotel",
+      "description": "Ein Schriftsteller hört die Geschichte eines legendären Concierges."
+    }
+  },
+  "genre": {
+    "en": "Comedy",
+    "pt": "Comédia",
+    "fr": "Comédie",
+    "es": "Comedia",
+    "de": "Komödie"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "Tropic Thunder",
+      "description": "Actors filming a war movie are forced into real action."
+    },
+    "pt": {
+      "name": "Trovão Tropical",
+      "description": "Atores de um filme de guerra entram em ação real."
+    },
+    "fr": {
+      "name": "Tonnerre sous les Tropiques",
+      "description": "Des acteurs de guerre vivent une vraie aventure."
+    },
+    "es": {
+      "name": "Una Guerra de Película",
+      "description": "Actores de guerra enfrentan una aventura real."
+    },
+    "de": {
+      "name": "Tropic Thunder",
+      "description": "Schauspieler eines Kriegsfilms geraten in echte Gefahr."
+    }
+  },
+  "genre": {
+    "en": "Comedy",
+    "pt": "Comédia",
+    "fr": "Comédie",
+    "es": "Comedia",
+    "de": "Komödie"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "Groundhog Day",
+      "description": "A weatherman relives the same day repeatedly."
+    },
+    "pt": {
+      "name": "Feitiço do Tempo",
+      "description": "Um meteorologista revive o mesmo dia repetidamente."
+    },
+    "fr": {
+      "name": "Un Jour sans Fin",
+      "description": "Un présentateur météo revit la même journée."
+    },
+    "es": {
+      "name": "Hechizo del Tiempo",
+      "description": "Un hombre revive el mismo día una y otra vez."
+    },
+    "de": {
+      "name": "Und täglich grüßt das Murmeltier",
+      "description": "Ein Wettermoderator erlebt denselben Tag immer wieder."
+    }
+  },
+  "genre": {
+    "en": "Comedy",
+    "pt": "Comédia",
+    "fr": "Comédie",
+    "es": "Comedia",
+    "de": "Komödie"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4"
+},
+{
+  "translations": {
+    "en": {
+      "name": "21 Jump Street",
+      "description": "Two young cops go undercover at a high school."
+    },
+    "pt": {
+      "name": "Anjos da Lei",
+      "description": "Dois policiais jovens se infiltram em uma escola."
+    },
+    "fr": {
+      "name": "21 Jump Street",
+      "description": "Deux jeunes policiers infiltrent un lycée."
+    },
+    "es": {
+      "name": "Comando Especial",
+      "description": "Dos jóvenes policías se infiltran en una escuela."
+    },
+    "de": {
+      "name": "21 Jump Street",
+      "description": "Zwei junge Polizisten gehen undercover an eine Schule."
+    }
+  },
+  "genre": {
+    "en": "Comedy",
+    "pt": "Comédia",
+    "fr": "Comédie",
+    "es": "Comedia",
+    "de": "Komödie"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w500/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/DishTelevision.mp4"
+    }
+  ]
+}

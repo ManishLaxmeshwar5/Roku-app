@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<component name="DetailscreenTests" extends="DetailScreen">
+    <interface>
+        <field id="rooibosTestResult" type="assocarray" />
+        <field id="testText" type="string" alias="statusLabel.text" />
+        <field id="failedText" type="string" alias="failedLabel.text" />
+        <field id="statusColor" type="string" alias="statusBackground.color" />
+        <function name='Rooibos_CreateTestNode' />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/source/rooibos/BaseTestReporter.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/BaseTestSuite.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/CodeCoverageSupport.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/CommonUtils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/ConsoleTestReporter.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Coverage.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/JUnitTestReporter.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Matchers.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/MochaTestReporter.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Rooibos.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/RuntimeConfig.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Stats.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Test.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/TestGroup.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/TestResult.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/TestRunner.brs" />
+    <script type="text/brightscript" uri="pkg:/source/rooibos/Utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rooibos_promises/promises.brs" />
+    <script type="text/brightscript" uri="pkg:/source/tests/components/screens/HomeScreen/DetailScreenTest.spec.brs" />
+    <script type="text/brightscript" uri="pkg:/source/tests/BaseTestSuite.spec.brs" />
+    <script type="text/brightscript" uri="pkg:/components/rooibos/generated/DetailscreenTests.brs" />
+    <script type="text/brightscript" uri="pkg:/source/bslib.brs" />
+    <children>
+        <Rectangle id="statusBackground" color="#444444" width="1920" height="1080" />
+        <LayoutGroup translation="[960, 540]" vertAlignment="center" horizAlignment="center">
+            <Label id="statusLabel" text='Rooibos is running tests' width="1800" />
+            <Label id="failedLabel" text="" translation="[0, 100]" width="1800" wrap="true" maxLines="15" />
+        </LayoutGroup>
+    </children>
+</component>
+<!--//# sourceMappingURL=./DetailscreenTests.xml.map -->

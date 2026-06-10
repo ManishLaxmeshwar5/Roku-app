@@ -37,7 +37,7 @@ function search(query as string)
     end if
     results = []
     for each item in m.allItems
-        if Instr(LCase(item.name), query) > 0
+        if Instr(1, LCase(item.name), query) > 0
             results.push(item)
         end if
     end for

@@ -1,0 +1,1661 @@
+Using bsconfig: bsconfig.json
+[[90m05:52:36:631 PM[39m] Using config file: "bsconfig.json"
+[[90m05:52:36:650 PM[39m] Loading 1 plugins for cwd "/Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app" [ 'rooibos-roku' ]
+[[90m05:52:36:651 PM[39m] rooibosPlugin beforeProgramCreate
+[[90m05:52:36:653 PM[39m] rooibosPlugin beforeProgramCreate finished. ([34m1.206ms[39m)
+[[90m05:52:36:654 PM[39m] Scope 'global' validate()
+[[90m05:52:36:654 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:36:655 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:36:656 PM[39m] BscPlugin onScopeValidate finished. ([34m0.996ms[39m)
+[[90m05:52:36:658 PM[39m] Scope 'global' validate() finished. ([34m4.168ms[39m)
+[[90m05:52:36:658 PM[39m] rooibosPlugin afterProgramCreate
+[[90m05:52:36:669 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs
+[[90m05:52:36:669 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs
+[[90m05:52:36:669 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs
+[[90m05:52:36:670 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs finished. ([34m1.369ms[39m)
+[[90m05:52:36:671 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs
+[[90m05:52:36:673 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs finished. ([34m1.670ms[39m)
+[[90m05:52:36:673 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs
+[[90m05:52:36:679 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs finished. ([34m6.152ms[39m)
+[[90m05:52:36:680 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs finished. ([34m11.10ms[39m)
+[[90m05:52:36:680 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:681 PM[39m] rooibosPlugin afterFileParse finished. ([34m1.57ms[39m)
+[[90m05:52:36:682 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.brs finished. ([34m12.910ms[39m)
+[[90m05:52:36:682 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.xml
+[[90m05:52:36:682 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.xml
+[[90m05:52:36:686 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.xml finished. ([34m4.155ms[39m)
+[[90m05:52:36:686 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:686 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.118ms[39m)
+[[90m05:52:36:687 PM[39m] XmlFile components/rooibos/CodeCoverage.xml clear cache because dependency graph changed
+[[90m05:52:36:687 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/CodeCoverage.xml finished. ([34m5.459ms[39m)
+[[90m05:52:36:688 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs
+[[90m05:52:36:688 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs
+[[90m05:52:36:688 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs
+[[90m05:52:36:688 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs finished. ([34m0.150ms[39m)
+[[90m05:52:36:688 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs
+[[90m05:52:36:688 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs finished. ([34m0.79ms[39m)
+[[90m05:52:36:688 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs
+[[90m05:52:36:690 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs finished. ([34m1.37ms[39m)
+[[90m05:52:36:690 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs finished. ([34m1.823ms[39m)
+[[90m05:52:36:690 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:690 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.41ms[39m)
+[[90m05:52:36:690 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.brs finished. ([34m2.239ms[39m)
+[[90m05:52:36:691 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.xml
+[[90m05:52:36:691 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.xml
+[[90m05:52:36:691 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.xml finished. ([34m0.398ms[39m)
+[[90m05:52:36:691 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:692 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.51ms[39m)
+[[90m05:52:36:692 PM[39m] XmlFile components/rooibos/RooibosNodeCreator.xml clear cache because dependency graph changed
+[[90m05:52:36:692 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/rooibos/RooibosNodeCreator.xml finished. ([34m1.11ms[39m)
+[[90m05:52:36:692 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs
+[[90m05:52:36:693 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:693 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs
+[[90m05:52:36:693 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs
+[[90m05:52:36:693 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs finished. ([34m0.678ms[39m)
+[[90m05:52:36:694 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs
+[[90m05:52:36:694 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs finished. ([34m0.173ms[39m)
+[[90m05:52:36:694 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs
+[[90m05:52:36:697 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs finished. ([34m3.74ms[39m)
+[[90m05:52:36:697 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs finished. ([34m4.372ms[39m)
+[[90m05:52:36:697 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:697 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.40ms[39m)
+[[90m05:52:36:697 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/basetestreporter.bs ] changed
+[[90m05:52:36:697 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestReporter.bs finished. ([34m4.931ms[39m)
+[[90m05:52:36:699 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs
+[[90m05:52:36:699 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:699 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs
+[[90m05:52:36:699 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs
+[[90m05:52:36:713 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs finished. ([34m14.138ms[39m)
+[[90m05:52:36:715 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs
+[[90m05:52:36:727 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs finished. ([34m11.835ms[39m)
+[[90m05:52:36:727 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs
+[[90m05:52:36:758 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs finished. ([34m30.77ms[39m)
+[[90m05:52:36:761 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs finished. ([34m62.173ms[39m)
+[[90m05:52:36:761 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:762 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.49ms[39m)
+[[90m05:52:36:762 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/basetestsuite.bs ] changed
+[[90m05:52:36:762 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/BaseTestSuite.bs finished. ([34m62.909ms[39m)
+[[90m05:52:36:762 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs
+[[90m05:52:36:763 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:763 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs
+[[90m05:52:36:763 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs
+[[90m05:52:36:763 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs finished. ([34m0.622ms[39m)
+[[90m05:52:36:763 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs
+[[90m05:52:36:764 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs finished. ([34m0.59ms[39m)
+[[90m05:52:36:764 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs
+[[90m05:52:36:765 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs finished. ([34m0.781ms[39m)
+[[90m05:52:36:765 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs finished. ([34m2.40ms[39m)
+[[90m05:52:36:765 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:765 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.81ms[39m)
+[[90m05:52:36:765 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/codecoveragesupport.brs ] changed
+[[90m05:52:36:765 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CodeCoverageSupport.brs finished. ([34m2.688ms[39m)
+[[90m05:52:36:766 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs
+[[90m05:52:36:766 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:766 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs
+[[90m05:52:36:766 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs
+[[90m05:52:36:776 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs finished. ([34m10.240ms[39m)
+[[90m05:52:36:777 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs
+[[90m05:52:36:779 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs finished. ([34m1.730ms[39m)
+[[90m05:52:36:779 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs
+[[90m05:52:36:784 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs finished. ([34m5.472ms[39m)
+[[90m05:52:36:786 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs finished. ([34m19.706ms[39m)
+[[90m05:52:36:786 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:786 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.64ms[39m)
+[[90m05:52:36:786 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/commonutils.bs ] changed
+[[90m05:52:36:786 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/CommonUtils.bs finished. ([34m20.286ms[39m)
+[[90m05:52:36:787 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs
+[[90m05:52:36:787 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:787 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs
+[[90m05:52:36:787 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs
+[[90m05:52:36:789 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs finished. ([34m1.16ms[39m)
+[[90m05:52:36:789 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs
+[[90m05:52:36:789 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs finished. ([34m0.329ms[39m)
+[[90m05:52:36:789 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs
+[[90m05:52:36:792 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs finished. ([34m2.302ms[39m)
+[[90m05:52:36:792 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs finished. ([34m4.417ms[39m)
+[[90m05:52:36:792 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:792 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.71ms[39m)
+[[90m05:52:36:792 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/consoletestreporter.bs ] changed
+[[90m05:52:36:792 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/ConsoleTestReporter.bs finished. ([34m5.22ms[39m)
+[[90m05:52:36:793 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs
+[[90m05:52:36:793 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:793 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs
+[[90m05:52:36:793 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs
+[[90m05:52:36:794 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs finished. ([34m0.497ms[39m)
+[[90m05:52:36:794 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs
+[[90m05:52:36:794 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs finished. ([34m0.157ms[39m)
+[[90m05:52:36:794 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs
+[[90m05:52:36:795 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs finished. ([34m1.313ms[39m)
+[[90m05:52:36:796 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs finished. ([34m2.626ms[39m)
+[[90m05:52:36:796 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:796 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.90ms[39m)
+[[90m05:52:36:796 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/coverage.bs ] changed
+[[90m05:52:36:796 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Coverage.bs finished. ([34m3.309ms[39m)
+[[90m05:52:36:797 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs
+[[90m05:52:36:797 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:797 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs
+[[90m05:52:36:797 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs
+[[90m05:52:36:798 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs finished. ([34m0.649ms[39m)
+[[90m05:52:36:798 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs
+[[90m05:52:36:798 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs finished. ([34m0.146ms[39m)
+[[90m05:52:36:798 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs
+[[90m05:52:36:799 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs finished. ([34m1.46ms[39m)
+[[90m05:52:36:799 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs finished. ([34m2.495ms[39m)
+[[90m05:52:36:800 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:800 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.44ms[39m)
+[[90m05:52:36:800 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/junittestreporter.bs ] changed
+[[90m05:52:36:800 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/JUnitTestReporter.bs finished. ([34m3.40ms[39m)
+[[90m05:52:36:800 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs
+[[90m05:52:36:800 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:800 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs
+[[90m05:52:36:800 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs
+[[90m05:52:36:801 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs finished. ([34m0.115ms[39m)
+[[90m05:52:36:801 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs
+[[90m05:52:36:801 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs finished. ([34m0.59ms[39m)
+[[90m05:52:36:801 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs
+[[90m05:52:36:801 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs finished. ([34m0.248ms[39m)
+[[90m05:52:36:801 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs finished. ([34m0.863ms[39m)
+[[90m05:52:36:801 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:801 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.46ms[39m)
+[[90m05:52:36:802 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/matchers.bs ] changed
+[[90m05:52:36:802 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Matchers.bs finished. ([34m1.362ms[39m)
+[[90m05:52:36:803 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs
+[[90m05:52:36:803 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:803 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs
+[[90m05:52:36:803 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs
+[[90m05:52:36:807 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs finished. ([34m4.416ms[39m)
+[[90m05:52:36:808 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs
+[[90m05:52:36:809 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs finished. ([34m1.313ms[39m)
+[[90m05:52:36:809 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs
+[[90m05:52:36:817 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs finished. ([34m7.386ms[39m)
+[[90m05:52:36:818 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs finished. ([34m15.381ms[39m)
+[[90m05:52:36:818 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:818 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.51ms[39m)
+[[90m05:52:36:819 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/mochatestreporter.bs ] changed
+[[90m05:52:36:819 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/MochaTestReporter.bs finished. ([34m15.955ms[39m)
+[[90m05:52:36:819 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs
+[[90m05:52:36:819 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:819 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs
+[[90m05:52:36:819 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs
+[[90m05:52:36:820 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs finished. ([34m0.416ms[39m)
+[[90m05:52:36:820 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs
+[[90m05:52:36:820 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs finished. ([34m0.101ms[39m)
+[[90m05:52:36:820 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs
+[[90m05:52:36:821 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs finished. ([34m0.919ms[39m)
+[[90m05:52:36:821 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs finished. ([34m1.927ms[39m)
+[[90m05:52:36:821 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:822 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.42ms[39m)
+[[90m05:52:36:822 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/rooibos.bs ] changed
+[[90m05:52:36:822 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Rooibos.bs finished. ([34m2.359ms[39m)
+[[90m05:52:36:822 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs
+[[90m05:52:36:822 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:822 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs
+[[90m05:52:36:822 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs
+[[90m05:52:36:823 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs finished. ([34m0.82ms[39m)
+[[90m05:52:36:823 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs
+[[90m05:52:36:823 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs finished. ([34m0.29ms[39m)
+[[90m05:52:36:823 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs
+[[90m05:52:36:823 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs finished. ([34m0.298ms[39m)
+[[90m05:52:36:823 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs finished. ([34m0.730ms[39m)
+[[90m05:52:36:823 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:823 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.34ms[39m)
+[[90m05:52:36:823 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/runtimeconfig.bs ] changed
+[[90m05:52:36:823 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/RuntimeConfig.bs finished. ([34m1.163ms[39m)
+[[90m05:52:36:824 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs
+[[90m05:52:36:824 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:824 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs
+[[90m05:52:36:824 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs
+[[90m05:52:36:824 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs finished. ([34m0.169ms[39m)
+[[90m05:52:36:824 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs
+[[90m05:52:36:824 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs finished. ([34m0.53ms[39m)
+[[90m05:52:36:825 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs
+[[90m05:52:36:825 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs finished. ([34m0.445ms[39m)
+[[90m05:52:36:825 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs finished. ([34m1.18ms[39m)
+[[90m05:52:36:825 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:825 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.41ms[39m)
+[[90m05:52:36:825 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/stats.bs ] changed
+[[90m05:52:36:825 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Stats.bs finished. ([34m1.444ms[39m)
+[[90m05:52:36:826 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs
+[[90m05:52:36:826 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:826 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs
+[[90m05:52:36:826 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs
+[[90m05:52:36:831 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs finished. ([34m4.536ms[39m)
+[[90m05:52:36:831 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs
+[[90m05:52:36:831 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs finished. ([34m0.282ms[39m)
+[[90m05:52:36:831 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs
+[[90m05:52:36:833 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs finished. ([34m1.773ms[39m)
+[[90m05:52:36:833 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs finished. ([34m7.261ms[39m)
+[[90m05:52:36:834 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:834 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.46ms[39m)
+[[90m05:52:36:834 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/test.bs ] changed
+[[90m05:52:36:834 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Test.bs finished. ([34m7.722ms[39m)
+[[90m05:52:36:835 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs
+[[90m05:52:36:835 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:835 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs
+[[90m05:52:36:835 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs
+[[90m05:52:36:836 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs finished. ([34m0.903ms[39m)
+[[90m05:52:36:836 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs
+[[90m05:52:36:836 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs finished. ([34m0.279ms[39m)
+[[90m05:52:36:836 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs
+[[90m05:52:36:838 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs finished. ([34m1.816ms[39m)
+[[90m05:52:36:838 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs finished. ([34m3.545ms[39m)
+[[90m05:52:36:838 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:839 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.32ms[39m)
+[[90m05:52:36:839 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/testgroup.bs ] changed
+[[90m05:52:36:839 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestGroup.bs finished. ([34m3.982ms[39m)
+[[90m05:52:36:839 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs
+[[90m05:52:36:839 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:839 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs
+[[90m05:52:36:839 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs
+[[90m05:52:36:840 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs finished. ([34m0.294ms[39m)
+[[90m05:52:36:840 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs
+[[90m05:52:36:840 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs finished. ([34m0.94ms[39m)
+[[90m05:52:36:840 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs
+[[90m05:52:36:841 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs finished. ([34m0.700ms[39m)
+[[90m05:52:36:841 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs finished. ([34m1.446ms[39m)
+[[90m05:52:36:841 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:841 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.40ms[39m)
+[[90m05:52:36:841 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/testresult.bs ] changed
+[[90m05:52:36:841 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestResult.bs finished. ([34m1.906ms[39m)
+[[90m05:52:36:842 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs
+[[90m05:52:36:842 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:842 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs
+[[90m05:52:36:842 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs
+[[90m05:52:36:843 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs finished. ([34m1.250ms[39m)
+[[90m05:52:36:843 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs
+[[90m05:52:36:844 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs finished. ([34m0.325ms[39m)
+[[90m05:52:36:844 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs
+[[90m05:52:36:846 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs finished. ([34m2.332ms[39m)
+[[90m05:52:36:847 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs finished. ([34m4.581ms[39m)
+[[90m05:52:36:847 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:847 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.31ms[39m)
+[[90m05:52:36:847 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/testrunner.bs ] changed
+[[90m05:52:36:847 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/TestRunner.bs finished. ([34m5.40ms[39m)
+[[90m05:52:36:847 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs
+[[90m05:52:36:847 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:848 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs
+[[90m05:52:36:848 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs
+[[90m05:52:36:848 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs finished. ([34m0.216ms[39m)
+[[90m05:52:36:848 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs
+[[90m05:52:36:848 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs finished. ([34m0.72ms[39m)
+[[90m05:52:36:848 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs
+[[90m05:52:36:849 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs finished. ([34m0.534ms[39m)
+[[90m05:52:36:849 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs finished. ([34m1.164ms[39m)
+[[90m05:52:36:849 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:849 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.31ms[39m)
+[[90m05:52:36:849 PM[39m] Scope 'source' invalidated because dependency graph said [ source/rooibos/utils.bs ] changed
+[[90m05:52:36:849 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/rooibos/Utils.bs finished. ([34m1.591ms[39m)
+[[90m05:52:36:850 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/roku_modules/rooibos_promises/Promise.xml
+[[90m05:52:36:850 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/roku_modules/rooibos_promises/Promise.xml
+[[90m05:52:36:850 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/roku_modules/rooibos_promises/Promise.xml finished. ([34m0.319ms[39m)
+[[90m05:52:36:850 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:850 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.44ms[39m)
+[[90m05:52:36:851 PM[39m] XmlFile components/roku_modules/rooibos_promises/Promise.xml clear cache because dependency graph changed
+[[90m05:52:36:851 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/roku_modules/rooibos_promises/Promise.xml finished. ([34m0.830ms[39m)
+[[90m05:52:36:852 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs
+[[90m05:52:36:852 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:852 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs
+[[90m05:52:36:852 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs
+[[90m05:52:36:854 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs finished. ([34m1.901ms[39m)
+[[90m05:52:36:854 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs
+[[90m05:52:36:855 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs finished. ([34m0.554ms[39m)
+[[90m05:52:36:855 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs
+[[90m05:52:36:858 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs finished. ([34m3.475ms[39m)
+[[90m05:52:36:860 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs finished. ([34m7.637ms[39m)
+[[90m05:52:36:860 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:860 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.38ms[39m)
+[[90m05:52:36:860 PM[39m] Scope 'source' invalidated because dependency graph said [ source/roku_modules/rooibos_promises/promises.brs ] changed
+[[90m05:52:36:860 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.brs finished. ([34m8.94ms[39m)
+[[90m05:52:36:861 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs
+[[90m05:52:36:861 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:861 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs
+[[90m05:52:36:861 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs
+[[90m05:52:36:861 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs finished. ([34m0.475ms[39m)
+[[90m05:52:36:862 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs
+[[90m05:52:36:862 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs finished. ([34m0.128ms[39m)
+[[90m05:52:36:862 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs
+[[90m05:52:36:863 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs finished. ([34m0.804ms[39m)
+[[90m05:52:36:863 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs finished. ([34m1.999ms[39m)
+[[90m05:52:36:863 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:863 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.41ms[39m)
+[[90m05:52:36:863 PM[39m] Scope 'source' invalidated because dependency graph said [ source/roku_modules/rooibos_promises/promises.d.bs ] changed
+[[90m05:52:36:863 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/source/roku_modules/rooibos_promises/promises.d.bs finished. ([34m2.489ms[39m)
+[[90m05:52:36:863 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/RooibosScene.xml
+[[90m05:52:36:863 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/RooibosScene.xml
+[[90m05:52:36:865 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/RooibosScene.xml finished. ([34m1.538ms[39m)
+[[90m05:52:36:865 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:865 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.32ms[39m)
+[[90m05:52:36:865 PM[39m] XmlFile components/rooibos/RooibosScene.xml clear cache because dependency graph changed
+[[90m05:52:36:866 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/lib/framework/components/RooibosScene.xml finished. ([34m2.87ms[39m)
+[[90m05:52:36:866 PM[39m] rooibosPlugin afterProgramCreate finished. ([34m207.107ms[39m)
+[[90m05:52:36:866 PM[39m] Parsing files
+[[90m05:52:36:866 PM[39m] getFilePaths
+[[90m05:52:36:879 PM[39m] getFilePaths finished. ([34m13.237ms[39m)
+[[90m05:52:36:885 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:36:885 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:886 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:36:886 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:36:886 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.50ms[39m)
+[[90m05:52:36:886 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:36:886 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.45ms[39m)
+[[90m05:52:36:886 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:36:887 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.519ms[39m)
+[[90m05:52:36:887 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.986ms[39m)
+[[90m05:52:36:887 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:889 PM[39m] rooibosPlugin afterFileParse finished. ([34m2.702ms[39m)
+[[90m05:52:36:889 PM[39m] Scope 'source' invalidated because dependency graph said [ source/tests/basictests.spec.bs ] changed
+[[90m05:52:36:890 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m4.119ms[39m)
+[[90m05:52:36:890 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/BaseScreen.xml
+[[90m05:52:36:890 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/BaseScreen.xml
+[[90m05:52:36:890 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/BaseScreen.xml finished. ([34m0.327ms[39m)
+[[90m05:52:36:890 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:890 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.34ms[39m)
+[[90m05:52:36:891 PM[39m] XmlFile components/BaseScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:891 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/BaseScreen.xml finished. ([34m0.777ms[39m)
+[[90m05:52:36:891 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs
+[[90m05:52:36:891 PM[39m] Scope 'source' invalidated because dependency graph said [ scope:source ] changed
+[[90m05:52:36:891 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs
+[[90m05:52:36:891 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs
+[[90m05:52:36:891 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs finished. ([34m0.273ms[39m)
+[[90m05:52:36:891 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs
+[[90m05:52:36:891 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs finished. ([34m0.22ms[39m)
+[[90m05:52:36:891 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs
+[[90m05:52:36:892 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs finished. ([34m0.405ms[39m)
+[[90m05:52:36:892 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs finished. ([34m1.120ms[39m)
+[[90m05:52:36:892 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:892 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:892 PM[39m] Scope 'source' invalidated because dependency graph said [ source/main.brs ] changed
+[[90m05:52:36:892 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/main.brs finished. ([34m1.490ms[39m)
+[[90m05:52:36:892 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs
+[[90m05:52:36:892 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs
+[[90m05:52:36:893 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs
+[[90m05:52:36:894 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs finished. ([34m1.194ms[39m)
+[[90m05:52:36:894 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs
+[[90m05:52:36:894 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs finished. ([34m0.139ms[39m)
+[[90m05:52:36:894 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs
+[[90m05:52:36:896 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs finished. ([34m1.832ms[39m)
+[[90m05:52:36:897 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs finished. ([34m3.996ms[39m)
+[[90m05:52:36:897 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:897 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.35ms[39m)
+[[90m05:52:36:897 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.brs finished. ([34m4.289ms[39m)
+[[90m05:52:36:897 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs
+[[90m05:52:36:897 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs
+[[90m05:52:36:897 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs
+[[90m05:52:36:897 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs finished. ([34m0.75ms[39m)
+[[90m05:52:36:897 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs
+[[90m05:52:36:897 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs finished. ([34m0.17ms[39m)
+[[90m05:52:36:897 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs
+[[90m05:52:36:898 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs finished. ([34m0.180ms[39m)
+[[90m05:52:36:898 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs finished. ([34m0.596ms[39m)
+[[90m05:52:36:898 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:898 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.51ms[39m)
+[[90m05:52:36:898 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ScreenManager.brs finished. ([34m0.876ms[39m)
+[[90m05:52:36:898 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.xml
+[[90m05:52:36:898 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.xml
+[[90m05:52:36:899 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.xml finished. ([34m0.562ms[39m)
+[[90m05:52:36:899 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:899 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.32ms[39m)
+[[90m05:52:36:899 PM[39m] XmlFile components/MainScene.xml clear cache because dependency graph changed
+[[90m05:52:36:899 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MainScene.xml finished. ([34m1.49ms[39m)
+[[90m05:52:36:899 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.xml
+[[90m05:52:36:899 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.xml
+[[90m05:52:36:900 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.xml finished. ([34m0.540ms[39m)
+[[90m05:52:36:900 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:900 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.27ms[39m)
+[[90m05:52:36:900 PM[39m] XmlFile components/MuxTask.xml clear cache because dependency graph changed
+[[90m05:52:36:900 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.xml finished. ([34m0.908ms[39m)
+[[90m05:52:36:900 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs
+[[90m05:52:36:900 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs
+[[90m05:52:36:900 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs
+[[90m05:52:36:909 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs finished. ([34m8.375ms[39m)
+[[90m05:52:36:910 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs
+[[90m05:52:36:911 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs finished. ([34m1.567ms[39m)
+[[90m05:52:36:912 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs
+[[90m05:52:36:932 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs finished. ([34m20.621ms[39m)
+[[90m05:52:36:935 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs finished. ([34m34.795ms[39m)
+[[90m05:52:36:935 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:935 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.46ms[39m)
+[[90m05:52:36:935 PM[39m] XmlFile components/MuxTask.xml clear cache because dependency graph changed
+[[90m05:52:36:935 PM[39m] Scope 'components/MuxTask.xml' invalidated because dependency graph said [ components/muxtask.brs ] changed
+[[90m05:52:36:936 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/MuxTask.brs finished. ([34m35.271ms[39m)
+[[90m05:52:36:936 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs
+[[90m05:52:36:936 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs
+[[90m05:52:36:936 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs
+[[90m05:52:36:936 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs finished. ([34m0.166ms[39m)
+[[90m05:52:36:936 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs
+[[90m05:52:36:936 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs finished. ([34m0.29ms[39m)
+[[90m05:52:36:936 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs
+[[90m05:52:36:937 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs finished. ([34m0.315ms[39m)
+[[90m05:52:36:937 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs finished. ([34m0.911ms[39m)
+[[90m05:52:36:937 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:937 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.31ms[39m)
+[[90m05:52:36:937 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.brs finished. ([34m1.205ms[39m)
+[[90m05:52:36:937 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs
+[[90m05:52:36:937 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs
+[[90m05:52:36:937 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs
+[[90m05:52:36:938 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs finished. ([34m0.282ms[39m)
+[[90m05:52:36:938 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs
+[[90m05:52:36:938 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs finished. ([34m0.31ms[39m)
+[[90m05:52:36:938 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs
+[[90m05:52:36:938 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs finished. ([34m0.402ms[39m)
+[[90m05:52:36:938 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs finished. ([34m1.135ms[39m)
+[[90m05:52:36:938 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:938 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.29ms[39m)
+[[90m05:52:36:939 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.brs finished. ([34m1.410ms[39m)
+[[90m05:52:36:939 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.xml
+[[90m05:52:36:939 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.xml
+[[90m05:52:36:939 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.xml finished. ([34m0.295ms[39m)
+[[90m05:52:36:939 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:939 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:939 PM[39m] XmlFile components/TTSTask.xml clear cache because dependency graph changed
+[[90m05:52:36:939 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/TTSTask.xml finished. ([34m0.771ms[39m)
+[[90m05:52:36:940 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs
+[[90m05:52:36:940 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs
+[[90m05:52:36:940 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs
+[[90m05:52:36:940 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs finished. ([34m0.341ms[39m)
+[[90m05:52:36:940 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs
+[[90m05:52:36:940 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs finished. ([34m0.43ms[39m)
+[[90m05:52:36:940 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs
+[[90m05:52:36:941 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs finished. ([34m0.632ms[39m)
+[[90m05:52:36:941 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs finished. ([34m1.549ms[39m)
+[[90m05:52:36:941 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:941 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.39ms[39m)
+[[90m05:52:36:941 PM[39m] XmlFile components/BaseScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:942 PM[39m] Scope 'components/BaseScreen.xml' invalidated because dependency graph said [ components/utils.brs ] changed
+[[90m05:52:36:942 PM[39m] XmlFile components/MainScene.xml clear cache because dependency graph changed
+[[90m05:52:36:942 PM[39m] Scope 'components/MainScene.xml' invalidated because dependency graph said [ components/utils.brs ] changed
+[[90m05:52:36:942 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/utils.brs finished. ([34m2.72ms[39m)
+[[90m05:52:36:942 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.xml
+[[90m05:52:36:942 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.xml
+[[90m05:52:36:942 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.xml finished. ([34m0.462ms[39m)
+[[90m05:52:36:942 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:943 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.32ms[39m)
+[[90m05:52:36:943 PM[39m] XmlFile components/Toast.xml clear cache because dependency graph changed
+[[90m05:52:36:943 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Toast.xml finished. ([34m0.927ms[39m)
+[[90m05:52:36:943 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs
+[[90m05:52:36:943 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs
+[[90m05:52:36:943 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs
+[[90m05:52:36:943 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs finished. ([34m0.92ms[39m)
+[[90m05:52:36:943 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs
+[[90m05:52:36:943 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs finished. ([34m0.16ms[39m)
+[[90m05:52:36:943 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs
+[[90m05:52:36:944 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs finished. ([34m0.175ms[39m)
+[[90m05:52:36:944 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs finished. ([34m0.636ms[39m)
+[[90m05:52:36:944 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:944 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.37ms[39m)
+[[90m05:52:36:944 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/MuxModel.brs finished. ([34m0.940ms[39m)
+[[90m05:52:36:944 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs
+[[90m05:52:36:944 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs
+[[90m05:52:36:944 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs
+[[90m05:52:36:944 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs finished. ([34m0.149ms[39m)
+[[90m05:52:36:944 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs
+[[90m05:52:36:944 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs finished. ([34m0.23ms[39m)
+[[90m05:52:36:945 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs
+[[90m05:52:36:945 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs finished. ([34m0.306ms[39m)
+[[90m05:52:36:945 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs finished. ([34m0.876ms[39m)
+[[90m05:52:36:945 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:945 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.32ms[39m)
+[[90m05:52:36:945 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/BookmarkModel.brs finished. ([34m1.148ms[39m)
+[[90m05:52:36:945 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs
+[[90m05:52:36:945 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs
+[[90m05:52:36:945 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs
+[[90m05:52:36:946 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs finished. ([34m0.85ms[39m)
+[[90m05:52:36:946 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs
+[[90m05:52:36:946 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs finished. ([34m0.17ms[39m)
+[[90m05:52:36:946 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs
+[[90m05:52:36:946 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs finished. ([34m0.209ms[39m)
+[[90m05:52:36:946 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs finished. ([34m0.679ms[39m)
+[[90m05:52:36:946 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:946 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.29ms[39m)
+[[90m05:52:36:946 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/Models/WatchLaterModel.brs finished. ([34m0.945ms[39m)
+[[90m05:52:36:946 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.xml
+[[90m05:52:36:947 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.xml
+[[90m05:52:36:947 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.xml finished. ([34m0.630ms[39m)
+[[90m05:52:36:947 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:947 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:948 PM[39m] XmlFile components/UIComponents/UICarousel.xml clear cache because dependency graph changed
+[[90m05:52:36:948 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.xml finished. ([34m1.169ms[39m)
+[[90m05:52:36:948 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs
+[[90m05:52:36:948 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs
+[[90m05:52:36:948 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs
+[[90m05:52:36:948 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs finished. ([34m0.511ms[39m)
+[[90m05:52:36:949 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs
+[[90m05:52:36:949 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs finished. ([34m0.104ms[39m)
+[[90m05:52:36:949 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs
+[[90m05:52:36:950 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs finished. ([34m1.483ms[39m)
+[[90m05:52:36:951 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs finished. ([34m2.838ms[39m)
+[[90m05:52:36:951 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:951 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.63ms[39m)
+[[90m05:52:36:951 PM[39m] XmlFile components/UIComponents/UICarousel.xml clear cache because dependency graph changed
+[[90m05:52:36:951 PM[39m] Scope 'components/UIComponents/UICarousel.xml' invalidated because dependency graph said [ components/uicomponents/uicarousel.brs ] changed
+[[90m05:52:36:951 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UICarousel.brs finished. ([34m3.273ms[39m)
+[[90m05:52:36:951 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.xml
+[[90m05:52:36:951 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.xml
+[[90m05:52:36:952 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.xml finished. ([34m0.332ms[39m)
+[[90m05:52:36:952 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:952 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:952 PM[39m] XmlFile components/UIComponents/UIHeroPreview.xml clear cache because dependency graph changed
+[[90m05:52:36:952 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.xml finished. ([34m0.706ms[39m)
+[[90m05:52:36:952 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.xml
+[[90m05:52:36:952 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.xml
+[[90m05:52:36:953 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.xml finished. ([34m0.465ms[39m)
+[[90m05:52:36:953 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:953 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:953 PM[39m] XmlFile components/UIComponents/UIRowListItem.xml clear cache because dependency graph changed
+[[90m05:52:36:953 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.xml finished. ([34m0.820ms[39m)
+[[90m05:52:36:953 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs
+[[90m05:52:36:953 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs
+[[90m05:52:36:953 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs
+[[90m05:52:36:954 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs finished. ([34m0.388ms[39m)
+[[90m05:52:36:954 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs
+[[90m05:52:36:954 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs finished. ([34m0.56ms[39m)
+[[90m05:52:36:954 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs
+[[90m05:52:36:955 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs finished. ([34m0.725ms[39m)
+[[90m05:52:36:955 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs finished. ([34m1.570ms[39m)
+[[90m05:52:36:955 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:955 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.42ms[39m)
+[[90m05:52:36:955 PM[39m] XmlFile components/UIComponents/UIRowListItem.xml clear cache because dependency graph changed
+[[90m05:52:36:955 PM[39m] Scope 'components/UIComponents/UIRowListItem.xml' invalidated because dependency graph said [ components/uicomponents/uirowlistitem.brs ] changed
+[[90m05:52:36:955 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIRowListItem.brs finished. ([34m2.5ms[39m)
+[[90m05:52:36:955 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs
+[[90m05:52:36:955 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs
+[[90m05:52:36:955 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs
+[[90m05:52:36:955 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs finished. ([34m0.75ms[39m)
+[[90m05:52:36:955 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs
+[[90m05:52:36:955 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs finished. ([34m0.21ms[39m)
+[[90m05:52:36:956 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs
+[[90m05:52:36:956 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs finished. ([34m0.246ms[39m)
+[[90m05:52:36:956 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs finished. ([34m0.638ms[39m)
+[[90m05:52:36:956 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:956 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.29ms[39m)
+[[90m05:52:36:956 PM[39m] XmlFile components/UIComponents/UIHeroPreview.xml clear cache because dependency graph changed
+[[90m05:52:36:956 PM[39m] Scope 'components/UIComponents/UIHeroPreview.xml' invalidated because dependency graph said [ components/uicomponents/uiheropreview.brs ] changed
+[[90m05:52:36:956 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIHeroPreview.brs finished. ([34m0.960ms[39m)
+[[90m05:52:36:956 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs
+[[90m05:52:36:956 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs
+[[90m05:52:36:956 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs
+[[90m05:52:36:957 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs finished. ([34m0.72ms[39m)
+[[90m05:52:36:957 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs
+[[90m05:52:36:957 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs finished. ([34m0.19ms[39m)
+[[90m05:52:36:957 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs
+[[90m05:52:36:957 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs finished. ([34m0.178ms[39m)
+[[90m05:52:36:957 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs finished. ([34m0.567ms[39m)
+[[90m05:52:36:957 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:957 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.50ms[39m)
+[[90m05:52:36:957 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.brs finished. ([34m0.842ms[39m)
+[[90m05:52:36:957 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.xml
+[[90m05:52:36:957 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.xml
+[[90m05:52:36:958 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.xml finished. ([34m0.163ms[39m)
+[[90m05:52:36:958 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:958 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:958 PM[39m] XmlFile components/UIComponents/UIrowTitle.xml clear cache because dependency graph changed
+[[90m05:52:36:958 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIrowTitle.xml finished. ([34m0.497ms[39m)
+[[90m05:52:36:958 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs
+[[90m05:52:36:958 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs
+[[90m05:52:36:958 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs
+[[90m05:52:36:958 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs finished. ([34m0.85ms[39m)
+[[90m05:52:36:958 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs
+[[90m05:52:36:958 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs finished. ([34m0.18ms[39m)
+[[90m05:52:36:958 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs
+[[90m05:52:36:959 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs finished. ([34m0.210ms[39m)
+[[90m05:52:36:959 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs finished. ([34m0.592ms[39m)
+[[90m05:52:36:959 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:959 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:959 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/DetailViewModel.brs finished. ([34m0.840ms[39m)
+[[90m05:52:36:959 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.xml
+[[90m05:52:36:959 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.xml
+[[90m05:52:36:959 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.xml finished. ([34m0.199ms[39m)
+[[90m05:52:36:959 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:959 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.25ms[39m)
+[[90m05:52:36:959 PM[39m] XmlFile components/UIComponents/UIShimmerScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:959 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.xml finished. ([34m0.553ms[39m)
+[[90m05:52:36:960 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs
+[[90m05:52:36:960 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs
+[[90m05:52:36:960 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs
+[[90m05:52:36:960 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs finished. ([34m0.516ms[39m)
+[[90m05:52:36:960 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs
+[[90m05:52:36:960 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs finished. ([34m0.61ms[39m)
+[[90m05:52:36:960 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs
+[[90m05:52:36:961 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs finished. ([34m0.876ms[39m)
+[[90m05:52:36:962 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs finished. ([34m1.932ms[39m)
+[[90m05:52:36:962 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:962 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:962 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.brs finished. ([34m2.181ms[39m)
+[[90m05:52:36:962 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs
+[[90m05:52:36:962 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs
+[[90m05:52:36:962 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs
+[[90m05:52:36:962 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs finished. ([34m0.149ms[39m)
+[[90m05:52:36:962 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs
+[[90m05:52:36:962 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs finished. ([34m0.24ms[39m)
+[[90m05:52:36:962 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs
+[[90m05:52:36:963 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs finished. ([34m0.297ms[39m)
+[[90m05:52:36:963 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs finished. ([34m0.835ms[39m)
+[[90m05:52:36:963 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:963 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.37ms[39m)
+[[90m05:52:36:963 PM[39m] XmlFile components/UIComponents/UIShimmerScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:963 PM[39m] Scope 'components/UIComponents/UIShimmerScreen.xml' invalidated because dependency graph said [ components/uicomponents/uishimmerscreen.brs ] changed
+[[90m05:52:36:963 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/UIComponents/UIShimmerScreen.brs finished. ([34m1.198ms[39m)
+[[90m05:52:36:963 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs
+[[90m05:52:36:963 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs
+[[90m05:52:36:963 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs
+[[90m05:52:36:964 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs finished. ([34m0.680ms[39m)
+[[90m05:52:36:964 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs
+[[90m05:52:36:964 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs finished. ([34m0.90ms[39m)
+[[90m05:52:36:964 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs
+[[90m05:52:36:965 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs finished. ([34m1.14ms[39m)
+[[90m05:52:36:966 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs finished. ([34m2.338ms[39m)
+[[90m05:52:36:966 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:966 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.36ms[39m)
+[[90m05:52:36:966 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.brs finished. ([34m2.643ms[39m)
+[[90m05:52:36:966 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.xml
+[[90m05:52:36:966 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.xml
+[[90m05:52:36:966 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.xml finished. ([34m0.198ms[39m)
+[[90m05:52:36:966 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:966 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.25ms[39m)
+[[90m05:52:36:967 PM[39m] XmlFile components/ViewModel/HomeScreenViewModel.xml clear cache because dependency graph changed
+[[90m05:52:36:967 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/HomeScreenViewModel.xml finished. ([34m0.534ms[39m)
+[[90m05:52:36:967 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.xml
+[[90m05:52:36:967 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.xml
+[[90m05:52:36:967 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.xml finished. ([34m0.162ms[39m)
+[[90m05:52:36:967 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:967 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.24ms[39m)
+[[90m05:52:36:967 PM[39m] XmlFile components/ViewModel/MovieViewModel.xml clear cache because dependency graph changed
+[[90m05:52:36:967 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/MovieViewModel.xml finished. ([34m0.482ms[39m)
+[[90m05:52:36:967 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.xml
+[[90m05:52:36:967 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.xml
+[[90m05:52:36:968 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.xml finished. ([34m0.135ms[39m)
+[[90m05:52:36:968 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:968 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.23ms[39m)
+[[90m05:52:36:968 PM[39m] XmlFile components/ViewModel/SearchViewModel.xml clear cache because dependency graph changed
+[[90m05:52:36:968 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.xml finished. ([34m0.432ms[39m)
+[[90m05:52:36:968 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs
+[[90m05:52:36:968 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs
+[[90m05:52:36:968 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs
+[[90m05:52:36:968 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs finished. ([34m0.259ms[39m)
+[[90m05:52:36:968 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs
+[[90m05:52:36:968 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs finished. ([34m0.36ms[39m)
+[[90m05:52:36:968 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs
+[[90m05:52:36:969 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs finished. ([34m0.492ms[39m)
+[[90m05:52:36:969 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs finished. ([34m1.142ms[39m)
+[[90m05:52:36:969 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:969 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.25ms[39m)
+[[90m05:52:36:969 PM[39m] XmlFile components/ViewModel/SearchViewModel.xml clear cache because dependency graph changed
+[[90m05:52:36:969 PM[39m] Scope 'components/ViewModel/SearchViewModel.xml' invalidated because dependency graph said [ components/viewmodel/searchviewmodel.brs ] changed
+[[90m05:52:36:969 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SearchViewModel.brs finished. ([34m1.443ms[39m)
+[[90m05:52:36:969 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs
+[[90m05:52:36:970 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs
+[[90m05:52:36:970 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs
+[[90m05:52:36:970 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs finished. ([34m0.135ms[39m)
+[[90m05:52:36:970 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs
+[[90m05:52:36:970 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs finished. ([34m0.22ms[39m)
+[[90m05:52:36:970 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs
+[[90m05:52:36:970 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs finished. ([34m0.248ms[39m)
+[[90m05:52:36:970 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs finished. ([34m0.692ms[39m)
+[[90m05:52:36:970 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:970 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.24ms[39m)
+[[90m05:52:36:970 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/VideoPlayerViewModel.brs finished. ([34m0.906ms[39m)
+[[90m05:52:36:970 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs
+[[90m05:52:36:971 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs
+[[90m05:52:36:971 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs
+[[90m05:52:36:971 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs finished. ([34m0.244ms[39m)
+[[90m05:52:36:971 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs
+[[90m05:52:36:971 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs finished. ([34m0.35ms[39m)
+[[90m05:52:36:971 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs
+[[90m05:52:36:972 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs finished. ([34m0.556ms[39m)
+[[90m05:52:36:972 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs finished. ([34m1.177ms[39m)
+[[90m05:52:36:972 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:972 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:972 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.brs finished. ([34m1.457ms[39m)
+[[90m05:52:36:972 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs
+[[90m05:52:36:972 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs
+[[90m05:52:36:972 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs
+[[90m05:52:36:973 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs finished. ([34m0.252ms[39m)
+[[90m05:52:36:973 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs
+[[90m05:52:36:973 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs finished. ([34m0.32ms[39m)
+[[90m05:52:36:973 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs
+[[90m05:52:36:973 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs finished. ([34m0.400ms[39m)
+[[90m05:52:36:973 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs finished. ([34m1.75ms[39m)
+[[90m05:52:36:973 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:973 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.29ms[39m)
+[[90m05:52:36:973 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/WatchLaterViewModel.brs finished. ([34m1.322ms[39m)
+[[90m05:52:36:974 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.xml
+[[90m05:52:36:974 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.xml
+[[90m05:52:36:974 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.xml finished. ([34m0.191ms[39m)
+[[90m05:52:36:974 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:974 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:36:974 PM[39m] XmlFile components/ViewModel/SettingsViewModel.xml clear cache because dependency graph changed
+[[90m05:52:36:974 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/ViewModel/SettingsViewModel.xml finished. ([34m0.536ms[39m)
+[[90m05:52:36:974 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs
+[[90m05:52:36:974 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs
+[[90m05:52:36:974 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs
+[[90m05:52:36:975 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs finished. ([34m0.505ms[39m)
+[[90m05:52:36:975 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs
+[[90m05:52:36:975 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs finished. ([34m0.61ms[39m)
+[[90m05:52:36:975 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs
+[[90m05:52:36:976 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs finished. ([34m0.832ms[39m)
+[[90m05:52:36:976 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs finished. ([34m1.880ms[39m)
+[[90m05:52:36:976 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:976 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.31ms[39m)
+[[90m05:52:36:976 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.brs finished. ([34m2.128ms[39m)
+[[90m05:52:36:977 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs
+[[90m05:52:36:977 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs
+[[90m05:52:36:977 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs
+[[90m05:52:36:977 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs finished. ([34m0.259ms[39m)
+[[90m05:52:36:977 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs
+[[90m05:52:36:977 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs finished. ([34m0.36ms[39m)
+[[90m05:52:36:977 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs
+[[90m05:52:36:978 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs finished. ([34m0.534ms[39m)
+[[90m05:52:36:978 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs finished. ([34m1.193ms[39m)
+[[90m05:52:36:978 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:978 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.28ms[39m)
+[[90m05:52:36:978 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.brs finished. ([34m1.432ms[39m)
+[[90m05:52:36:978 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.xml
+[[90m05:52:36:978 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.xml
+[[90m05:52:36:979 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.xml finished. ([34m0.381ms[39m)
+[[90m05:52:36:979 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:979 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.25ms[39m)
+[[90m05:52:36:979 PM[39m] XmlFile components/screens/DetailScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:979 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/DetailScreen.xml finished. ([34m0.713ms[39m)
+[[90m05:52:36:979 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.xml
+[[90m05:52:36:979 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.xml
+[[90m05:52:36:979 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.xml finished. ([34m0.175ms[39m)
+[[90m05:52:36:979 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:979 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.25ms[39m)
+[[90m05:52:36:979 PM[39m] XmlFile components/screens/SettingsScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:979 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SettingsScreen.xml finished. ([34m0.498ms[39m)
+[[90m05:52:36:980 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs
+[[90m05:52:36:980 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs
+[[90m05:52:36:980 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs
+[[90m05:52:36:986 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs finished. ([34m6.158ms[39m)
+[[90m05:52:36:986 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs
+[[90m05:52:36:986 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs finished. ([34m0.57ms[39m)
+[[90m05:52:36:986 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs
+[[90m05:52:36:987 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs finished. ([34m0.847ms[39m)
+[[90m05:52:36:987 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs finished. ([34m7.669ms[39m)
+[[90m05:52:36:987 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:987 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.45ms[39m)
+[[90m05:52:36:988 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.brs finished. ([34m7.966ms[39m)
+[[90m05:52:36:988 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.xml
+[[90m05:52:36:988 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.xml
+[[90m05:52:36:988 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.xml finished. ([34m0.237ms[39m)
+[[90m05:52:36:988 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:988 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.33ms[39m)
+[[90m05:52:36:988 PM[39m] XmlFile components/screens/VideoPlayer.xml clear cache because dependency graph changed
+[[90m05:52:36:988 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/VideoPlayer.xml finished. ([34m0.632ms[39m)
+[[90m05:52:36:988 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs
+[[90m05:52:36:989 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs
+[[90m05:52:36:989 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs
+[[90m05:52:36:989 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs finished. ([34m0.574ms[39m)
+[[90m05:52:36:989 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs
+[[90m05:52:36:989 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs finished. ([34m0.82ms[39m)
+[[90m05:52:36:990 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs
+[[90m05:52:36:991 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs finished. ([34m1.154ms[39m)
+[[90m05:52:36:991 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs finished. ([34m2.353ms[39m)
+[[90m05:52:36:991 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:991 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.36ms[39m)
+[[90m05:52:36:991 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.brs finished. ([34m2.628ms[39m)
+[[90m05:52:36:991 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.xml
+[[90m05:52:36:991 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.xml
+[[90m05:52:36:992 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.xml finished. ([34m0.262ms[39m)
+[[90m05:52:36:992 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:992 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.33ms[39m)
+[[90m05:52:36:992 PM[39m] XmlFile components/sidebar/SideBar.xml clear cache because dependency graph changed
+[[90m05:52:36:992 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBar.xml finished. ([34m0.660ms[39m)
+[[90m05:52:36:992 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs
+[[90m05:52:36:992 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs
+[[90m05:52:36:992 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs
+[[90m05:52:36:992 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs finished. ([34m0.102ms[39m)
+[[90m05:52:36:992 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs
+[[90m05:52:36:992 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs finished. ([34m0.24ms[39m)
+[[90m05:52:36:992 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs
+[[90m05:52:36:993 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs finished. ([34m0.245ms[39m)
+[[90m05:52:36:993 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs finished. ([34m0.654ms[39m)
+[[90m05:52:36:993 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:993 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.27ms[39m)
+[[90m05:52:36:993 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.brs finished. ([34m0.886ms[39m)
+[[90m05:52:36:993 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.xml
+[[90m05:52:36:993 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.xml
+[[90m05:52:36:993 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.xml finished. ([34m0.150ms[39m)
+[[90m05:52:36:993 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:993 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.24ms[39m)
+[[90m05:52:36:994 PM[39m] XmlFile components/sidebar/SideBarItem.xml clear cache because dependency graph changed
+[[90m05:52:36:994 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/sidebar/SideBarItem.xml finished. ([34m0.447ms[39m)
+[[90m05:52:36:994 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs
+[[90m05:52:36:994 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs
+[[90m05:52:36:994 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs
+[[90m05:52:36:994 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs finished. ([34m0.445ms[39m)
+[[90m05:52:36:994 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs
+[[90m05:52:36:995 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs finished. ([34m0.61ms[39m)
+[[90m05:52:36:995 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs
+[[90m05:52:36:996 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs finished. ([34m0.863ms[39m)
+[[90m05:52:36:996 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs finished. ([34m1.933ms[39m)
+[[90m05:52:36:996 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:996 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:996 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.brs finished. ([34m2.234ms[39m)
+[[90m05:52:36:996 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.xml
+[[90m05:52:36:996 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.xml
+[[90m05:52:36:996 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.xml finished. ([34m0.291ms[39m)
+[[90m05:52:36:997 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:997 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.28ms[39m)
+[[90m05:52:36:997 PM[39m] XmlFile components/screens/SearchScreen/SearchScreen.xml clear cache because dependency graph changed
+[[90m05:52:36:997 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/SearchScreen/SearchScreen.xml finished. ([34m0.665ms[39m)
+[[90m05:52:36:997 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs
+[[90m05:52:36:997 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs
+[[90m05:52:36:997 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs
+[[90m05:52:36:997 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs finished. ([34m0.326ms[39m)
+[[90m05:52:36:998 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs
+[[90m05:52:36:998 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs finished. ([34m0.49ms[39m)
+[[90m05:52:36:998 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs
+[[90m05:52:36:998 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs finished. ([34m0.692ms[39m)
+[[90m05:52:36:999 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs finished. ([34m1.454ms[39m)
+[[90m05:52:36:999 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:999 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:999 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.brs finished. ([34m1.720ms[39m)
+[[90m05:52:36:999 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.xml
+[[90m05:52:36:999 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.xml
+[[90m05:52:36:999 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.xml finished. ([34m0.215ms[39m)
+[[90m05:52:36:999 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:36:999 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:36:999 PM[39m] XmlFile components/screens/WatchLater/WatchlaterScreen.xml clear cache because dependency graph changed
+[[90m05:52:37:000 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/WatchLater/WatchlaterScreen.xml finished. ([34m0.618ms[39m)
+[[90m05:52:37:000 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs
+[[90m05:52:37:000 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs
+[[90m05:52:37:000 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs
+[[90m05:52:37:001 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs finished. ([34m0.959ms[39m)
+[[90m05:52:37:001 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs
+[[90m05:52:37:001 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs finished. ([34m0.139ms[39m)
+[[90m05:52:37:001 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs
+[[90m05:52:37:003 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs finished. ([34m1.716ms[39m)
+[[90m05:52:37:003 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs finished. ([34m3.466ms[39m)
+[[90m05:52:37:003 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:37:003 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.30ms[39m)
+[[90m05:52:37:003 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.brs finished. ([34m3.714ms[39m)
+[[90m05:52:37:004 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs
+[[90m05:52:37:004 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs
+[[90m05:52:37:004 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs
+[[90m05:52:37:004 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs finished. ([34m0.342ms[39m)
+[[90m05:52:37:004 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs
+[[90m05:52:37:004 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs finished. ([34m0.45ms[39m)
+[[90m05:52:37:004 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs
+[[90m05:52:37:005 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs finished. ([34m0.836ms[39m)
+[[90m05:52:37:005 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs finished. ([34m1.652ms[39m)
+[[90m05:52:37:005 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:37:005 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.33ms[39m)
+[[90m05:52:37:005 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.brs finished. ([34m1.912ms[39m)
+[[90m05:52:37:006 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.xml
+[[90m05:52:37:006 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.xml
+[[90m05:52:37:006 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.xml finished. ([34m0.324ms[39m)
+[[90m05:52:37:006 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:37:006 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:37:006 PM[39m] XmlFile components/screens/MovieScreen/MovieScreen.xml clear cache because dependency graph changed
+[[90m05:52:37:006 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/MovieScreen/MovieScreen.xml finished. ([34m0.660ms[39m)
+[[90m05:52:37:006 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.xml
+[[90m05:52:37:006 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.xml
+[[90m05:52:37:008 PM[39m] parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.xml finished. ([34m1.71ms[39m)
+[[90m05:52:37:008 PM[39m] rooibosPlugin afterFileParse
+[[90m05:52:37:008 PM[39m] rooibosPlugin afterFileParse finished. ([34m0.26ms[39m)
+[[90m05:52:37:008 PM[39m] XmlFile components/screens/HomeScreen/HomeScreen.xml clear cache because dependency graph changed
+[[90m05:52:37:008 PM[39m] Program.setFile() /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/components/screens/HomeScreen/HomeScreen.xml finished. ([34m1.457ms[39m)
+[[90m05:52:37:008 PM[39m] Parsing files finished. ([34m142.106ms[39m)
+[[90m05:52:37:008 PM[39m] Validating project
+[[90m05:52:37:009 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:011 PM[39m] BscPlugin onFileValidate finished. ([34m1.767ms[39m)
+[[90m05:52:37:011 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:011 PM[39m] BscPlugin onFileValidate finished. ([34m0.224ms[39m)
+[[90m05:52:37:011 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:011 PM[39m] BscPlugin onFileValidate finished. ([34m0.200ms[39m)
+[[90m05:52:37:012 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:012 PM[39m] BscPlugin onFileValidate finished. ([34m0.17ms[39m)
+[[90m05:52:37:012 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:012 PM[39m] BscPlugin onFileValidate finished. ([34m0.440ms[39m)
+[[90m05:52:37:012 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:018 PM[39m] BscPlugin onFileValidate finished. ([34m5.792ms[39m)
+[[90m05:52:37:018 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:018 PM[39m] BscPlugin onFileValidate finished. ([34m0.158ms[39m)
+[[90m05:52:37:018 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:020 PM[39m] BscPlugin onFileValidate finished. ([34m1.427ms[39m)
+[[90m05:52:37:020 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:020 PM[39m] BscPlugin onFileValidate finished. ([34m0.490ms[39m)
+[[90m05:52:37:020 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate finished. ([34m0.307ms[39m)
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate finished. ([34m0.243ms[39m)
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate finished. ([34m0.129ms[39m)
+[[90m05:52:37:021 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate finished. ([34m2.261ms[39m)
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate finished. ([34m0.182ms[39m)
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate finished. ([34m0.73ms[39m)
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate finished. ([34m0.109ms[39m)
+[[90m05:52:37:024 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:025 PM[39m] BscPlugin onFileValidate finished. ([34m0.430ms[39m)
+[[90m05:52:37:025 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:025 PM[39m] BscPlugin onFileValidate finished. ([34m0.394ms[39m)
+[[90m05:52:37:026 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:026 PM[39m] BscPlugin onFileValidate finished. ([34m0.147ms[39m)
+[[90m05:52:37:026 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:026 PM[39m] BscPlugin onFileValidate finished. ([34m0.543ms[39m)
+[[90m05:52:37:026 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:027 PM[39m] BscPlugin onFileValidate finished. ([34m0.121ms[39m)
+[[90m05:52:37:027 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:027 PM[39m] BscPlugin onFileValidate finished. ([34m0.22ms[39m)
+[[90m05:52:37:027 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.826ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.421ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.16ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.39ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.9ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate finished. ([34m0.77ms[39m)
+[[90m05:52:37:028 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate finished. ([34m0.615ms[39m)
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate finished. ([34m0.62ms[39m)
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate finished. ([34m0.13ms[39m)
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate finished. ([34m0.10ms[39m)
+[[90m05:52:37:029 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate finished. ([34m3.385ms[39m)
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate finished. ([34m0.87ms[39m)
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate finished. ([34m0.94ms[39m)
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate finished. ([34m0.12ms[39m)
+[[90m05:52:37:033 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.173ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.26ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.58ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.70ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.41ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.26ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate finished. ([34m0.236ms[39m)
+[[90m05:52:37:034 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.6ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.176ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.43ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.37ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.6ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.41ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate finished. ([34m0.6ms[39m)
+[[90m05:52:37:035 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.225ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.67ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.196ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.13ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.6ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.5ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.125ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate finished. ([34m0.60ms[39m)
+[[90m05:52:37:036 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.107ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.81ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.188ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.124ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate finished. ([34m0.13ms[39m)
+[[90m05:52:37:037 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.184ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.15ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.283ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.54ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:038 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate finished. ([34m0.251ms[39m)
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate finished. ([34m0.7ms[39m)
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate finished. ([34m0.206ms[39m)
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate finished. ([34m0.8ms[39m)
+[[90m05:52:37:039 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate finished. ([34m0.495ms[39m)
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate finished. ([34m0.181ms[39m)
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate finished. ([34m0.8ms[39m)
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate
+[[90m05:52:37:040 PM[39m] BscPlugin onFileValidate finished. ([34m0.6ms[39m)
+[[90m05:52:37:040 PM[39m] Scope 'global' validate(): already validated
+[[90m05:52:37:041 PM[39m] Scope 'components/rooibos/CodeCoverage.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:041 PM[39m] Scope 'components/rooibos/CodeCoverage.xml' validate()
+[[90m05:52:37:041 PM[39m] Scope 'components/rooibos/CodeCoverage.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:041 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:041 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:042 PM[39m] BscPlugin onScopeValidate finished. ([34m1.148ms[39m)
+[[90m05:52:37:043 PM[39m] Scope 'components/rooibos/CodeCoverage.xml' validate() finished. ([34m2.368ms[39m)
+[[90m05:52:37:043 PM[39m] Scope 'components/rooibos/RooibosNodeCreator.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:043 PM[39m] Scope 'components/rooibos/RooibosNodeCreator.xml' validate()
+[[90m05:52:37:043 PM[39m] Scope 'components/rooibos/RooibosNodeCreator.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:043 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:044 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:044 PM[39m] BscPlugin onScopeValidate finished. ([34m0.109ms[39m)
+[[90m05:52:37:044 PM[39m] Scope 'components/rooibos/RooibosNodeCreator.xml' validate() finished. ([34m0.578ms[39m)
+[[90m05:52:37:044 PM[39m] Scope 'source' getAllFiles [Function (anonymous)]
+[[90m05:52:37:047 PM[39m] Scope 'source' validate()
+[[90m05:52:37:047 PM[39m] Scope 'source' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:047 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:047 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:048 PM[39m] Scope 'source' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:049 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:090 PM[39m] BscPlugin onScopeValidate finished. ([34m42.748ms[39m)
+[[90m05:52:37:099 PM[39m] Scope 'source' validate() finished. ([34m52.329ms[39m)
+[[90m05:52:37:099 PM[39m] Scope 'components/roku_modules/rooibos_promises/Promise.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:099 PM[39m] Scope 'components/roku_modules/rooibos_promises/Promise.xml' validate()
+[[90m05:52:37:100 PM[39m] Scope 'components/roku_modules/rooibos_promises/Promise.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:100 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:100 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:100 PM[39m] BscPlugin onScopeValidate finished. ([34m0.20ms[39m)
+[[90m05:52:37:100 PM[39m] Scope 'components/roku_modules/rooibos_promises/Promise.xml' validate() finished. ([34m0.370ms[39m)
+[[90m05:52:37:100 PM[39m] Scope 'components/rooibos/RooibosScene.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:100 PM[39m] Scope 'components/rooibos/RooibosScene.xml' validate()
+[[90m05:52:37:100 PM[39m] Scope 'components/rooibos/RooibosScene.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:100 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:101 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:101 PM[39m] Scope 'components/rooibos/RooibosScene.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:101 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:123 PM[39m] BscPlugin onScopeValidate finished. ([34m21.641ms[39m)
+[[90m05:52:37:129 PM[39m] Scope 'components/rooibos/RooibosScene.xml' validate() finished. ([34m29.127ms[39m)
+[[90m05:52:37:130 PM[39m] Scope 'components/BaseScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:130 PM[39m] Scope 'components/BaseScreen.xml' validate()
+[[90m05:52:37:130 PM[39m] Scope 'components/BaseScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:130 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:130 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:130 PM[39m] BscPlugin onScopeValidate finished. ([34m0.378ms[39m)
+[[90m05:52:37:131 PM[39m] Scope 'components/BaseScreen.xml' validate() finished. ([34m0.843ms[39m)
+[[90m05:52:37:131 PM[39m] Scope 'components/MainScene.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:131 PM[39m] Scope 'components/MainScene.xml' validate()
+[[90m05:52:37:131 PM[39m] Scope 'components/MainScene.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:131 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:131 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:132 PM[39m] BscPlugin onScopeValidate finished. ([34m1.207ms[39m)
+[[90m05:52:37:133 PM[39m] Scope 'components/MainScene.xml' validate() finished. ([34m1.787ms[39m)
+[[90m05:52:37:133 PM[39m] Scope 'components/MuxTask.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:133 PM[39m] Scope 'components/MuxTask.xml' validate()
+[[90m05:52:37:133 PM[39m] Scope 'components/MuxTask.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:133 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:133 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:141 PM[39m] BscPlugin onScopeValidate finished. ([34m8.37ms[39m)
+[[90m05:52:37:142 PM[39m] Scope 'components/MuxTask.xml' validate() finished. ([34m9.218ms[39m)
+[[90m05:52:37:142 PM[39m] Scope 'components/TTSTask.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:142 PM[39m] Scope 'components/TTSTask.xml' validate()
+[[90m05:52:37:142 PM[39m] Scope 'components/TTSTask.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:142 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:142 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:143 PM[39m] BscPlugin onScopeValidate finished. ([34m0.211ms[39m)
+[[90m05:52:37:143 PM[39m] Scope 'components/TTSTask.xml' validate() finished. ([34m0.660ms[39m)
+[[90m05:52:37:143 PM[39m] Scope 'components/Toast.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:143 PM[39m] Scope 'components/Toast.xml' validate()
+[[90m05:52:37:143 PM[39m] Scope 'components/Toast.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:143 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:143 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:143 PM[39m] BscPlugin onScopeValidate finished. ([34m0.188ms[39m)
+[[90m05:52:37:144 PM[39m] Scope 'components/Toast.xml' validate() finished. ([34m0.542ms[39m)
+[[90m05:52:37:144 PM[39m] Scope 'components/UIComponents/UICarousel.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:144 PM[39m] Scope 'components/UIComponents/UICarousel.xml' validate()
+[[90m05:52:37:144 PM[39m] Scope 'components/UIComponents/UICarousel.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:144 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:144 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:145 PM[39m] BscPlugin onScopeValidate finished. ([34m0.599ms[39m)
+[[90m05:52:37:145 PM[39m] Scope 'components/UIComponents/UICarousel.xml' validate() finished. ([34m1.78ms[39m)
+[[90m05:52:37:145 PM[39m] Scope 'components/UIComponents/UIHeroPreview.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:145 PM[39m] Scope 'components/UIComponents/UIHeroPreview.xml' validate()
+[[90m05:52:37:145 PM[39m] Scope 'components/UIComponents/UIHeroPreview.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:145 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:145 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:145 PM[39m] BscPlugin onScopeValidate finished. ([34m0.227ms[39m)
+[[90m05:52:37:146 PM[39m] Scope 'components/UIComponents/UIHeroPreview.xml' validate() finished. ([34m0.555ms[39m)
+[[90m05:52:37:146 PM[39m] Scope 'components/UIComponents/UIRowListItem.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:146 PM[39m] Scope 'components/UIComponents/UIRowListItem.xml' validate()
+[[90m05:52:37:146 PM[39m] Scope 'components/UIComponents/UIRowListItem.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:146 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:146 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:146 PM[39m] BscPlugin onScopeValidate finished. ([34m0.440ms[39m)
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIRowListItem.xml' validate() finished. ([34m0.835ms[39m)
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIrowTitle.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIrowTitle.xml' validate()
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIrowTitle.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:147 PM[39m] BscPlugin onScopeValidate finished. ([34m0.82ms[39m)
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIrowTitle.xml' validate() finished. ([34m0.378ms[39m)
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIShimmerScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIShimmerScreen.xml' validate()
+[[90m05:52:37:147 PM[39m] Scope 'components/UIComponents/UIShimmerScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:147 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:148 PM[39m] BscPlugin onScopeValidate finished. ([34m0.116ms[39m)
+[[90m05:52:37:148 PM[39m] Scope 'components/UIComponents/UIShimmerScreen.xml' validate() finished. ([34m0.372ms[39m)
+[[90m05:52:37:148 PM[39m] Scope 'components/ViewModel/HomeScreenViewModel.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:148 PM[39m] Scope 'components/ViewModel/HomeScreenViewModel.xml' validate()
+[[90m05:52:37:148 PM[39m] Scope 'components/ViewModel/HomeScreenViewModel.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:148 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:148 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:149 PM[39m] BscPlugin onScopeValidate finished. ([34m0.590ms[39m)
+[[90m05:52:37:149 PM[39m] Scope 'components/ViewModel/HomeScreenViewModel.xml' validate() finished. ([34m0.958ms[39m)
+[[90m05:52:37:149 PM[39m] Scope 'components/ViewModel/MovieViewModel.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:149 PM[39m] Scope 'components/ViewModel/MovieViewModel.xml' validate()
+[[90m05:52:37:149 PM[39m] Scope 'components/ViewModel/MovieViewModel.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:149 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:149 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:150 PM[39m] BscPlugin onScopeValidate finished. ([34m0.716ms[39m)
+[[90m05:52:37:150 PM[39m] Scope 'components/ViewModel/MovieViewModel.xml' validate() finished. ([34m1.164ms[39m)
+[[90m05:52:37:150 PM[39m] Scope 'components/ViewModel/SearchViewModel.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:150 PM[39m] Scope 'components/ViewModel/SearchViewModel.xml' validate()
+[[90m05:52:37:150 PM[39m] Scope 'components/ViewModel/SearchViewModel.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:150 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:150 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:151 PM[39m] BscPlugin onScopeValidate finished. ([34m0.393ms[39m)
+[[90m05:52:37:151 PM[39m] Scope 'components/ViewModel/SearchViewModel.xml' validate() finished. ([34m0.764ms[39m)
+[[90m05:52:37:151 PM[39m] Scope 'components/ViewModel/SettingsViewModel.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:151 PM[39m] Scope 'components/ViewModel/SettingsViewModel.xml' validate()
+[[90m05:52:37:151 PM[39m] Scope 'components/ViewModel/SettingsViewModel.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:151 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:151 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:152 PM[39m] BscPlugin onScopeValidate finished. ([34m0.360ms[39m)
+[[90m05:52:37:152 PM[39m] Scope 'components/ViewModel/SettingsViewModel.xml' validate() finished. ([34m0.728ms[39m)
+[[90m05:52:37:152 PM[39m] Scope 'components/screens/DetailScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:152 PM[39m] Scope 'components/screens/DetailScreen.xml' validate()
+[[90m05:52:37:152 PM[39m] Scope 'components/screens/DetailScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:152 PM[39m] Scope 'components/BaseScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:152 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:152 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:153 PM[39m] BscPlugin onScopeValidate finished. ([34m0.521ms[39m)
+[[90m05:52:37:153 PM[39m] Scope 'components/screens/DetailScreen.xml' validate() finished. ([34m1.187ms[39m)
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/SettingsScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/SettingsScreen.xml' validate()
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/SettingsScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:154 PM[39m] Scope 'components/BaseScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:154 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:154 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:154 PM[39m] BscPlugin onScopeValidate finished. ([34m0.244ms[39m)
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/SettingsScreen.xml' validate() finished. ([34m0.678ms[39m)
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/VideoPlayer.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/VideoPlayer.xml' validate()
+[[90m05:52:37:154 PM[39m] Scope 'components/screens/VideoPlayer.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:155 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:155 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:155 PM[39m] BscPlugin onScopeValidate finished. ([34m0.756ms[39m)
+[[90m05:52:37:156 PM[39m] Scope 'components/screens/VideoPlayer.xml' validate() finished. ([34m1.210ms[39m)
+[[90m05:52:37:156 PM[39m] Scope 'components/sidebar/SideBar.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:156 PM[39m] Scope 'components/sidebar/SideBar.xml' validate()
+[[90m05:52:37:156 PM[39m] Scope 'components/sidebar/SideBar.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:156 PM[39m] Scope 'components/BaseScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:156 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:156 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:157 PM[39m] BscPlugin onScopeValidate finished. ([34m0.611ms[39m)
+[[90m05:52:37:157 PM[39m] Scope 'components/sidebar/SideBar.xml' validate() finished. ([34m1.94ms[39m)
+[[90m05:52:37:157 PM[39m] Scope 'components/sidebar/SideBarItem.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:157 PM[39m] Scope 'components/sidebar/SideBarItem.xml' validate()
+[[90m05:52:37:157 PM[39m] Scope 'components/sidebar/SideBarItem.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:157 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:157 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:157 PM[39m] BscPlugin onScopeValidate finished. ([34m0.78ms[39m)
+[[90m05:52:37:157 PM[39m] Scope 'components/sidebar/SideBarItem.xml' validate() finished. ([34m0.343ms[39m)
+[[90m05:52:37:157 PM[39m] Scope 'components/screens/SearchScreen/SearchScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:158 PM[39m] Scope 'components/screens/SearchScreen/SearchScreen.xml' validate()
+[[90m05:52:37:158 PM[39m] Scope 'components/screens/SearchScreen/SearchScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:158 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:158 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:159 PM[39m] BscPlugin onScopeValidate finished. ([34m0.667ms[39m)
+[[90m05:52:37:159 PM[39m] Scope 'components/screens/SearchScreen/SearchScreen.xml' validate() finished. ([34m1.157ms[39m)
+[[90m05:52:37:159 PM[39m] Scope 'components/screens/WatchLater/WatchlaterScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:159 PM[39m] Scope 'components/screens/WatchLater/WatchlaterScreen.xml' validate()
+[[90m05:52:37:159 PM[39m] Scope 'components/screens/WatchLater/WatchlaterScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:159 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:159 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:160 PM[39m] BscPlugin onScopeValidate finished. ([34m0.692ms[39m)
+[[90m05:52:37:160 PM[39m] Scope 'components/screens/WatchLater/WatchlaterScreen.xml' validate() finished. ([34m1.131ms[39m)
+[[90m05:52:37:160 PM[39m] Scope 'components/screens/MovieScreen/MovieScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:160 PM[39m] Scope 'components/screens/MovieScreen/MovieScreen.xml' validate()
+[[90m05:52:37:160 PM[39m] Scope 'components/screens/MovieScreen/MovieScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:160 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:160 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:161 PM[39m] BscPlugin onScopeValidate finished. ([34m0.444ms[39m)
+[[90m05:52:37:161 PM[39m] Scope 'components/screens/MovieScreen/MovieScreen.xml' validate() finished. ([34m0.804ms[39m)
+[[90m05:52:37:161 PM[39m] Scope 'components/screens/HomeScreen/HomeScreen.xml' getAllFiles [Function (anonymous)]
+[[90m05:52:37:161 PM[39m] Scope 'components/screens/HomeScreen/HomeScreen.xml' validate()
+[[90m05:52:37:161 PM[39m] Scope 'components/screens/HomeScreen/HomeScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:161 PM[39m] Scope 'components/BaseScreen.xml' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:161 PM[39m] Scope 'global' getOwnCallables() files:  [Function (anonymous)]
+[[90m05:52:37:161 PM[39m] BscPlugin onScopeValidate
+[[90m05:52:37:162 PM[39m] BscPlugin onScopeValidate finished. ([34m0.904ms[39m)
+[[90m05:52:37:163 PM[39m] Scope 'components/screens/HomeScreen/HomeScreen.xml' validate() finished. ([34m1.350ms[39m)
+[[90m05:52:37:163 PM[39m] Validating project finished. ([34m154.547ms[39m)
+[[90m05:52:37:163 PM[39m] BscPlugin afterProgramValidate
+[[90m05:52:37:164 PM[39m] BscPlugin afterProgramValidate finished. ([34m0.477ms[39m)
+[[90m05:52:37:164 PM[39m] rooibosPlugin afterProgramValidate
+[[90m05:52:37:164 PM[39m] rooibosPlugin afterProgramValidate finished. ([34m0.386ms[39m)
+[[90m05:52:37:164 PM[39m] Program.getDiagnostics()
+[[90m05:52:37:165 PM[39m] filter diagnostics
+[[90m05:52:37:165 PM[39m] filter diagnostics finished. ([34m0.336ms[39m)
+[[90m05:52:37:165 PM[39m] adjust diagnostics severity
+[[90m05:52:37:166 PM[39m] adjust diagnostics severity finished. ([34m0.155ms[39m)
+[[90m05:52:37:166 PM[39m] diagnostic counts: total=1, after filter=1
+[[90m05:52:37:166 PM[39m] Program.getDiagnostics() finished. ([34m1.461ms[39m)
+
+components/sidebar/SideBar.xml:3:43 - warning BS1009: Unnecessary script import: Script is already imported in ancestor component 'BaseScreen'.
+
+ 3      <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~    
+
+[[90m05:52:37:175 PM[39m] Copying to staging directory
+[[90m05:52:37:229 PM[39m] Copying to staging directory finished. ([34m54.562ms[39m)
+[[90m05:52:37:230 PM[39m] Transpiling
+[[90m05:52:37:231 PM[39m] rooibosPlugin beforeProgramTranspile
+[[90m05:52:37:234 PM[39m] rooibosPlugin beforeProgramTranspile finished. ([34m3.395ms[39m)
+[[90m05:52:37:235 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:235 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.66ms[39m)
+[[90m05:52:37:235 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:235 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.160ms[39m)
+[[90m05:52:37:236 PM[39m] XmlFile components/BaseScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:237 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:241 PM[39m] BscPlugin beforeFileTranspile finished. ([34m3.842ms[39m)
+[[90m05:52:37:241 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:242 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.235ms[39m)
+[[90m05:52:37:242 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:242 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:242 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:242 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:242 PM[39m] XmlFile components/MainScene.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:243 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:244 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.524ms[39m)
+[[90m05:52:37:244 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:244 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.11ms[39m)
+[[90m05:52:37:244 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:244 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.175ms[39m)
+[[90m05:52:37:244 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:244 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:244 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:245 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.235ms[39m)
+[[90m05:52:37:245 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:245 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.9ms[39m)
+[[90m05:52:37:245 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:263 PM[39m] BscPlugin beforeFileTranspile finished. ([34m17.974ms[39m)
+[[90m05:52:37:263 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:263 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.75ms[39m)
+[[90m05:52:37:264 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:264 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.5ms[39m)
+[[90m05:52:37:264 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:264 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:264 PM[39m] XmlFile components/MuxTask.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:265 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:265 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.235ms[39m)
+[[90m05:52:37:265 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:265 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.19ms[39m)
+[[90m05:52:37:265 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:266 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.551ms[39m)
+[[90m05:52:37:266 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:266 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.24ms[39m)
+[[90m05:52:37:266 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:266 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:266 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:267 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:267 PM[39m] XmlFile components/TTSTask.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:267 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:267 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.397ms[39m)
+[[90m05:52:37:267 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:267 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:268 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:268 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:268 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:268 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:268 PM[39m] XmlFile components/Toast.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:268 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:269 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.917ms[39m)
+[[90m05:52:37:269 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:269 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:270 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:270 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:270 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:270 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:270 PM[39m] XmlFile components/UIComponents/UICarousel.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:270 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:270 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.159ms[39m)
+[[90m05:52:37:270 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:270 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:271 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:271 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.1ms[39m)
+[[90m05:52:37:271 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:271 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:271 PM[39m] XmlFile components/UIComponents/UIHeroPreview.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:271 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:272 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.676ms[39m)
+[[90m05:52:37:272 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:272 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:272 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:272 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:272 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:272 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:272 PM[39m] XmlFile components/UIComponents/UIRowListItem.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:273 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:273 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.267ms[39m)
+[[90m05:52:37:273 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:273 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:273 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:273 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.1ms[39m)
+[[90m05:52:37:273 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:273 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:273 PM[39m] XmlFile components/UIComponents/UIShimmerScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:274 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:274 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.154ms[39m)
+[[90m05:52:37:274 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:274 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:274 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:274 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:274 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:274 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:274 PM[39m] XmlFile components/UIComponents/UIrowTitle.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:275 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:275 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.143ms[39m)
+[[90m05:52:37:275 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:275 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:275 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:276 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.927ms[39m)
+[[90m05:52:37:276 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:276 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:276 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:276 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:276 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:276 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:276 PM[39m] XmlFile components/ViewModel/HomeScreenViewModel.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:277 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:277 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.916ms[39m)
+[[90m05:52:37:278 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:278 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:278 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:278 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:278 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:278 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.4ms[39m)
+[[90m05:52:37:278 PM[39m] XmlFile components/ViewModel/MovieViewModel.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:278 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:279 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.427ms[39m)
+[[90m05:52:37:279 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:279 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:279 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:279 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.4ms[39m)
+[[90m05:52:37:279 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:279 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.5ms[39m)
+[[90m05:52:37:279 PM[39m] XmlFile components/ViewModel/SearchViewModel.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:280 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:280 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.565ms[39m)
+[[90m05:52:37:280 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:280 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:280 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:281 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:281 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:281 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.4ms[39m)
+[[90m05:52:37:281 PM[39m] XmlFile components/ViewModel/SettingsViewModel.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:281 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:281 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.222ms[39m)
+[[90m05:52:37:281 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:281 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:281 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:282 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.301ms[39m)
+[[90m05:52:37:282 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:282 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.5ms[39m)
+[[90m05:52:37:282 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:283 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.892ms[39m)
+[[90m05:52:37:283 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:283 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.8ms[39m)
+[[90m05:52:37:283 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:283 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:283 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:283 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:283 PM[39m] XmlFile components/screens/DetailScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:283 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:286 PM[39m] BscPlugin beforeFileTranspile finished. ([34m2.48ms[39m)
+[[90m05:52:37:286 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:286 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:286 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:286 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:286 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:286 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:286 PM[39m] XmlFile components/screens/HomeScreen/HomeScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:286 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:287 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.8ms[39m)
+[[90m05:52:37:287 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:287 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.9ms[39m)
+[[90m05:52:37:287 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:287 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:287 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:287 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:288 PM[39m] XmlFile components/screens/MovieScreen/MovieScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:288 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:289 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.262ms[39m)
+[[90m05:52:37:289 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:289 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.11ms[39m)
+[[90m05:52:37:289 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:290 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:290 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:290 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:290 PM[39m] XmlFile components/screens/SearchScreen/SearchScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:290 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:290 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.527ms[39m)
+[[90m05:52:37:291 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:291 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:291 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:291 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:291 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:291 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:291 PM[39m] XmlFile components/screens/SettingsScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:291 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:292 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.746ms[39m)
+[[90m05:52:37:292 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:292 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:292 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:292 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:292 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:292 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:292 PM[39m] XmlFile components/screens/VideoPlayer.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:292 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:293 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.655ms[39m)
+[[90m05:52:37:293 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:293 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:293 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:293 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.1ms[39m)
+[[90m05:52:37:293 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:293 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:294 PM[39m] XmlFile components/screens/WatchLater/WatchlaterScreen.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:294 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:295 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.221ms[39m)
+[[90m05:52:37:295 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:295 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:295 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:295 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:295 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:295 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:295 PM[39m] XmlFile components/sidebar/SideBar.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:296 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:296 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.189ms[39m)
+[[90m05:52:37:296 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:296 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.5ms[39m)
+[[90m05:52:37:296 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:296 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:296 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:296 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.5ms[39m)
+[[90m05:52:37:296 PM[39m] XmlFile components/sidebar/SideBarItem.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:297 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:298 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.628ms[39m)
+[[90m05:52:37:298 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:298 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:298 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:298 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.392ms[39m)
+[[90m05:52:37:298 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:298 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:298 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:299 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.344ms[39m)
+[[90m05:52:37:299 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:301 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:37:301 PM[39m] lexer.lex /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.354ms[39m)
+[[90m05:52:37:301 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:37:301 PM[39m] preprocessor.process /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.45ms[39m)
+[[90m05:52:37:301 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs
+[[90m05:52:37:302 PM[39m] parser.parse /Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/source/tests/BasicTests.spec.bs finished. ([34m0.527ms[39m)
+[[90m05:52:37:303 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m3.747ms[39m)
+[[90m05:52:37:343 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:343 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.410ms[39m)
+[[90m05:52:37:344 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:344 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.14ms[39m)
+[[90m05:52:37:344 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:344 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.4ms[39m)
+[[90m05:52:37:344 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:344 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:344 PM[39m] XmlFile components/rooibos/CodeCoverage.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:345 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:345 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.153ms[39m)
+[[90m05:52:37:345 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:346 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.12ms[39m)
+[[90m05:52:37:346 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:346 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:346 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:346 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:346 PM[39m] XmlFile components/rooibos/RooibosNodeCreator.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:347 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:347 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.254ms[39m)
+[[90m05:52:37:347 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:347 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:350 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:387 PM[39m] BscPlugin beforeFileTranspile finished. ([34m37.272ms[39m)
+[[90m05:52:37:387 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:387 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.13ms[39m)
+[[90m05:52:37:440 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:441 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.502ms[39m)
+[[90m05:52:37:441 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:441 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.16ms[39m)
+[[90m05:52:37:441 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:448 PM[39m] BscPlugin beforeFileTranspile finished. ([34m7.381ms[39m)
+[[90m05:52:37:449 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:449 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.19ms[39m)
+[[90m05:52:37:460 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:463 PM[39m] BscPlugin beforeFileTranspile finished. ([34m2.686ms[39m)
+[[90m05:52:37:463 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:463 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.12ms[39m)
+[[90m05:52:37:471 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:472 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.171ms[39m)
+[[90m05:52:37:473 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:473 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:476 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:478 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.48ms[39m)
+[[90m05:52:37:478 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:478 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.9ms[39m)
+[[90m05:52:37:482 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:482 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.167ms[39m)
+[[90m05:52:37:482 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:482 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:482 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:497 PM[39m] BscPlugin beforeFileTranspile finished. ([34m14.690ms[39m)
+[[90m05:52:37:497 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:497 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.13ms[39m)
+[[90m05:52:37:512 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:513 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.703ms[39m)
+[[90m05:52:37:513 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:513 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.11ms[39m)
+[[90m05:52:37:514 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:514 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.95ms[39m)
+[[90m05:52:37:514 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:514 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:515 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:515 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.240ms[39m)
+[[90m05:52:37:515 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:515 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.6ms[39m)
+[[90m05:52:37:516 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:518 PM[39m] BscPlugin beforeFileTranspile finished. ([34m1.806ms[39m)
+[[90m05:52:37:518 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:518 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.9ms[39m)
+[[90m05:52:37:521 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:524 PM[39m] BscPlugin beforeFileTranspile finished. ([34m2.471ms[39m)
+[[90m05:52:37:524 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:524 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.11ms[39m)
+[[90m05:52:37:528 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:528 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.395ms[39m)
+[[90m05:52:37:528 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:529 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.12ms[39m)
+[[90m05:52:37:530 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:532 PM[39m] BscPlugin beforeFileTranspile finished. ([34m2.240ms[39m)
+[[90m05:52:37:532 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:532 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.10ms[39m)
+[[90m05:52:37:536 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:537 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.265ms[39m)
+[[90m05:52:37:537 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:537 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.7ms[39m)
+[[90m05:52:37:538 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:538 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:538 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:538 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.4ms[39m)
+[[90m05:52:37:538 PM[39m] XmlFile components/roku_modules/rooibos_promises/Promise.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:538 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:541 PM[39m] BscPlugin beforeFileTranspile finished. ([34m2.698ms[39m)
+[[90m05:52:37:541 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:541 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.12ms[39m)
+[[90m05:52:37:541 PM[39m] BscPlugin beforeFileTranspile
+[[90m05:52:37:541 PM[39m] BscPlugin beforeFileTranspile finished. ([34m0.2ms[39m)
+[[90m05:52:37:541 PM[39m] rooibosPlugin beforeFileTranspile
+[[90m05:52:37:541 PM[39m] rooibosPlugin beforeFileTranspile finished. ([34m0.3ms[39m)
+[[90m05:52:37:541 PM[39m] XmlFile components/rooibos/RooibosScene.xml computed allAvailableScriptImports [Function (anonymous)]
+[[90m05:52:37:542 PM[39m] Transpiling 25 new files
+[[90m05:52:37:553 PM[39m] rooibosPlugin afterProgramTranspile
+[[90m05:52:37:555 PM[39m] rooibosPlugin afterProgramTranspile finished. ([34m2.119ms[39m)
+[[90m05:52:37:555 PM[39m] Transpiling finished. ([34m325.611ms[39m)
+[[90m05:52:37:556 PM[39m] Creating package at ./out/Roku-app.zip
+[[90m05:52:37:656 PM[39m] Creating package at ./out/Roku-app.zip finished. ([34m99.735ms[39m)
+[17:52:37.737][LOG  ] [dap][tadapter] Activate TelnetAdapter
+[17:52:37.738][LOG  ] [dap][tadapter] Establishing telnet connection
+[17:52:37.738][LOG  ] [dap][tadapter] Pressing home button
+[17:52:37.791][LOG  ] [dap][tadapter] Waiting for telnet client to settle
+[17:52:37.791][LOG  ] [dap][tadapter][TelnetSocket] socket connection attempt: remote: IPv4 10.10.52.6:8085
+[17:52:37.797][LOG  ] [dap][tadapter][TelnetSocket] socket connected: local: IPv410.10.52.45:53664 -> remote: IPv4 10.10.52.6:8085
+[17:52:37.797][LOG  ] [dap][tadapter] Telnet connection established to 10.10.52.6:8085
+[17:52:37.797][LOG  ] [dap][tadapter][TelnetSocket] socket is ready for use: local: IPv410.10.52.45:53664 -> remote: IPv4 10.10.52.6:8085
+[17:52:37.820][LOG  ] [dap][tadapter][TelnetSocket] device signalling to end socket connection: local: IPv410.10.52.45:53664 -> remote: IPv4 10.10.52.6:8085
+[17:52:37.821][LOG  ] [dap][tadapter][TelnetSocket] socket closed: remote: undefined 10.10.52.6:8085
+[17:52:38.220][LOG  ] [dap][tadapter] Telnet client has settled after 429 milliseconds
+SocketConnectionInUseError: Telnet connection 10.10.52.6:8085 already is use
+    at TelnetAdapter.connect (/Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/roku-debug/dist/adapters/TelnetAdapter.js:220:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (/Users/manishkumarsl/Desktop/Manish_Roku/demo/Roku-app/node_modules/rooibos-roku/dist/cli.js:53:5) {
+  port: 8085,
+  host: '10.10.52.6'
+}

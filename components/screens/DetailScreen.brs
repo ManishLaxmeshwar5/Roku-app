@@ -59,11 +59,6 @@ sub onContentChanged()
 end sub
 
 
-
-' =========================================
-' UPDATE UI
-' =========================================
-
 sub updateUI()
 
     content = m.viewModel.content
@@ -111,7 +106,7 @@ sub watchLater()
         m.global.toast = {
             message : m.json["messages"]["watchlater_removed"][m.global.currentLang],
             duration: 2
-        }
+        }   
     end if
 end sub
 

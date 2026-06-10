@@ -1,0 +1,15 @@
+namespace tests
+
+  @suite
+  class H extends tests.BaseTestSuite
+
+    @describe("Basic Tests")
+
+    @it("should pass")
+    function _()
+      m.assertTrue(true)
+    end function
+
+  end class
+
+end namespace

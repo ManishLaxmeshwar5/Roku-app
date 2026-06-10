@@ -10,10 +10,10 @@ function WatchLaterViewModel() as Object
 
         m.items = []
 
-        if not isValid(list)
-            m.isEmpty = true
-            return invalid
-        end if
+        ' if not isValid(list)
+        '     m.isEmpty = true
+        '     return invalid
+        ' end if
 
         if list.count() = 0
             m.isEmpty = true
@@ -46,7 +46,7 @@ vm.getGridContent = function() as Object
     row = root.createChild("ContentNode")
     row.title = "Watch Later"
 
-    ' ✅ Set item size on the ROW node, not item nodes
+   
     row.addField("rowItemSize", "vector2d", false)
     row.rowItemSize = [200, 250]
 

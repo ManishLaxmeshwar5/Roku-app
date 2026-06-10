@@ -1,0 +1,252 @@
+
+import "pkg:/source/tests/BaseTestSuite.spec.bs"
+namespace tests
+    @SGNode("DetailScreen")
+    @suite("DetailscreenTests")
+
+    @specialMock("watchLaterModel", ["toggleWatchLater"], "WatchListToggleWatchLater")
+    class Detailtest extends tests.BaseTestSuite
+
+        @describe("DetailscreenTest")
+
+        protected override function setup()
+            m.global.addFields({
+                "watchLaterList": [{
+                    "id": "movie-1",
+                    "title": "Test Movie"
+                }],
+                "currentLang": "en",
+                toast: createObject("roAssociativeArray")
+            })
+
+            m.node.top.addFields({
+                itemContent: createObject("ROSGNode", "ContentNode")
+            })
+            m.contentNode = createObject("ROSGNode", "ContentNode")
+            m.contentNode.addFields({
+                "id": "movie-1",
+                "title": "Test Movie",
+                "HDPosterUrl": "http://fake.com/poster.jpg",
+                "ShortDescriptionLine1": "Test Title",
+                "ShortDescriptionLine2": "Test Description"
+            })
+            print "Setup completes"
+            'Setup the logger or anything else you need for all your tests
+        end function
+
+
+        @it("UpdateUI: Test")
+        function _()
+            print "Testing updateUI"
+            m.node.top.itemContent = m.contentNode
+            'bs:disable-next-line
+            result = updateUI()
+
+            m.assertEqual(m.node.poster.uri, "http://fake.com/poster.jpg")
+            m.assertEqual(m.node.bgPoster.uri, "http://fake.com/poster.jpg")
+            m.assertEqual(m.node.title.text, "Test Title")
+            m.assertEqual(m.node.desc.text, "Test Description")
+            m.assertEqual(m.node.watchLaterIcon.opacity, 0.5)
+
+            m.node.viewModel.isInWatchLater = true
+            'bs:disable-next-line
+            result = updateUI()
+            m.assertEqual(m.node.watchLaterIcon.opacity, 1.0)
+        end function
+
+        @it("setupAutoPlay: Test")
+        function _()
+            'bs:disable-next-line
+            result = setupAutoPlay()
+
+            m.assertEqual(CInt(m.node.autoPlayTimer.duration), 0)
+            m.assertEqual(m.node.autoPlayTimer.repeat, false)
+        end function
+
+        @it("onFocusRequest: Test")
+        function _()
+            m.node.watchLaterFocused = true
+
+            'bs:disable-next-line
+            result = onFocusRequest()
+            m.assertTrue(m.node.watchLaterGroup.hasFocus())
+            m.assertFalse(m.node.playBtn.hasFocus())
+
+            m.node.watchLaterFocused = false
+            'bs:disable-next-line
+            result = onFocusRequest()
+            m.assertFalse(m.node.watchLaterGroup.hasFocus())
+            m.assertTrue(m.node.playBtn.hasFocus())
+        end function
+
+        @it("watchLater adds item to watch later")
+        function _()
+
+            content = {
+                title: "Batman",
+                ShortDescriptionLine1: "Batman"
+            }
+
+            m.node.itemContent = content
+
+            m.global.addFields({
+                watchLaterList: []
+                currentLang: "en"
+                toast: invalid
+            })
+
+            m.node.watchLaterIcon.opacity = 0.5
+
+            m.node.watchLaterModel = {
+                toggleWatchLater: function(content, list)
+                    return {
+                        added: true
+                        updatedList: [
+                            {
+                                title: "Batman"
+                            }
+                        ]
+                    }
+                end function
+            }
+
+            m.node.json = {
+                messages: {
+                    watchlater_added: {
+                        en: "Added to Watch Later"
+                    }
+                }
+            }
+
+            'bs:disable-next-line
+            watchLater()
+
+            m.assertEqual(m.node.watchLaterIcon.opacity, 1.0)
+            m.assertEqual(m.global.watchLaterList.count(), 1)
+            m.assertEqual(m.global.toast.message, "Added to Watch Later")
+
+        end function
+
+        @it("watchLater removes item from watch later")
+        function _()
+
+            content = {
+                title: "Batman",
+                ShortDescriptionLine1: "Batman"
+            }
+
+            m.node.itemContent = content
+
+            m.global.addFields({
+                watchLaterList: [
+                    {
+                        title: "Batman"
+                    }
+                ]
+                currentLang: "en"
+                toast: invalid
+            })
+
+            m.node.watchLaterIcon.opacity = 1.0
+
+            m.node.watchLaterModel = {
+                toggleWatchLater: function(content, list)
+                    return {
+                        added: false
+                        updatedList: []
+                    }
+                end function
+            }
+
+            m.node.json = {
+                messages: {
+                    watchlater_removed: {
+                        en: "Removed from Watch Later"
+                    }
+                }
+            }
+
+            'bs:disable-next-line
+            watchLater()
+
+            m.assertEqual(m.node.watchLaterIcon.opacity, 0.5)
+            m.assertEqual(m.global.watchLaterList.count(), 0)
+            m.assertEqual(m.global.toast.message, "Removed from Watch Later")
+
+        end function
+
+        @it("onKeyEvent: right")
+        function _()
+            m.node.watchLaterFocused = false
+            'bs:disable-next-line
+            result = onKeyEvent("right", true)
+            m.assertTrue(result)
+            m.assertTrue(m.node.watchLaterFocused)
+            m.assertFalse(m.node.playBtn.hasFocus())
+        end function
+
+        @init("onKeyEvent: left")
+        function _()
+            m.node.watchLaterFocused = true
+            'bs:disable-next-line
+            result = onKeyEvent("left", true)
+            m.assertTrue(result)
+            m.assertFalse(m.node.watchLaterFocused)
+            m.assertTrue(m.node.playBtn.hasFocus())
+        end function
+
+        @it("onKeyEvent: OK on WatchLater")
+        function _()
+            m.node.watchLaterFocused = true
+
+            m.node.itemContent = {
+                ShortDescriptionLine1: "Batman"
+            }
+
+            m.global.addFields({
+                watchLaterList: []
+                currentLang: "en"
+            })
+
+            m.watchLaterModel = {
+                toggleWatchLater: function(content, list)
+                    return {
+                        added: true
+                        updatedList: [{ title: "Batman" }]
+                    }
+                end function
+            }
+
+            m.json = {
+                messages: {
+                    watchlater_added: {
+                        en: "Added"
+                    }
+                }
+            }
+
+            'bs:disable-next-line
+            result = onKeyEvent("OK", true)
+
+            m.assertTrue(result)
+            m.assertEqual(m.node.watchLaterIcon.opacity, 0.5)
+        end function
+
+        @it("onKeyEvent: OK on Play")
+        function _()
+
+            m.viewModel = {
+                getNavigationPayload: function()
+                    return {
+                        type: "navigate"
+                        screen: "VideoPlayer"
+                    }
+                end function
+            }
+
+            'bs:disable-next-line
+            onPlayButtonSelected()
+        end function
+
+    end class
+end namespace

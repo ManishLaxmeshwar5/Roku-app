@@ -1,7 +1,7 @@
 sub init()
     m.toastBg = m.top.findNode("toastBg")
     m.toastLabel = m.top.findNode("toastLabel")
-    m.slideIn    = m.top.findNode("slideIn")    ' ✅ was missing
+    m.slideIn    = m.top.findNode("slideIn")   
     m.slideOut   = m.top.findNode("slideOut") 
     m.top.visible = false
 

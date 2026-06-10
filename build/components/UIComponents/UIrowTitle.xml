@@ -1,0 +1,12 @@
+<component name="rowTitle" extends="Group">
+    <interface>
+        <field id="content" type="node" onChange="onSetData" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/UIComponents/UIrowTitle.brs" />
+    <script type="text/brightscript" uri="pkg:/source/bslib.brs" />
+    <children>
+        <Poster id="rowImage" width="30" height="30" translation="[0,7]" />
+        <Label id="rowLabel" translation="[50,10]" font="font:MediumBoldSystemFont" color="0xFFFFFFFF" width="500" />
+    </children>
+</component>
+<!--//# sourceMappingURL=./UIrowTitle.xml.map -->

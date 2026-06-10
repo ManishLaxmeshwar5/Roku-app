@@ -39,6 +39,9 @@ sub initNodes()
     m.heroPreview = m.top.findNode("HeroPreview")
 end sub
 
+function initNodesT() as boolean
+    return true
+end function
 
 sub initObservers()
     m.rowList.observeField("rowItemFocused", "onItemFocused")

@@ -1,0 +1,19 @@
+title=Manish
+major_version=1
+minor_version=0
+build_version=35
+
+splash_screen=images/download.jpg
+
+splash_screen_fhd=pkg:/images/poc_splash.png
+splash_screen_hd=pkg:/images/poc_splash.png
+splash_screen_sd=pkg:/images/poc_splash.png
+ui_resolutions=hd
+
+##   Channel Assets
+###  Main Menu Icons / Channel Poster Artwork 
+#### Image sizes are FHD: 540x405px | HD: 290x218px | SD: 214x144px
+mm_icon_focus_fhd=pkg:/images/poc_logo.jpeg
+mm_icon_focus_hd=pkg:/images/poc_logo.jpeg
+mm_icon_focus_sd=pkg:/images/poc_logo.jpeg
+

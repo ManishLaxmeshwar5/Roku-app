@@ -1,0 +1,15 @@
+{
+  "name": "roku-app",
+  "version": "1.0.0",
+   "devDependencies": {
+    "brighterscript": "0.67.4",
+    "rooibos-roku": "5.15.7",
+    "undent": "^0.1.0",
+    "roku-deploy": "^3.12.0",
+    "roku-log-bsc-plugin": "^0.6.1"
+  },
+  "scripts": {
+    "build-tests": "npx bsc",
+    "build-tdd": "npx bsc --project bsconfig-tdd.json"
+  }
+}

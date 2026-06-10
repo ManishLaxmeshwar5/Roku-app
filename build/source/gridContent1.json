@@ -1,0 +1,655 @@
+{
+  "languages": [
+    { "code": "en", "name": "English",    "flag": "🇺🇸", "nativeName": "English"    },
+    { "code": "pt", "name": "Portuguese", "flag": "🇧🇷", "nativeName": "Português"  },
+    { "code": "fr", "name": "French",     "flag": "🇫🇷", "nativeName": "Français"   },
+    { "code": "es", "name": "Spanish",    "flag": "🇪🇸", "nativeName": "Español"    }
+  ],
+
+  "ui_translations": {
+    "en": {
+      "app_title":          "MovieStream",
+      "featured":           "Featured",
+      "new_arrivals":       "New Arrivals",
+      "drama":              "Drama Movies",
+      "comedy":             "Comedy Movies",
+      "scifi":              "Sci-Fi Movies",
+      "thriller":           "Thriller Movies",
+      "horror":             "Horror Movies",
+      "animation":          "Animation Movies",
+      "play":               "Play",
+      "more_info":          "More Info",
+      "select_language":    "Select Language",
+      "settings":           "Settings",
+      "search":             "Search",
+      "search_placeholder": "Search movies...",
+      "loading":            "Loading...",
+      "error":              "Something went wrong. Please try again."
+    },
+    "pt": {
+      "app_title":          "MovieStream",
+      "featured":           "Destaques",
+      "new_arrivals":       "Novidades",
+      "drama":              "Filmes de Drama",
+      "comedy":             "Filmes de Comédia",
+      "scifi":              "Filmes de Ficção Científica",
+      "thriller":           "Filmes de Suspense",
+      "horror":             "Filmes de Terror",
+      "animation":          "Filmes de Animação",
+      "play":               "Reproduzir",
+      "more_info":          "Mais Informações",
+      "select_language":    "Selecionar Idioma",
+      "settings":           "Configurações",
+      "search":             "Pesquisar",
+      "search_placeholder": "Pesquisar filmes...",
+      "loading":            "Carregando...",
+      "error":              "Algo deu errado. Por favor, tente novamente."
+    },
+    "fr": {
+      "app_title":          "MovieStream",
+      "featured":           "À la une",
+      "new_arrivals":       "Nouveautés",
+      "drama":              "Films Dramatiques",
+      "comedy":             "Films Comiques",
+      "scifi":              "Films de Science-Fiction",
+      "thriller":           "Films Policiers",
+      "horror":             "Films d'Horreur",
+      "animation":          "Films d'Animation",
+      "play":               "Lire",
+      "more_info":          "Plus d'Infos",
+      "select_language":    "Choisir la Langue",
+      "settings":           "Paramètres",
+      "search":             "Rechercher",
+      "search_placeholder": "Rechercher des films...",
+      "loading":            "Chargement...",
+      "error":              "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "es": {
+      "app_title":          "MovieStream",
+      "featured":           "Destacados",
+      "new_arrivals":       "Novedades",
+      "drama":              "Películas de Drama",
+      "comedy":             "Películas de Comedia",
+      "scifi":              "Películas de Ciencia Ficción",
+      "thriller":           "Películas de Suspenso",
+      "horror":             "Películas de Terror",
+      "animation":          "Películas de Animación",
+      "play":               "Reproducir",
+      "more_info":          "Más Información",
+      "select_language":    "Seleccionar Idioma",
+      "settings":           "Configuración",
+      "search":             "Buscar",
+      "search_placeholder": "Buscar películas...",
+      "loading":            "Cargando...",
+      "error":              "Algo salió mal. Por favor, inténtelo de nuevo."
+    }
+  },
+
+  "featured": [
+    {
+      "id": "mad_max",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+      "translations": {
+        "en": {
+          "name": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max."
+        },
+        "pt": {
+          "name": "Mad Max: Estrada da Fúria",
+          "description": "Em um deserto pós-apocalíptico, uma mulher se rebela contra um governante tirânico em busca de sua terra natal com a ajuda de um grupo de prisioneiras, um adorador psicótico e um andarilho chamado Max."
+        },
+        "fr": {
+          "name": "Mad Max: Fury Road",
+          "description": "Dans un monde post-apocalyptique, une femme se rebelle contre un dirigeant tyrannique à la recherche de sa patrie avec l'aide d'un groupe de prisonnières, d'un adorateur psychotique et d'un vagabond nommé Max."
+        },
+        "es": {
+          "name": "Mad Max: Furia en el Camino",
+          "description": "En un yermo post-apocalíptico, una mujer se rebela contra un gobernante tiránico en busca de su tierra natal con la ayuda de un grupo de prisioneras, un adorador psicótico y un vagabundo llamado Max."
+        }
+      }
+    },
+    {
+      "id": "shawshank",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+      "translations": {
+        "en": {
+          "name": "The Shawshank Redemption",
+          "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        },
+        "pt": {
+          "name": "Um Sonho de Liberdade",
+          "description": "Dois homens presos criam laços ao longo dos anos, encontrando conforto e eventual redenção por meio de atos de decência comum."
+        },
+        "fr": {
+          "name": "Les Évadés",
+          "description": "Deux hommes emprisonnés se lient d'amitié au fil des années, trouvant du réconfort et une rédemption éventuelle à travers des actes de décence ordinaire."
+        },
+        "es": {
+          "name": "Cadena Perpetua",
+          "description": "Dos hombres encarcelados forjan un lazo a lo largo de los años, encontrando consuelo y eventual redención a través de actos de decencia común."
+        }
+      }
+    },
+    {
+      "id": "avengers_endgame",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+      "translations": {
+        "en": {
+          "name": "Avengers: Endgame",
+          "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance."
+        },
+        "pt": {
+          "name": "Vingadores: Ultimato",
+          "description": "Após os eventos devastadores de Guerra Infinita, o universo está em ruínas. Com a ajuda dos aliados restantes, os Vingadores se reúnem mais uma vez para reverter as ações de Thanos e restaurar o equilíbrio."
+        },
+        "fr": {
+          "name": "Avengers: Endgame",
+          "description": "Après les événements dévastateurs d'Avengers: Infinity War, l'univers est en ruines. Avec l'aide des alliés restants, les Avengers se réunissent une fois de plus pour annuler les actions de Thanos et rétablir l'équilibre."
+        },
+        "es": {
+          "name": "Vengadores: Endgame",
+          "description": "Tras los devastadores eventos de Infinity War, el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se unen una vez más para revertir las acciones de Thanos y restaurar el equilibrio."
+        }
+      }
+    },
+    {
+      "id": "grand_budapest",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+      "translations": {
+        "en": {
+          "name": "The Grand Budapest Hotel",
+          "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge."
+        },
+        "pt": {
+          "name": "O Grande Hotel Budapeste",
+          "description": "Um escritor encontra o dono de um hotel de luxo envelhecido, que lhe conta sobre seus primeiros anos como mensageiro nos anos gloriosos do hotel sob um concierge excepcional."
+        },
+        "fr": {
+          "name": "The Grand Budapest Hotel",
+          "description": "Un écrivain rencontre le propriétaire d'un hôtel de luxe vieillissant, qui lui raconte ses débuts en tant que groom pendant les années glorieuses de l'hôtel sous la direction d'un concierge exceptionnel."
+        },
+        "es": {
+          "name": "El Gran Hotel Budapest",
+          "description": "Un escritor se encuentra con el propietario de un antiguo hotel de lujo, quien le cuenta sobre sus primeros años como botones durante los años gloriosos del hotel bajo un conserje excepcional."
+        }
+      }
+    },
+    {
+      "id": "forrest_gump",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+      "translations": {
+        "en": {
+          "name": "Forrest Gump",
+          "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75."
+        },
+        "pt": {
+          "name": "Forrest Gump",
+          "description": "As presidências de Kennedy e Johnson, a Guerra do Vietnã e outros eventos históricos se desdobram pela perspectiva de um homem do Alabama com QI de 75."
+        },
+        "fr": {
+          "name": "Forrest Gump",
+          "description": "Les présidences de Kennedy et Johnson, la guerre du Vietnam et d'autres événements historiques se déroulent du point de vue d'un homme d'Alabama avec un QI de 75."
+        },
+        "es": {
+          "name": "Forrest Gump",
+          "description": "Las presidencias de Kennedy y Johnson, la Guerra de Vietnam y otros eventos históricos se desarrollan desde la perspectiva de un hombre de Alabama con un coeficiente intelectual de 75."
+        }
+      }
+    }
+  ],
+
+  "rows": [
+    {
+      "title": "New Arrivals",
+      "titles": {
+        "en": "New Arrivals",
+        "pt": "Novidades",
+        "fr": "Nouveautés",
+        "es": "Novedades"
+      },
+      "icon": "pkg:/images/action.png",
+      "videos": [
+        {
+          "id": "mad_max",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+          "translations": {
+            "en": { "name": "Mad Max: Fury Road",           "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max." },
+            "pt": { "name": "Mad Max: Estrada da Fúria",    "description": "Em um deserto pós-apocalíptico, uma mulher se rebela contra um governante tirânico em busca de sua terra natal com a ajuda de um grupo de prisioneiras, um adorador psicótico e um andarilho chamado Max." },
+            "fr": { "name": "Mad Max: Fury Road",           "description": "Dans un monde post-apocalyptique, une femme se rebelle contre un dirigeant tyrannique à la recherche de sa patrie avec l'aide d'un groupe de prisonnières, d'un adorateur psychotique et d'un vagabond nommé Max." },
+            "es": { "name": "Mad Max: Furia en el Camino",  "description": "En un yermo post-apocalíptico, una mujer se rebela contra un gobernante tiránico en busca de su tierra natal con la ayuda de un grupo de prisioneras, un adorador psicótico y un vagabundo llamado Max." }
+          }
+        },
+        {
+          "id": "john_wick",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+          "translations": {
+            "en": { "name": "John Wick",      "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him." },
+            "pt": { "name": "John Wick",      "description": "Um ex-assassino sai da aposentadoria para rastrear os gangsters que mataram seu cachorro e levaram tudo dele." },
+            "fr": { "name": "John Wick",      "description": "Un ex-tueur à gages sort de sa retraite pour traquer les gangsters qui ont tué son chien et tout pris de lui." },
+            "es": { "name": "John Wick",      "description": "Un ex asesino a sueldo sale del retiro para rastrear a los gánsteres que mataron a su perro y le quitaron todo." }
+          }
+        },
+        {
+          "id": "mission_impossible",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+          "translations": {
+            "en": { "name": "Mission: Impossible",          "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong." },
+            "pt": { "name": "Missão: Impossível",           "description": "Ethan Hunt e sua equipe do FMI, juntamente com alguns aliados conhecidos, correm contra o tempo após uma missão que deu errado." },
+            "fr": { "name": "Mission: Impossible",          "description": "Ethan Hunt et son équipe du FMI, ainsi que des alliés familiers, luttent contre la montre après une mission qui a mal tourné." },
+            "es": { "name": "Misión: Imposible",            "description": "Ethan Hunt y su equipo del FMI, junto con algunos aliados conocidos, corren contra el tiempo tras una misión fallida." }
+          }
+        },
+        {
+          "id": "avengers_endgame",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+          "translations": {
+            "en": { "name": "Avengers: Endgame",    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance." },
+            "pt": { "name": "Vingadores: Ultimato", "description": "Após os eventos devastadores de Guerra Infinita, o universo está em ruínas. Com a ajuda dos aliados restantes, os Vingadores se reúnem mais uma vez para reverter as ações de Thanos." },
+            "fr": { "name": "Avengers: Endgame",    "description": "Après les événements dévastateurs d'Infinity War, l'univers est en ruines. Avec l'aide des alliés restants, les Avengers se réunissent pour annuler les actions de Thanos." },
+            "es": { "name": "Vengadores: Endgame",  "description": "Tras los devastadores eventos de Infinity War, el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se unen para revertir las acciones de Thanos." }
+          }
+        },
+        {
+          "id": "gladiator",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8",
+          "translations": {
+            "en": { "name": "Gladiator",   "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery." },
+            "pt": { "name": "Gladiador",   "description": "Um ex-general romano parte para se vingar do imperador corrupto que assassinou sua família e o enviou para a escravidão." },
+            "fr": { "name": "Gladiateur",  "description": "Un ancien général romain cherche à se venger de l'empereur corrompu qui a assassiné sa famille et l'a réduit en esclavage." },
+            "es": { "name": "Gladiador",   "description": "Un ex general romano busca vengarse del corrupto emperador que asesinó a su familia y lo envió a la esclavitud." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Drama Movies",
+      "titles": {
+        "en": "Drama Movies",
+        "pt": "Filmes de Drama",
+        "fr": "Films Dramatiques",
+        "es": "Películas de Drama"
+      },
+      "icon": "pkg:/images/drama.png",
+      "videos": [
+        {
+          "id": "shawshank",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Subservience.mp4",
+          "translations": {
+            "en": { "name": "The Shawshank Redemption", "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." },
+            "pt": { "name": "Um Sonho de Liberdade",    "description": "Dois homens presos criam laços ao longo dos anos, encontrando conforto e eventual redenção por meio de atos de decência comum." },
+            "fr": { "name": "Les Évadés",               "description": "Deux hommes emprisonnés se lient d'amitié au fil des années, trouvant du réconfort et une rédemption éventuelle." },
+            "es": { "name": "Cadena Perpetua",          "description": "Dos hombres encarcelados forjan un lazo a lo largo de los años, encontrando consuelo y eventual redención." }
+          }
+        },
+        {
+          "id": "forrest_gump",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+          "translations": {
+            "en": { "name": "Forrest Gump", "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75." },
+            "pt": { "name": "Forrest Gump", "description": "As presidências de Kennedy e Johnson, a Guerra do Vietnã e outros eventos históricos se desdobram pela perspectiva de um homem do Alabama com QI de 75." },
+            "fr": { "name": "Forrest Gump", "description": "Les présidences de Kennedy et Johnson, la guerre du Vietnam et d'autres événements historiques vus du point de vue d'un homme d'Alabama avec un QI de 75." },
+            "es": { "name": "Forrest Gump", "description": "Las presidencias de Kennedy y Johnson, la Guerra de Vietnam y otros eventos históricos vistos desde la perspectiva de un hombre de Alabama con un CI de 75." }
+          }
+        },
+        {
+          "id": "green_mile",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+          "translations": {
+            "en": { "name": "The Green Mile",    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift." },
+            "pt": { "name": "À Espera de um Milagre", "description": "A vida dos guardas no corredor da morte é afetada por um de seus detentos: um homem negro acusado de assassinato, mas que possui um dom misterioso." },
+            "fr": { "name": "La Ligne Verte",    "description": "La vie des gardiens du couloir de la mort est bouleversée par l'un de leurs détenus, un homme noir accusé de meurtre qui possède un don mystérieux." },
+            "es": { "name": "La Milla Verde",    "description": "La vida de los guardias del corredor de la muerte se ve afectada por uno de sus reclusos: un hombre negro acusado de asesinato que posee un misterioso don." }
+          }
+        },
+        {
+          "id": "beautiful_mind",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+          "translations": {
+            "en": { "name": "A Beautiful Mind",      "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish." },
+            "pt": { "name": "Uma Mente Brilhante",   "description": "Após John Nash, um matemático brilhante mas antissocial, aceitar um trabalho secreto em criptografia, sua vida toma um rumo pesadelo." },
+            "fr": { "name": "Un Homme d'Exception", "description": "Après que John Nash, un mathématicien brillant mais antisocial, accepte un travail secret en cryptographie, sa vie prend une tournure cauchemardesque." },
+            "es": { "name": "Una Mente Brillante",   "description": "Tras aceptar un trabajo secreto de criptografía, la vida de John Nash, un brillante pero antisocial matemático, toma un giro pesadillesco." }
+          }
+        },
+        {
+          "id": "good_will_hunting",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "translations": {
+            "en": { "name": "Good Will Hunting",          "description": "Will Hunting, a janitor at MIT, has a gift for mathematics but needs help from a psychologist to find direction in his life." },
+            "pt": { "name": "Gênio Indomável",            "description": "Will Hunting, um zelador do MIT, tem talento para a matemática, mas precisa de ajuda de um psicólogo para encontrar direção em sua vida." },
+            "fr": { "name": "Will Hunting",               "description": "Will Hunting, un homme de ménage au MIT, a un don pour les mathématiques mais a besoin d'un psychologue pour trouver sa voie." },
+            "es": { "name": "El Indomable Will Hunting",  "description": "Will Hunting, un conserje del MIT, tiene un don para las matemáticas pero necesita la ayuda de un psicólogo para encontrar dirección en su vida." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Comedy Movies",
+      "titles": {
+        "en": "Comedy Movies",
+        "pt": "Filmes de Comédia",
+        "fr": "Films Comiques",
+        "es": "Películas de Comedia"
+      },
+      "icon": "pkg:/images/comedy.png",
+      "videos": [
+        {
+          "id": "grand_budapest",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "translations": {
+            "en": { "name": "The Grand Budapest Hotel",  "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy under an exceptional concierge." },
+            "pt": { "name": "O Grande Hotel Budapeste",  "description": "Um escritor encontra o dono de um hotel de luxo envelhecido, que lhe conta sobre seus primeiros anos como mensageiro sob um concierge excepcional." },
+            "fr": { "name": "The Grand Budapest Hotel",  "description": "Un écrivain rencontre le propriétaire d'un hôtel de luxe vieillissant, qui lui raconte ses débuts en tant que groom sous la direction d'un concierge exceptionnel." },
+            "es": { "name": "El Gran Hotel Budapest",    "description": "Un escritor se encuentra con el dueño de un antiguo hotel de lujo, quien le narra sus primeros años como botones bajo un conserje excepcional." }
+          }
+        },
+        {
+          "id": "tropic_thunder",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "translations": {
+            "en": { "name": "Tropic Thunder",          "description": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying." },
+            "pt": { "name": "Trovão Tropical",         "description": "Por uma série de acontecimentos absurdos, um grupo de atores filmando um filme de guerra de grande orçamento é forçado a se tornar os soldados que estão interpretando." },
+            "fr": { "name": "Tonnerre sous les Tropiques", "description": "À travers une série d'événements improbables, un groupe d'acteurs tournant un film de guerre à gros budget se retrouve forcé d'incarner les soldats qu'ils jouent." },
+            "es": { "name": "Tropic Thunder",          "description": "Debido a una serie de circunstancias absurdas, un grupo de actores que rueda una película de guerra de alto presupuesto se ve obligado a convertirse en los soldados que interpretan." }
+          }
+        },
+        {
+          "id": "groundhog_day",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4",
+          "translations": {
+            "en": { "name": "Groundhog Day",           "description": "A weatherman finds himself inexplicably living the same day over and over again." },
+            "pt": { "name": "O Feitiço do Tempo",      "description": "Um apresentador de previsão do tempo se encontra inexplicavelmente vivendo o mesmo dia repetidamente." },
+            "fr": { "name": "Un Jour sans Fin",        "description": "Un présentateur météo se retrouve inexplicablement à revivre la même journée encore et encore." },
+            "es": { "name": "El Día de la Marmota",    "description": "Un meteorólogo se encuentra inexplicablemente viviendo el mismo día una y otra vez." }
+          }
+        },
+        {
+          "id": "21_jump_street",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/DishTelevision.mp4",
+          "translations": {
+            "en": { "name": "21 Jump Street",          "description": "A pair of underachieving cops are sent back to a local high school to blend in and bring down a synthetic drug ring." },
+            "pt": { "name": "21 Jump Street",          "description": "Um par de policiais incompetentes é enviado de volta ao ensino médio para se infiltrar e desmantelar uma rede de drogas sintéticas." },
+            "fr": { "name": "21 Jump Street",          "description": "Deux policiers peu performants sont renvoyés au lycée pour s'infiltrer et démanteler un réseau de drogues de synthèse." },
+            "es": { "name": "21 Jump Street",          "description": "Un par de policías mediocres son enviados de vuelta a la preparatoria para infiltrarse y desmantelar una red de drogas sintéticas." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Sci-Fi Movies",
+      "titles": {
+        "en": "Sci-Fi Movies",
+        "pt": "Filmes de Ficção Científica",
+        "fr": "Films de Science-Fiction",
+        "es": "Películas de Ciencia Ficción"
+      },
+      "icon": "pkg:/images/scifi.png",
+      "videos": [
+        {
+          "id": "mad_max",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "translations": {
+            "en": { "name": "Mad Max: Fury Road",           "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland." },
+            "pt": { "name": "Mad Max: Estrada da Fúria",    "description": "Em um deserto pós-apocalíptico, uma mulher se rebela contra um governante tirânico em busca de sua terra natal." },
+            "fr": { "name": "Mad Max: Fury Road",           "description": "Dans un désert post-apocalyptique, une femme se rebelle contre un dirigeant tyrannique pour retrouver sa patrie." },
+            "es": { "name": "Mad Max: Furia en el Camino",  "description": "En un yermo post-apocalíptico, una mujer se rebela contra un gobernante tiránico en busca de su tierra natal." }
+          }
+        },
+        {
+          "id": "john_wick",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "translations": {
+            "en": { "name": "John Wick",  "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him." },
+            "pt": { "name": "John Wick",  "description": "Um ex-assassino sai da aposentadoria para rastrear os gangsters que mataram seu cachorro e levaram tudo dele." },
+            "fr": { "name": "John Wick",  "description": "Un ex-tueur à gages sort de sa retraite pour traquer les gangsters qui ont tué son chien et tout pris de lui." },
+            "es": { "name": "John Wick",  "description": "Un ex asesino a sueldo sale del retiro para rastrear a los gánsteres que mataron a su perro y le quitaron todo." }
+          }
+        },
+        {
+          "id": "mission_impossible",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "translations": {
+            "en": { "name": "Mission: Impossible", "description": "Ethan Hunt and his IMF team race against time after a mission gone wrong." },
+            "pt": { "name": "Missão: Impossível",  "description": "Ethan Hunt e sua equipe do FMI correm contra o tempo após uma missão que deu errado." },
+            "fr": { "name": "Mission: Impossible", "description": "Ethan Hunt et son équipe du FMI luttent contre la montre après une mission qui a mal tourné." },
+            "es": { "name": "Misión: Imposible",   "description": "Ethan Hunt y su equipo del FMI corren contra el tiempo tras una misión fallida." }
+          }
+        },
+        {
+          "id": "avengers_endgame",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "translations": {
+            "en": { "name": "Avengers: Endgame",    "description": "The Avengers assemble to reverse Thanos' actions and restore balance to the universe." },
+            "pt": { "name": "Vingadores: Ultimato", "description": "Os Vingadores se reúnem para reverter as ações de Thanos e restaurar o equilíbrio do universo." },
+            "fr": { "name": "Avengers: Endgame",    "description": "Les Avengers se réunissent pour annuler les actions de Thanos et rétablir l'équilibre de l'univers." },
+            "es": { "name": "Vengadores: Endgame",  "description": "Los Vengadores se unen para revertir las acciones de Thanos y restaurar el equilibrio en el universo." }
+          }
+        },
+        {
+          "id": "gladiator",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "translations": {
+            "en": { "name": "Gladiator",  "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery." },
+            "pt": { "name": "Gladiador",  "description": "Um ex-general romano parte para se vingar do imperador corrupto que assassinou sua família e o enviou para a escravidão." },
+            "fr": { "name": "Gladiateur", "description": "Un ancien général romain cherche à se venger de l'empereur corrompu qui a assassiné sa famille et l'a réduit en esclavage." },
+            "es": { "name": "Gladiador",  "description": "Un ex general romano busca vengarse del corrupto emperador que asesinó a su familia y lo envió a la esclavitud." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Thriller Movies",
+      "titles": {
+        "en": "Thriller Movies",
+        "pt": "Filmes de Suspense",
+        "fr": "Films Policiers",
+        "es": "Películas de Suspenso"
+      },
+      "icon": "pkg:/images/thriller.png",
+      "videos": [
+        {
+          "id": "shawshank",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Subservience.mp4",
+          "translations": {
+            "en": { "name": "The Shawshank Redemption", "description": "Two imprisoned men bond over years, finding solace and redemption through acts of decency." },
+            "pt": { "name": "Um Sonho de Liberdade",    "description": "Dois homens presos criam laços ao longo dos anos, encontrando conforto e redenção por atos de decência." },
+            "fr": { "name": "Les Évadés",               "description": "Deux hommes emprisonnés trouvent réconfort et rédemption au fil des années." },
+            "es": { "name": "Cadena Perpetua",          "description": "Dos hombres encarcelados forjan un lazo y encuentran redención a través de actos de decencia." }
+          }
+        },
+        {
+          "id": "forrest_gump",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+          "translations": {
+            "en": { "name": "Forrest Gump", "description": "Historical events unfold from the perspective of an Alabama man with an IQ of 75." },
+            "pt": { "name": "Forrest Gump", "description": "Eventos históricos se desdobram pela perspectiva de um homem do Alabama com QI de 75." },
+            "fr": { "name": "Forrest Gump", "description": "Des événements historiques vus du point de vue d'un homme d'Alabama avec un QI de 75." },
+            "es": { "name": "Forrest Gump", "description": "Eventos históricos vistos desde la perspectiva de un hombre de Alabama con un CI de 75." }
+          }
+        },
+        {
+          "id": "green_mile",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+          "translations": {
+            "en": { "name": "The Green Mile",        "description": "Guards on Death Row are affected by a mysterious prisoner who has a miraculous gift." },
+            "pt": { "name": "À Espera de um Milagre","description": "Os guardas do corredor da morte são afetados por um prisioneiro misterioso que possui um dom milagroso." },
+            "fr": { "name": "La Ligne Verte",        "description": "Des gardiens du couloir de la mort sont bouleversés par un prisonnier mystérieux aux dons miraculeux." },
+            "es": { "name": "La Milla Verde",        "description": "Los guardias del corredor de la muerte son afectados por un misterioso prisionero con un don milagroso." }
+          }
+        },
+        {
+          "id": "beautiful_mind",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+          "translations": {
+            "en": { "name": "A Beautiful Mind",      "description": "A brilliant mathematician's life turns nightmarish after accepting secret work in cryptography." },
+            "pt": { "name": "Uma Mente Brilhante",   "description": "A vida de um matemático brilhante toma um rumo pesadelo após aceitar um trabalho secreto em criptografia." },
+            "fr": { "name": "Un Homme d'Exception", "description": "La vie d'un brillant mathématicien devient cauchemardesque après avoir accepté un travail secret en cryptographie." },
+            "es": { "name": "Una Mente Brillante",   "description": "La vida de un brillante matemático se vuelve pesadillesca tras aceptar un trabajo secreto de criptografía." }
+          }
+        },
+        {
+          "id": "good_will_hunting",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "translations": {
+            "en": { "name": "Good Will Hunting",         "description": "A janitor at MIT with a gift for mathematics needs help from a psychologist to find direction in his life." },
+            "pt": { "name": "Gênio Indomável",           "description": "Um zelador do MIT com talento para a matemática precisa de ajuda de um psicólogo para encontrar direção em sua vida." },
+            "fr": { "name": "Will Hunting",              "description": "Un homme de ménage au MIT doué en mathématiques a besoin d'un psychologue pour trouver sa voie." },
+            "es": { "name": "El Indomable Will Hunting", "description": "Un conserje del MIT con talento para las matemáticas necesita la ayuda de un psicólogo para encontrar su camino." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Horror Movies",
+      "titles": {
+        "en": "Horror Movies",
+        "pt": "Filmes de Terror",
+        "fr": "Films d'Horreur",
+        "es": "Películas de Terror"
+      },
+      "icon": "pkg:/images/horror.png",
+      "videos": [
+        {
+          "id": "mad_max",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "translations": {
+            "en": { "name": "Mad Max: Fury Road",           "description": "A woman rebels against a tyrannical ruler in a post-apocalyptic wasteland." },
+            "pt": { "name": "Mad Max: Estrada da Fúria",    "description": "Uma mulher se rebela contra um governante tirânico em um deserto pós-apocalíptico." },
+            "fr": { "name": "Mad Max: Fury Road",           "description": "Une femme se rebelle contre un dirigeant tyrannique dans un monde post-apocalyptique." },
+            "es": { "name": "Mad Max: Furia en el Camino",  "description": "Una mujer se rebela contra un gobernante tiránico en un yermo post-apocalíptico." }
+          }
+        },
+        {
+          "id": "john_wick",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "translations": {
+            "en": { "name": "John Wick",  "description": "An ex-hitman comes out of retirement to track down the gangsters that took everything from him." },
+            "pt": { "name": "John Wick",  "description": "Um ex-assassino sai da aposentadoria para caçar os gangsters que levaram tudo dele." },
+            "fr": { "name": "John Wick",  "description": "Un ex-tueur à gages sort de sa retraite pour traquer les gangsters qui lui ont tout pris." },
+            "es": { "name": "John Wick",  "description": "Un ex asesino a sueldo sale del retiro para rastrear a los gánsteres que le quitaron todo." }
+          }
+        },
+        {
+          "id": "mission_impossible",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "translations": {
+            "en": { "name": "Mission: Impossible", "description": "Ethan Hunt and his IMF team race against time after a mission gone wrong." },
+            "pt": { "name": "Missão: Impossível",  "description": "Ethan Hunt e sua equipe correm contra o tempo após uma missão que deu errado." },
+            "fr": { "name": "Mission: Impossible", "description": "Ethan Hunt et son équipe luttent contre la montre après une mission ratée." },
+            "es": { "name": "Misión: Imposible",   "description": "Ethan Hunt y su equipo corren contra el tiempo tras una misión fallida." }
+          }
+        },
+        {
+          "id": "avengers_endgame",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "translations": {
+            "en": { "name": "Avengers: Endgame",    "description": "The Avengers assemble once more to reverse Thanos' actions and restore balance to the universe." },
+            "pt": { "name": "Vingadores: Ultimato", "description": "Os Vingadores se reúnem para reverter as ações de Thanos e restaurar o equilíbrio." },
+            "fr": { "name": "Avengers: Endgame",    "description": "Les Avengers se réunissent pour annuler les actions de Thanos et rétablir l'équilibre." },
+            "es": { "name": "Vengadores: Endgame",  "description": "Los Vengadores se unen para revertir las acciones de Thanos y restaurar el equilibrio." }
+          }
+        },
+        {
+          "id": "gladiator",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "translations": {
+            "en": { "name": "Gladiator",  "description": "A former Roman General seeks vengeance against the corrupt emperor who destroyed his family." },
+            "pt": { "name": "Gladiador",  "description": "Um ex-general romano busca vingança contra o imperador corrupto que destruiu sua família." },
+            "fr": { "name": "Gladiateur", "description": "Un ancien général romain cherche à se venger de l'empereur corrompu qui a détruit sa famille." },
+            "es": { "name": "Gladiador",  "description": "Un ex general romano busca venganza contra el corrupto emperador que destruyó a su familia." }
+          }
+        }
+      ]
+    },
+    {
+    "title": "Animation Movies",
+      "titles": {
+        "en": "Animation Movies",
+        "pt": "Filmes de Animação",
+        "fr": "Films d'Animation",
+        "es": "Películas de Animación"
+      },
+      "icon": "pkg:/images/animation.png",
+      "videos": [
+        {
+          "id": "grand_budapest",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "translations": {
+            "en": { "name": "The Grand Budapest Hotel",  "description": "A writer learns the story of a legendary hotel concierge from the establishment's aging owner." },
+            "pt": { "name": "O Grande Hotel Budapeste",  "description": "Um escritor aprende a história de um lendário concierge de hotel com o envelhecido proprietário do estabelecimento." },
+            "fr": { "name": "The Grand Budapest Hotel",  "description": "Un écrivain découvre l'histoire d'un légendaire concierge d'hôtel grâce au vieux propriétaire de l'établissement." },
+            "es": { "name": "El Gran Hotel Budapest",    "description": "Un escritor conoce la historia de un legendario conserje de hotel de boca del envejecido dueño del establecimiento." }
+          }
+        },
+        {
+          "id": "tropic_thunder",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "translations": {
+            "en": { "name": "Tropic Thunder",              "description": "Actors shooting a war film are forced to become the soldiers they portray." },
+            "pt": { "name": "Trovão Tropical",             "description": "Atores filmando um filme de guerra são forçados a se tornarem os soldados que interpretam." },
+            "fr": { "name": "Tonnerre sous les Tropiques", "description": "Des acteurs qui tournent un film de guerre sont contraints d'incarner vraiment les soldats qu'ils jouent." },
+            "es": { "name": "Tropic Thunder",              "description": "Actores que ruedan una película de guerra se ven obligados a convertirse en los soldados que interpretan." }
+          }
+        },
+        {
+          "id": "groundhog_day",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4",
+          "translations": {
+            "en": { "name": "Groundhog Day",        "description": "A weatherman inexplicably lives the same day over and over again." },
+            "pt": { "name": "O Feitiço do Tempo",   "description": "Um apresentador de previsão do tempo inexplicavelmente vive o mesmo dia repetidamente." },
+            "fr": { "name": "Un Jour sans Fin",     "description": "Un présentateur météo revit inexplicablement la même journée en boucle." },
+            "es": { "name": "El Día de la Marmota", "description": "Un meteorólogo revive inexplicablemente el mismo día una y otra vez." }
+          }
+        },
+        {
+          "id": "21_jump_street",
+          "thumbnail": "https://image.tmdb.org/t/p/w500/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/DishTelevision.mp4",
+          "translations": {
+            "en": { "name": "21 Jump Street", "description": "Two underachieving cops go undercover at a high school to bust a synthetic drug ring." },
+            "pt": { "name": "21 Jump Street", "description": "Dois policiais incompetentes se infiltram em uma escola secundária para desmantelar uma rede de drogas sintéticas." },
+            "fr": { "name": "21 Jump Street", "description": "Deux policiers peu compétents s'infiltrent dans un lycée pour démanteler un réseau de drogues de synthèse." },
+            "es": { "name": "21 Jump Street", "description": "Dos policías mediocres se infiltran en una preparatoria para desmantelar una red de drogas sintéticas." }
+          }
+        }
+      ]
+    }
+  ]
+}

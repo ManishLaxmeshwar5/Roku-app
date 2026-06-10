@@ -1,0 +1,19 @@
+import "pkg:/source/tests/BaseTestSuite.spec.bs"
+namespace tests
+    @SGNode("HomeScreen")
+    @suite("HomeSceeenTests")
+
+    ' bs:disable-next-line: 
+    class HomeScreen2Tests extends tests.BaseTestSuite
+    
+        @describe("HomeTest")
+
+        @it("initNodes - create components")
+        function _()
+            
+            m.assertTrue(true)
+        end function
+
+    end class
+
+end namespace

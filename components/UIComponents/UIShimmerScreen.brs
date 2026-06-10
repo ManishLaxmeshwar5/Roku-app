@@ -10,10 +10,39 @@ sub init()
     startAnimation()
 end sub
 
+' sub updateSize()
+'     w = m.top.rectWidth
+'     h = m.top.rectHeight
+'     m.base.color = m.top.rectColor
+'     m.base.width = w
+'     m.base.height = h
+'     m.bar.height = h
+' end sub
+' sub updateSize()
+'     w = m.top.rectWidth
+'     h = m.top.rectHeight
+
+'     ? "======================"
+'     ? "rectColor value = "; m.top.rectColor
+'     ? "rectColor type  = "; type(m.top.rectColor)
+'     ? "======================"
+
+'     m.base.color = m.top.rectColor
+
+'     m.base.width = w
+'     m.base.height = h
+'     m.bar.height = h
+' end sub
 sub updateSize()
     w = m.top.rectWidth
     h = m.top.rectHeight
-    m.base.color = m.top.rectColor
+
+    if m.top.rectColor <> invalid and m.top.rectColor <> "" then
+        m.base.color = m.top.rectColor
+    else
+        m.base.color = "0x696969FF"
+    end if
+
     m.base.width = w
     m.base.height = h
     m.bar.height = h

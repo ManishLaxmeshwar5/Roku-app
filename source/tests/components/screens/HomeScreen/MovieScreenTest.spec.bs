@@ -1,0 +1,82 @@
+import "pkg:/source/tests/BaseTestSuite.spec.bs"
+namespace tests
+    @SGNode("MovieScreen")
+    @suite("MovieScreenTests")
+    class movieScreenTests extends tests.BaseTestSuite
+        @describe("MovieScreenTests")
+        protected override function setup()
+            m.global.addFields({
+                "ttsEnabled": true,
+                "currentLang": "en"
+            })
+            content = CreateObject("roSGNode", "ContentNode")
+            row = content.createChild("ContentNode")
+
+            item = row.createChild("ContentNode")
+            item.title = "Test Movie"
+            item.ShortDescriptionLine1 = "Test Title"
+            item.ShortDescriptionLine2 = "Test Description"
+
+            m.contentNode = content
+
+            m.viewModel = {
+                deepLinkItem: {
+                    title: "Test Movie"
+                    ShortDescriptionLine1: "Test Title"
+                    ShortDescriptionLine2: "Test Description"
+                }
+            }
+        end function
+
+        @it("onMovieFocusReuqest:Test")
+        function _()
+            'bs:disable-next-line
+            onFocusRequest()
+            m.assertTrue(m.node.movieRowList.hasFocus())
+        end function
+
+        @it("onMovieFocused: Test")
+        function _()
+
+            m.node.movieRowList.content = m.contentNode
+            m.node.movieRowList.rowItemFocused = [0, 0]
+            ? "m.global.ttsEnabled"m.global.ttsEnabled
+
+            'bs:disable-next-line
+            onMovieFocused()
+            
+            m.assertNotInvalid(m.node.top.events)
+            m.assertEqual(m.node.top.events.type, "speak")
+            m.assertEqual(m.node.top.events.text, "Test Title")
+        end function
+
+        @it("onMovieSelected: Test")
+        function _()
+            m.node.movieRowList.content = m.contentNode
+            m.node.movieRowList.rowItemSelected = [0, 0]
+
+            'bs:disable-next-line
+            onMovieSelected()
+            m.assertNotInvalid(m.node.top.events)
+            m.assertEqual(m.node.top.events.type, "navigate")
+            m.assertEqual(m.node.top.events.screen, "DetailScreen")
+            m.assertEqual(m.node.top.events.payload.ShortDescriptionLine1, "Test Title")
+        end function
+
+        @it("onDeepLinkItemFound: Test")
+        function _()
+
+            m.viewModel = {
+                deepLinkItem: {
+                    title: "Test Movie"
+                }
+            }
+            'bs:disable-next-line
+            onDeepLinkItemFound()
+            m.assertTrue(true)
+            m.assertFalse(m.node.isDeepLink)
+            m.assertInvalid(m.node.deepLinkId)
+            m.assertInvalid(m.node.top.deepLinkPayload)
+        end function
+    end class
+end namespace

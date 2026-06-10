@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BaseScreen" extends="Group">
+    <interface>
+        <field id="events" type="assocarray" />
+        <field id="screenData" type="node" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/bslib.brs" />
+</component>
+<!--//# sourceMappingURL=./BaseScreen.xml.map -->

@@ -1,0 +1,275 @@
+{
+  "series": [
+    {
+      "translations": {
+        "en": {
+          "name": "Breaking Bad",
+          "description": "A chemistry teacher becomes a meth manufacturer to secure his family’s future."
+        },
+        "pt": {
+          "name": "Breaking Bad",
+          "description": "Um professor de química se torna fabricante de drogas para proteger sua família."
+        },
+        "fr": {
+          "name": "Breaking Bad",
+          "description": "Un professeur de chimie devient fabricant de drogue pour protéger sa famille."
+        },
+        "es": {
+          "name": "Breaking Bad",
+          "description": "Un profesor de química se convierte en fabricante de drogas para proteger a su familia."
+        },
+        "de": {
+          "name": "Breaking Bad",
+          "description": "Ein Chemielehrer wird Drogenhersteller, um seine Familie zu schützen."
+        }
+      },
+      "genre": {
+        "en": "Drama",
+        "pt": "Drama",
+        "fr": "Drame",
+        "es": "Drama",
+        "de": "Drama"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/GoogleDevelopers.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Stranger Things",
+          "description": "Friends confront terrifying supernatural forces after a boy disappears."
+        },
+        "pt": {
+          "name": "Stranger Things",
+          "description": "Amigos enfrentam forças sobrenaturais após o desaparecimento de um garoto."
+        },
+        "fr": {
+          "name": "Stranger Things",
+          "description": "Des amis affrontent des forces surnaturelles après la disparition d'un garçon."
+        },
+        "es": {
+          "name": "Stranger Things",
+          "description": "Amigos enfrentan fuerzas sobrenaturales tras la desaparición de un niño."
+        },
+        "de": {
+          "name": "Stranger Things",
+          "description": "Freunde kämpfen gegen übernatürliche Kräfte nach dem Verschwinden eines Jungen."
+        }
+      },
+      "genre": {
+        "en": "Drama",
+        "pt": "Drama",
+        "fr": "Drame",
+        "es": "Drama",
+        "de": "Drama"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/GoogleIO.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "The Crown",
+          "description": "The reign of Queen Elizabeth II and her personal challenges."
+        },
+        "pt": {
+          "name": "The Crown",
+          "description": "O reinado da Rainha Elizabeth II e seus desafios pessoais."
+        },
+        "fr": {
+          "name": "The Crown",
+          "description": "Le règne de la reine Elizabeth II et ses défis personnels."
+        },
+        "es": {
+          "name": "The Crown",
+          "description": "El reinado de la reina Isabel II y sus desafíos personales."
+        },
+        "de": {
+          "name": "The Crown",
+          "description": "Die Herrschaft von Königin Elisabeth II. und ihre Herausforderungen."
+        }
+      },
+      "genre": {
+        "en": "Drama",
+        "pt": "Drama",
+        "fr": "Drame",
+        "es": "Drama",
+        "de": "Drama"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ChromecastEngineering.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Better Call Saul",
+          "description": "Lawyer Jimmy McGill struggles before becoming Saul Goodman."
+        },
+        "pt": {
+          "name": "Better Call Saul",
+          "description": "Jimmy McGill enfrenta desafios antes de se tornar Saul Goodman."
+        },
+        "fr": {
+          "name": "Better Call Saul",
+          "description": "Jimmy McGill lutte avant de devenir Saul Goodman."
+        },
+        "es": {
+          "name": "Better Call Saul",
+          "description": "Jimmy McGill enfrenta desafíos antes de convertirse en Saul Goodman."
+        },
+        "de": {
+          "name": "Better Call Saul",
+          "description": "Jimmy McGill kämpft, bevor er Saul Goodman wird."
+        }
+      },
+      "genre": {
+        "en": "Drama",
+        "pt": "Drama",
+        "fr": "Drame",
+        "es": "Drama",
+        "de": "Drama"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Reel2012.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "The Mandalorian",
+          "description": "A bounty hunter travels through the outer reaches of the galaxy."
+        },
+        "pt": {
+          "name": "The Mandalorian",
+          "description": "Um caçador de recompensas viaja pelos confins da galáxia."
+        },
+        "fr": {
+          "name": "The Mandalorian",
+          "description": "Un chasseur de primes voyage aux confins de la galaxie."
+        },
+        "es": {
+          "name": "The Mandalorian",
+          "description": "Un cazarrecompensas viaja por los confines de la galaxia."
+        },
+        "de": {
+          "name": "The Mandalorian",
+          "description": "Ein Kopfgeldjäger reist durch die äußeren Bereiche der Galaxie."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "The Witcher",
+          "description": "Monster hunter Geralt struggles in a dangerous world."
+        },
+        "pt": {
+          "name": "The Witcher",
+          "description": "O caçador Geralt luta em um mundo perigoso."
+        },
+        "fr": {
+          "name": "The Witcher",
+          "description": "Le chasseur Geralt lutte dans un monde dangereux."
+        },
+        "es": {
+          "name": "The Witcher",
+          "description": "El cazador Geralt lucha en un mundo peligroso."
+        },
+        "de": {
+          "name": "The Witcher",
+          "description": "Monsterjäger Geralt kämpft in einer gefährlichen Welt."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "Vikings",
+          "description": "Ragnar Lothbrok rises to become a legendary Viking leader."
+        },
+        "pt": {
+          "name": "Vikings",
+          "description": "Ragnar Lothbrok se torna um lendário líder viking."
+        },
+        "fr": {
+          "name": "Vikings",
+          "description": "Ragnar Lothbrok devient un chef viking légendaire."
+        },
+        "es": {
+          "name": "Vikings",
+          "description": "Ragnar Lothbrok se convierte en un legendario líder vikingo."
+        },
+        "de": {
+          "name": "Vikings",
+          "description": "Ragnar Lothbrok wird ein legendärer Wikingerführer."
+        }
+      },
+      "genre": {
+        "en": "Action",
+        "pt": "Ação",
+        "fr": "Action",
+        "es": "Acción",
+        "de": "Action"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    },
+
+    {
+      "translations": {
+        "en": {
+          "name": "The Office",
+          "description": "Office workers deal with awkward and hilarious situations."
+        },
+        "pt": {
+          "name": "The Office",
+          "description": "Funcionários enfrentam situações engraçadas e constrangedoras."
+        },
+        "fr": {
+          "name": "The Office",
+          "description": "Des employés vivent des situations drôles et gênantes."
+        },
+        "es": {
+          "name": "The Office",
+          "description": "Empleados enfrentan situaciones divertidas e incómodas."
+        },
+        "de": {
+          "name": "The Office",
+          "description": "Büroangestellte erleben lustige und peinliche Situationen."
+        }
+      },
+      "genre": {
+        "en": "Comedy",
+        "pt": "Comédia",
+        "fr": "Comédie",
+        "es": "Comedia",
+        "de": "Komödie"
+      },
+      "thumbnail": "https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+    }
+  ]
+}
